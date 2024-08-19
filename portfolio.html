@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name= "viewport" content="width=device_width, initial-scale=1.0"/>
+
+        <title>PORTFOLIO:Bea</title>
+
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+
+            html, body{
+                font-family: Helvetica, Arial, sans-serif;
+                height: 100%;
+                background-color:rgba(237, 235, 231, 1) ;
+            }
+
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                width: 100%;
+            }
+            .header {
+                background-color: rgba(18, 46, 103, 0.5);
+                color: black;
+                padding: 10px 20px;
+                text-align: center;
+                height: 60px;
+                width: 100%;
+                position: fixed;
+                top: 0; /* Fixed at the top */
+                z-index: 1000;
+            }
+
+            .footer {
+                background-color: rgba(18, 46, 103, 0.5);
+                color: black;
+                padding: 20px;
+                text-align: center;
+                height: 50px;
+                width: 100%;
+                position: fixed;
+                bottom: 0; /* Fixed at the bottom */
+                z-index: 1000;
+            }
+            
+            .main{
+                   
+                    padding: 20px;
+                    background-color:rgba(237, 235, 231, 1);
+                    grid-row: 2/3;
+                  
+                }
+            
+                .header ul {
+                    display: flex; /* Use flex instead of inline-flex */
+                    list-style: none;
+                    justify-content: center; /* Center menu items */
+                    color: rgba(30, 30, 30, 1);
+                }
+                
+                .header ul li {
+                    width: 90px;
+                    margin: 2px;
+                    padding: 8px;
+                    text-align: center; /* Center text in menu items */
+                }
+
+            .circle-container{
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                gap: -100px; 
+                flex-wrap: wrap; 
+                position: relative;
+            }
+            @media (max-width: 768px) {
+                .circle-container {
+                    flex-direction: column;
+                    gap: 10px; /* Reduce gap for smaller screens */
+                }
+            
+            #circle1, #circle2 {
+                    width: 50px;
+                    height: 50px; 
+                    margin: 0; 
+                }
+            }
+
+            #circle2 {
+                width: 310.65px;
+                height: 146.81px;
+                border-radius: 50%;
+                background-color: rgba(177, 208, 226, 0.6);
+                border: 1px solid rgba(191, 202, 243, 1);
+                margin: 0 auto;
+                margin-top: 100px;
+                margin-left:50px;
+                
+                
+            }
+            #circle1 {
+                width: 310.65px;
+                height: 146.81px;
+                border-radius: 50%;
+                background-color:rgba(30, 73, 90, 0.53);
+                border: 1px solid rgba(4, 64, 88, 1);
+                margin: 0 auto;
+                top: 100px;
+                left: 300px;
+                z-index: 1;
+                ;
+            }
+            
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <header class="header">
+                <ul>
+                    <li>Portfolio: Bea</li>
+                    <li>About Me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                </ul>
+                
+            </header>
+            <main class="main">
+                <div class="circle-container">
+                    <div id="circle1">Im Bea</div>
+                    <div id="circle2">HI</div>
+                    
+
+                </div>
+               
+
+                
+
+
+                
+            </main>
+            <footer class="footer">
+                <p>footer</p>
+            </footer>
+
+    
+         
+        </div>
+
+
+    </body>
+
+
+
+
+</html>
