@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(211, 153, 44) ;
+
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 20px;
+    grid-row: 2;
+    
+   
+}
+
+.grid-items {
+    color: rgb(53, 48, 48);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+    
+
+}
+
+@media screen and (max-width:475px) {
+    .grid_container{
+        grid-template-columns: 1fr;
+    }
+    
+   
+    
+}
+
+@media screen and (min-width: 640px){
+    .grid_container{
+        max-width: 640px;
+    }
+    .grid-items{
+        font-size: 18px;
+    }
+
+}
+    
+@media screen and (min-width: 768px){
+    .grid_container{
+        max-width: 768px;
+    }
+    .grid-items{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .grid_container{
+        max-width: 1024px;
+    }
+
+    .grid-items{
+        font-size: 26px;
+    }
+    
+}
+
+@media  screen and (min-width:1280px) {
+    .grid_container{
+        max-width: 1280px;
+    }
+    .grid-items{
+        font-size: 28px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1540px){
+    .grid_container{
+        max-width: 1540px;
+    }
+    .grid-items{
+        font-size: 30px;
+    }
+    
+}
+    
+
+
