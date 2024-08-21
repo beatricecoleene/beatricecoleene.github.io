@@ -25,6 +25,7 @@
 #title{
     font-size: 17px;
     padding-left: 10px;
+    text-align: start;
 }
 .nav-menu{
     display: none;
@@ -90,6 +91,10 @@
     }
     .hamb-menu p {
         display: none;
+    }
+
+    .nav-menu{
+        display: flex;
     }
 
     .nav-menu.show{
