@@ -147,3 +147,133 @@
         top:600px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+               
+
+    .rectangledes{
+        background-color: rgb(148, 195, 225, 0.5);
+        border: 1px solid rgb(81, 121, 214);
+        display: inline-block;
+        position: absolute;
+        width:200px;
+        height: 30px;
+        top:100px;
+        left:-50px
+
+    }
+    .rectangledes1{
+        background-color: rgba(122, 186, 225, 0.5);
+        border: 1px solid rgb(81, 121, 214);
+        display: inline-block;
+        position: absolute;
+        width:200px;
+        height: 30px;
+        top:15cqi;
+        left:20px
+
+    }
+    .rectangledes2{
+        background-color: rgba(24, 96, 140, 0.5);
+        border: 1px solid rgb(81, 121, 214);
+        display: inline-block;
+        position: absolute;
+        width:200px;
+        height: 30px;
+        top:33cqi;
+        left:5px;
+
+    }
+    .rectangledes3{
+        background-color: rgba(13, 125, 195, 0.5);
+        border: 1px solid rgb(81, 121, 214);
+        display: inline-block;
+        position: absolute;
+        width:200px;
+        height: 30px;
+        top:43cqi;
+        left:80px
+
+    }
+    .rectangledes4{
+        background-color: rgba(46, 164, 237, 0.5);
+        border: 1px solid rgb(81, 121, 214);
+        display: inline-block;
+        position: absolute;
+        width:2000px;
+        height: 30px;
+        top:53px;
+        left:-20px
+
+    }
+
+   
+    #rectangleintroshadow {
+        background-color: rgba(168, 209, 245, 0.9);
+        display: inline-block;
+        position: absolute;
+        width: 280px;
+        height: 150px;
+        top:260px;
+        left:20px;
+        border-radius: 20%;
+
+    }
+
+    #pic1{
+        position:relative;
+        top:20px;
+        left:50px;
+        width:150px;
+        height: 220px;
+       
+    }
+
+    #pic{
+        position: absolute;
+        left:80px;
+    }
+
+    #title {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .hamb-menu {
+        padding-right: 0;
+        margin-top: 10px;
+    }
+
+    .grid_container {
+        grid-template-columns: 1fr;
+        margin-top: 80px; /* Adjust margin to fit the fixed header */
+        padding: 10px;
+    }
+
+    .grid-items {
+        padding: 10px;
+        text-align: left;
+    }
+
+    
+
+    .bttn {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    }
+
+
+
+
+
+
