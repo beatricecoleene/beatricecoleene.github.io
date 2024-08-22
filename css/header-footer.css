@@ -2,14 +2,14 @@
     background-color:rgba(106, 140, 208, 0.3) ;
     color:rgba(30, 30, 30, 1) ;
     padding: 10px;
-    height: 40px;
+    height: 60px;
     text-align: end;
     grid-row: 1;
     top:0;
     width: 100%;
     position: fixed;
     align-items: center;
-    display: flex; 
+    display: none; 
     justify-content: space-between;
     z-index: 1000;
     
@@ -29,13 +29,12 @@
 }
 .nav-menu{
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     position: fixed;
     top:40px;
     left:0;
-    width: 100%;
-    background-color:  rgba(177, 208, 226, 0.6);
-
+    
+    justify-content: end;
 }
 
 .nav-menu li { 
@@ -43,9 +42,18 @@
     font-size: 16px;
     margin: 30px;
     padding: 0;
-    margin-inline-end: 100px;
+    margin-inline-end: 10px;
+
+   
 
 }
+.nav-menu a {
+    color: rgba(30, 30, 30, 1) ;
+
+
+}
+
+
 .hamb-menu{
     display: none;
 }
@@ -65,11 +73,14 @@
 
 
 @media screen and (max-width:475px) {
+    .header{
+        display: flex;
+    }
     .hamb-menu{
         display: block;
         text-align: end;
         cursor: pointer;
-        padding-right: 10px;
+        padding-bottom:10px;
     }
 
     .hamb-menu p {
@@ -85,21 +96,82 @@
     
 }
 
-@media screen and (max-width: 640px){
-    .hamb-menu{
-        display: none;
+@media screen and (min-width: 500px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        height: 40px;
     }
-    .hamb-menu p {
-        display: none;
+    
+    .nav-menu{
+        display:inline-flex;
+        height: 40px;
+        top:0;
+        text-align: end;
+
     }
 
-    .nav-menu{
+
+
+    .nav-menu li{
         display: flex;
+        font-size: 18px;
+        margin:0 60px ;
+        padding: 1px;
+        margin-left: 200px;
     }
 
     .nav-menu.show{
         display: flex;
     }
 
+    
+}
+
+
+@media screen and (min-width:768) {
+    .header{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+        
+    }
+
+    .nav-menu li{
+        display: flex;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .header{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .nav-menu li{
+        display: flex;
+        font-size:22px;
+        
+    }
+    
+}
+
+@media screen and (min-width:1280px) {
+    .header{
+        display: flex;
+        
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .nav-menu li {
+        display: flex;
+        font-size: 24px;
+    }
+    
 }
 
