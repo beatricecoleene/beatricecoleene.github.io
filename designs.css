@@ -87,13 +87,36 @@
     color: rgb(17, 17, 59);
     
    }
-   #intro_name2{
+#intro_name2{
     position: absolute;
    
  
     color: rgb(75, 75, 170);
     
    }
+
+
+.bttn {
+    background-color: rgb(139, 182, 208);
+    background-image: linear-gradient(rgb(134, 134, 240), rgb(173, 173, 228));
+    color: rgb(35, 32, 32);
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(13, 13, 33);
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+.bttn:hover {
+    background-color: rgb(20, 91, 89);
+    background-image: linear-gradient( rgb(171, 160, 222), rgb(145, 120, 229));
+
+    color: white;
+}
+
+
+
 
 @media (max-width:475px){
                
@@ -229,50 +252,24 @@
 
 
     .bttn {
-        background-color: rgb(68, 125, 158);
-        color: white;
-        padding: 10px 10px;
-        border-radius: 50px;
+       
         width: 140px;
-        height: 40px;
-        position: absolute;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        top:600px
-    }
-    .bttn:hover {
-        background-color: rgb(20, 91, 89);
+        height: 30px;
+        top:400px;
+        left:110px;
+        padding: 5px;
     }
 
-
-
-
-    #aboutme {
-        color: rgba(30, 30, 30, 1);
+    #separator{
         position: absolute;
-        position: relative;
-        top:700px;
+        top:500px;
+        width:380px;
+        left:0px;
+     
     }
+   
 
-    #hobbies {
-        
-        position: absolute;
-        background-color: rgba(107, 144, 165, 0.5);
-        border: 2px solid rgb(13, 13, 34);
-        border-radius: 30%;
-        top:700px;
-        width:100px;
-        height:100px;
-    }
-    #hobby{
-        position: absolute;
-        top:700px;
-    }
-    #line{
-        position: absolute;
-        top:600px;
-    }
- }
+}
 
 
 @media (min-width: 800px) {
@@ -425,6 +422,7 @@
     
    }
    #intro{
+  
     display: flex;
     position:absolute;
     top:250px;
@@ -434,6 +432,12 @@
     text-align: left;
    }
     
+   .bttn{
+    width: 150px;
+    height:40px;
+    top: 380px;
+    left:140px;
+   }
     }
 
 
