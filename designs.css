@@ -1,11 +1,23 @@
-@media (max-width:475px){
-               
-                
-               
+#intro{
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+   margin-bottom: 20px;
+   padding: 10px;
+   
+}
+#intro_name{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pic{
+    position: absolute;
+   
+}
 
-    .rectangledes{
+
+.rectangledes{
         background-color: rgb(148, 195, 225, 1);
-        background-image: linear-gradient(to right,rgb(149, 198, 224), rgb(145, 170, 253));
+        background-image: linear-gradient(to right,blue,rgb(104, 142, 231), rgb(204, 213, 244));
         border-top: 1px solid rgb(110, 153, 244);
         border-left: 1px solid rgb(110, 153, 244) ;
         border-right: 1px solid rgb(110, 153, 244) ;
@@ -13,63 +25,321 @@
         position: absolute;
         width:200px;
         height: 30px;
+}
+.rectangledes1{
+    background-color: rgba(122, 186, 225, 1);
+    background-image: linear-gradient(to right,rgb(202, 226, 238), rgb(66, 130, 221));
+   
+    border-left: 1px solid rgb(110, 153, 244) ;
+    border-right: 1px solid rgb(110, 153, 244) ;
+    display: inline-block;
+    position: absolute;
+    width:200px;
+    height: 30px;
+}     
+.rectangledes2{
+    background-color: rgb(148, 195, 225, 1);
+    background-image: linear-gradient(to right,rgb(139, 196, 226), rgb(66, 130, 221), rgb(123, 123, 209));
+   
+     
+    border-left: 1px solid rgb(110, 153, 244) ;
+    border-right: 1px solid rgb(110, 153, 244) ;
+    display: inline-block;
+    position: absolute;
+    width:200px;
+    height: 30px;
+
+}
+
+.rectangledes3{
+    background-color: rgb(100, 175, 222);
+    background-image: linear-gradient(to right,rgb(207, 221, 228), rgb(66, 130, 221), rgb(173, 173, 213));
+   
+     
+    border-left: 1px solid rgb(110, 153, 244) ;
+    border-right: 1px solid rgb(110, 153, 244) ;
+    display: inline-block;
+    position: absolute;
+    width:200px;
+    height: 30px;
+
+}
+.rectangledes4{
+    background-color: rgba(46, 164, 237, 1);
+    background-image: linear-gradient(to right,rgb(26, 16, 107), rgb(67, 83, 205), rgb(173, 173, 213));
+    border: 1px solid rgb(81, 121, 214);
+    display: inline-block;
+    position: absolute;
+    width:200px;
+    height: 30px;
+}
+
+#pic1{
+    display: none;
+    z-index: 500;
+    position: absolute;
+}
+
+
+#intro_name1{
+    position: absolute;
+    
+    color: rgb(17, 17, 59);
+    
+   }
+   #intro_name2{
+    position: absolute;
+   
+ 
+    color: rgb(75, 75, 170);
+    
+   }
+
+@media (max-width:475px){
+               
+       #intro_name1{
+        top: 230px;
+        left:60px;
+        font-size:25px;
+       }  
+       #intro_name2{
+        top: 250px;
+        left:100px;
+        font-size:25px;
+       }         
+                  
+               
+
+    .rectangledes{
+        
+       
         top:100px;
-        left:40px
+        left:20px;
 
     }
     .rectangledes1{
-        background-color: rgba(122, 186, 225, 1);
-        background-image: linear-gradient(to right,rgb(149, 198, 224), rgb(66, 130, 221));
        
-        border-left: 1px solid rgb(110, 153, 244) ;
-        border-right: 1px solid rgb(110, 153, 244) ;
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
         top:130px;
-        left:75px
+        left:85px
 
     }
     .rectangledes2{
-        background-color: rgb(148, 195, 225, 1);
-        background-image: linear-gradient(to right,rgb(139, 196, 226), rgb(66, 130, 221), rgb(123, 123, 209));
-       
-         
-        border-left: 1px solid rgb(110, 153, 244) ;
-        border-right: 1px solid rgb(110, 153, 244) ;
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
+        
         top:160px;
-        left:10px;
+        left:-10px;
 
     }
     .rectangledes3{
-        background-color: rgb(100, 175, 222);
-        background-image: linear-gradient(to right,rgb(207, 221, 228), rgb(66, 130, 221), rgb(173, 173, 213));
-       
-         
-        border-left: 1px solid rgb(110, 153, 244) ;
-        border-right: 1px solid rgb(110, 153, 244) ;
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
+      
         top:190px;
-        left:100px
+        left:80px
 
     }
     .rectangledes4{
-        background-color: rgba(46, 164, 237, 1);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
+       
         top:220px;
-        left:70px
+        left:40px
+
+    } 
+
+   #smallsquare1{
+    background-color: rgb(142, 172, 201);
+    border: 1px solid rgb(186, 186, 233);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 230px;
+    left:-50px;
+   }
+   #smallsquare2{
+    background-color: rgb(97, 159, 218);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 200px;
+    left:-15px;
+   }
+   #smallsquare3{
+    background-color: rgb(50, 88, 124);
+    border: 1px solid rgb(186, 186, 233);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 300px;
+    left:29px
+   }
+   #smallsquare4{
+    background-color: rgb(127, 174, 218);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 330px;
+    left:-20px
+   }
+
+   #smallsquare5{
+    background-color: rgb(142, 172, 201);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 270px;
+    left:0px
+   }
+   #smallsquare6{
+    background-color: rgb(142, 172, 201);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 200px;
+    left:-20px
+   }
+   
+
+    #pic1{
+        display: block;
+        position:relative;
+        top:100px;
+        left:30px;
+        width:150px;
+        height: 150px;
+       
+    }
+
+    #pic{
+        top: 1px;
+        left:80px;
+    }
+    
+   
+    #intro{
+        background-color: rgb(188, 217, 243, 0.4);
+        
+        display: flex;
+        position:absolute;
+        top:300px;
+        left: 50px;
+        width: 300px;
+        text-align: left;
+        font-size: 11px;
+    }
+
+
+    .bttn {
+        background-color: rgb(68, 125, 158);
+        color: white;
+        padding: 10px 10px;
+        border-radius: 50px;
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        top:600px
+    }
+    .bttn:hover {
+        background-color: rgb(20, 91, 89);
+    }
+
+
+
+
+    #aboutme {
+        color: rgba(30, 30, 30, 1);
+        position: absolute;
+        position: relative;
+        top:700px;
+    }
+
+    #hobbies {
+        
+        position: absolute;
+        background-color: rgba(107, 144, 165, 0.5);
+        border: 2px solid rgb(13, 13, 34);
+        border-radius: 30%;
+        top:700px;
+        width:100px;
+        height:100px;
+    }
+    #hobby{
+        position: absolute;
+        top:700px;
+    }
+    #line{
+        position: absolute;
+        top:600px;
+    }
+ }
+
+
+@media (min-width: 800px) {
+    .header {
+        display: flex;
+    }
+
+    #pic{
+        display: block;
+        left: 750px;
+        top:1px;
+        
+    }
+ 
+
+    #title {
+        font-size: 30px;
+        padding-left: 0;
+    }
+
+
+    #aboutme, #intro,#hobbies, .bttn, #hobby{
+        position: absolute;
+        top:700px;
+    }
+
+    .bttn {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+  
+    .rectangledes{
+        width: 260px;
+        height:40px ;
+       
+        top:100px;
+        left:20px;
+
+    }
+    .rectangledes1{
+        width: 260px;
+        height:40px ;
+        top:140px;
+        left:85px
+
+    }
+    .rectangledes2{
+        width: 260px;
+        height:40px ;
+        top:180px;
+        left:-10px;
+
+    }
+    .rectangledes3{
+        width: 260px;
+        height:40px ;
+        top:220px;
+        left:80px
+
+    }
+    .rectangledes4{
+        width: 260px;
+        height:40px ;
+        top:260px;
+        left:40px
 
     } 
 
@@ -121,203 +391,48 @@
    }
    
 
-    #pic1{
-        position:relative;
-        top:20px;
-        left:50px;
-        width:150px;
-        height: 220px;
-       
-    }
 
-    #pic{
-        position: absolute;
-        left:80px;
-    }
-    
-    #intro_name{
-        font-size: 2rem;
-        font-style: oblique;
-        position: relative;
-        color: rgb(15, 17, 54);
-        font-weight: bolder;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 2rem;
-        
-    }
-
-
-
-
-
-
-    .bttn {
-        background-color: rgb(68, 125, 158);
-        color: white;
-        padding: 10px 10px;
-        border-radius: 50px;
-        width: 140px;
-        height: 40px;
-        position: absolute;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        top:600px
-    }
-    .bttn:hover {
-        background-color: rgb(20, 91, 89);
-    }
-
-
-
-
-    #aboutme {
-        color: rgba(30, 30, 30, 1);
-        position: absolute;
-        position: relative;
-        top:700px;
-    }
-
-    #hobbies {
-        
-        position: absolute;
-        background-color: rgba(107, 144, 165, 0.5);
-        border: 2px solid rgb(13, 13, 34);
-        border-radius: 30%;
-        top:700px;
-        width:100px;
-        height:100px;
-    }
-    #hobby{
-        position: absolute;
-        top:700px;
-    }
-    #line{
-        position: absolute;
-        top:600px;
-    }
-}
-
-/* 
-@media (max-width: 768px) {
-    .header {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-               
-
-    .rectangledes{
-        background-color: rgb(148, 195, 225, 0.5);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
-        top:100px;
-        left:-50px
-
-    }
-    .rectangledes1{
-        background-color: rgba(122, 186, 225, 0.5);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
-        top:15cqi;
-        left:20px
-
-    }
-    .rectangledes2{
-        background-color: rgba(24, 96, 140, 0.5);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
-        top:33cqi;
-        left:5px;
-
-    }
-    .rectangledes3{
-        background-color: rgba(13, 125, 195, 0.5);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:200px;
-        height: 30px;
-        top:43cqi;
-        left:80px
-
-    }
-    .rectangledes4{
-        background-color: rgba(46, 164, 237, 0.5);
-        border: 1px solid rgb(81, 121, 214);
-        display: inline-block;
-        position: absolute;
-        width:2000px;
-        height: 30px;
-        top:53px;
-        left:-20px
-
-    }
-
+   #pic1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top:100px;
+    left:100px;
    
-    #rectangleintroshadow {
-        background-color: rgba(168, 209, 245, 0.9);
-        display: inline-block;
-        position: absolute;
-        width: 280px;
-        height: 150px;
-        top:260px;
-        left:20px;
-        border-radius: 20%;
+   }
+   #intros{
+    position: relative;
+    left: 10px;
+   }
 
-    }
-
-    #pic1{
-        position:relative;
-        top:20px;
-        left:50px;
-        width:150px;
-        height: 220px;
-       
-    }
-
-    #pic{
-        position: absolute;
-        left:80px;
-    }
-
-    #title {
-        font-size: 20px;
-        padding-left: 0;
-    }
-
-    .hamb-menu {
-        padding-right: 0;
-        margin-top: 10px;
-    }
-
-    .grid_container {
-        grid-template-columns: 1fr;
-        margin-top: 80px; 
-        padding: 10px;
-    }
-
-    .grid-items {
-        padding: 10px;
-        text-align: left;
-    }
-
+   #intro_name1{
+    position: absolute;
     
-
-    .bttn {
-        width: 100%;
-        text-align: center;
-        margin: 20px 0;
-    }
+    top:100px;
+    left:50px;
+    width: 300px;
+    font-size: 45px;
+    color: rgb(17, 17, 59);
+    
+   }
+   #intro_name2{
+    position: absolute;
+    top:160px;
+    left:170px;
+    width: 300px;
+    font-size: 45px;
+    color: rgb(75, 75, 170);
+    
+   }
+   #intro{
+    display: flex;
+    position:absolute;
+    top:250px;
+    left: 150px;
+    width: 550px;
+    font-size: 16px;
+    text-align: left;
+   }
     
     }
 
@@ -325,4 +440,4 @@
 
 
 
- */
+ 
