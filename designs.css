@@ -3,74 +3,123 @@
                 
                
 
-    /* .rectangledes{
-        background-color: rgb(148, 195, 225, 0.5);
-        border: 1px solid rgb(81, 121, 214);
+    .rectangledes{
+        background-color: rgb(148, 195, 225, 1);
+        background-image: linear-gradient(to right,rgb(149, 198, 224), rgb(145, 170, 253));
+        border-top: 1px solid rgb(110, 153, 244);
+        border-left: 1px solid rgb(110, 153, 244) ;
+        border-right: 1px solid rgb(110, 153, 244) ;
         display: inline-block;
         position: absolute;
-        width:20px;
+        width:200px;
         height: 30px;
         top:100px;
-        left:-50px
+        left:40px
 
     }
     .rectangledes1{
-        background-color: rgba(122, 186, 225, 0.5);
-        border: 1px solid rgb(81, 121, 214);
+        background-color: rgba(122, 186, 225, 1);
+        background-image: linear-gradient(to right,rgb(149, 198, 224), rgb(66, 130, 221));
+       
+        border-left: 1px solid rgb(110, 153, 244) ;
+        border-right: 1px solid rgb(110, 153, 244) ;
         display: inline-block;
         position: absolute;
-        width:20px;
+        width:200px;
         height: 30px;
-        top:15px;
-        left:20px
+        top:130px;
+        left:75px
 
     }
     .rectangledes2{
-        background-color: rgba(24, 96, 140, 0.5);
-        border: 1px solid rgb(81, 121, 214);
+        background-color: rgb(148, 195, 225, 1);
+        background-image: linear-gradient(to right,rgb(139, 196, 226), rgb(66, 130, 221), rgb(123, 123, 209));
+       
+         
+        border-left: 1px solid rgb(110, 153, 244) ;
+        border-right: 1px solid rgb(110, 153, 244) ;
         display: inline-block;
         position: absolute;
-        width:20px;
+        width:200px;
         height: 30px;
-        top:33cqi;
-        left:5px;
+        top:160px;
+        left:10px;
 
     }
     .rectangledes3{
-        background-color: rgba(13, 125, 195, 0.5);
-        border: 1px solid rgb(81, 121, 214);
+        background-color: rgb(100, 175, 222);
+        background-image: linear-gradient(to right,rgb(207, 221, 228), rgb(66, 130, 221), rgb(173, 173, 213));
+       
+         
+        border-left: 1px solid rgb(110, 153, 244) ;
+        border-right: 1px solid rgb(110, 153, 244) ;
         display: inline-block;
         position: absolute;
-        width:20px;
+        width:200px;
         height: 30px;
-        top:43cqi;
-        left:80px
+        top:190px;
+        left:100px
 
     }
     .rectangledes4{
-        background-color: rgba(46, 164, 237, 0.5);
+        background-color: rgba(46, 164, 237, 1);
         border: 1px solid rgb(81, 121, 214);
         display: inline-block;
         position: absolute;
-        width:20px;
+        width:200px;
         height: 30px;
-        top:53cqi;
-        left:-20px
+        top:220px;
+        left:70px
 
-    } */
+    } 
 
+   #smallsquare1{
+    background-color: rgb(142, 172, 201);
+    border: 1px solid rgb(186, 186, 233);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 230px;
+    left:20px
+   }
+   #smallsquare2{
+    background-color: rgb(97, 159, 218);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 200px;
+    left:-15px;
+   }
+   #smallsquare3{
+    background-color: rgb(50, 88, 124);
+    border: 1px solid rgb(186, 186, 233);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 300px;
+    left:29px
+   }
+   #smallsquare4{
+    background-color: rgb(127, 174, 218);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 330px;
+    left:-20px
+   }
+
+   #smallsquare5{
+    background-color: rgb(142, 172, 201);
+    border: 1px solid rgb(186, 186, 233);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 270px;
+    left:-20px
+   }
    
-    #rectangleintroshadow {
-        background-color: rgba(168, 209, 245, 0.9);
-        display: inline-block;
-        position: absolute;
-        width: 280px;
-        height: 150px;
-        top:260px;
-        left:20px;
-        border-radius: 20%;
-
-    }
 
     #pic1{
         position:relative;
@@ -148,7 +197,7 @@
     }
 }
 
-
+/* 
 @media (max-width: 768px) {
     .header {
         height: auto;
@@ -253,7 +302,7 @@
 
     .grid_container {
         grid-template-columns: 1fr;
-        margin-top: 80px; /* Adjust margin to fit the fixed header */
+        margin-top: 80px; 
         padding: 10px;
     }
 
@@ -276,4 +325,4 @@
 
 
 
-
+ */

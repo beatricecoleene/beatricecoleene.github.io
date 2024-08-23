@@ -81,6 +81,7 @@
         text-align: end;
         cursor: pointer;
         padding-bottom:10px;
+        text-align: center;
     }
 
     .hamb-menu p {
@@ -89,7 +90,7 @@
         color:rgba(30, 30, 30, 1) ;
         padding: 8px ;
         
-        text-align: start;
+        text-align: center;
         margin-left: 50px;
         
     }
