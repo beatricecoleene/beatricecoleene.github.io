@@ -7,8 +7,10 @@
     left:16px;
     right: 16px;
     width: 16px;
+    justify-content: center;
+    align-items: center;
     height: 16px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
 }
@@ -71,6 +73,24 @@
     height: 16px;
 }
 
+h2{
+    position:absolute;
+    font-size: 16px;
+    color: rgb(72, 72, 137);
+    width: 16px;
+    top:16px;
+    left:16px;
+}
+
+h3{
+    position:absolute;
+    font-size: 16px;
+    color: rgb(40, 9, 94);
+    width: 16px;
+    top:16px;
+    left:16px;
+}
+
 
 
  
@@ -80,43 +100,81 @@
 @media only screen and (max-width: 600px){
     .container{
         width: 20rem;
-        height: 20rem;
+        height: 30rem;
         top:6rem;
         left:1.50rem;
     }
 
     .rectangledes{
-        width: 10.25rem;
+        width: 11.25rem;
         height: 2.65rem;
         top:2rem;
         left: 4rem;
+        transition:1s ease-in-out;
 
+    }
+
+    .rectangledes:hover{
+        left: 1rem;
     }
 
     .rectangledes1{
-        width: 10.25rem;
+        width: 11.25rem;
         height: 2.65rem;
         top:4.63rem;
         left: 6rem;
+        transition:1s ease-in;
+    }
+
+    .rectangledes1:hover{
+        left:10rem
     }
     .rectangledes2{
-        width: 11.25rem;
+        width: 12.25rem;
         height: 2.65rem;
         top:7.1rem;
         left: 2rem;
+        transition:1s ease-in-out;
 }
+    .rectangledes2:hover{
+        left:-1rem
+    }
     .rectangledes3{
-        width: 11.25rem;
+        width: 12.25rem;
         height: 2.65rem;
         top:9.73rem;
         left: 4rem;
+        transition:1s ease-in-out;
+    }
+
+    .rectangledes3:hover{
+        left:8rem;
     }
     .rectangledes4{
-        width: 11.55rem;
+        width: 12.55rem;
         height: 2.65rem;
         top:12.3rem;
         left: 2.3rem;
-}
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes4:hover{
+        left: -2rem;
+    }
+
+    h2{
+        font-size: 2.25rem;
+        top: 15.5rem;
+        left:4rem;
+        width: 10rem;
+    }
+    h3{
+        font-size: 2.25rem;
+        top: 18.5rem;
+        left:10rem;
+        width: 3rem;
+    }
         
 }
 
