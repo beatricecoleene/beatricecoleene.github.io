@@ -1,97 +1,58 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+   
+  
+    text-transform: capitalize;
+    transition: .2s linear;
+
 }
 
-body {
+body{
     height: 100%;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:rgb(248, 244, 237) ;
-
-}
-.grid_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    padding: 20px;
-    grid-row: 2;
-    
-   
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(244, 231, 210) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
 }
 
-.grid-items {
-    color: rgb(53, 48, 48);
-    padding: 20px;
-    text-align: center;
-    position: relative;
 
-    
+
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size:1rem ;
+
+    }
 
 }
 
-@media screen and (max-width:475px) {
-    .grid_container{
-        grid-template-columns: 1fr;
-    }
-    .grid-items{
-        font-size: 12px ;
-    }
-    
-   
-    
+@media only screen and (min-width: 600px) and (max-width:900px){
+    body{
+    font-size: 1.25rem;
+}
 }
 
-@media screen and (min-width: 640px){
-    .grid_container{
-        max-width: 640px;
-    }
-    .grid-items{
-        font-size: 18px;
+@media only screen and (min-width: 900px) and (max-width:1024px){
+    body{
+        font-size:1rem ;
+
     }
 
 }
-    
-@media screen and (min-width: 768px){
-    .grid_container{
-        max-width: 768px;
+
+
+@media screen and (min-width:1024px) and (max-width:1540px){
+    body{
+        font-size:1rem ;
+
     }
-    .grid-items{
-        font-size: 24px;
-    }
+
 }
-
-@media screen and (min-width:1024px) {
-    .grid_container{
-        max-width: 1024px;
-    }
-
-    .grid-items{
-        font-size: 26px;
-    }
-    
-}
-
-@media  screen and (min-width:1280px) {
-    .grid_container{
-        max-width: 1280px;
-    }
-    .grid-items{
-        font-size: 20px;
-    }
-    
-    
-}
-
-@media screen and (min-width: 1540px){
-    .grid_container{
-        max-width: 1540px;
-    }
-    .grid-items{
-        font-size: 30px;
-    }
-    
-}
-    
-
