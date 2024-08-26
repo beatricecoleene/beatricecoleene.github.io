@@ -135,10 +135,10 @@ h3:hover{
 @media only screen and (max-width: 600px){
     .container{
         width: 20rem;
-        height: 35rem;
+        height: 33rem;
         top:6rem;
         left:1.50rem;
-        border: none;
+        /* border: none; */
     }
 
     .rectangledes{
@@ -225,12 +225,49 @@ h3:hover{
 
     .bttn{
         width:7rem ;
-        height: 3.4rem;
+        height: 2.5rem;
         top:29rem;
-        left:7rem;
+        left:6rem;
 
     }
 
         
 }
+
+@media only screen and (min-width: 600px) and (max-width:900px){
+    .container{
+        width: 40rem;
+        height: 50rem;
+        top:6rem;
+        left:1.24;
+        border: 1px solid black;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 900px) and (max-width:1024px){
+    .container{
+        width: 60rem;
+        height: 50rem;
+        top:6rem;
+        left:1.24;
+        border: 1px solid black;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1540px){
+    .container{
+        width: 60rem;
+        height: 50rem;
+        top:6rem;
+        left:1.24;
+        border: 1px solid black;
+    }
+
+}
+
 
