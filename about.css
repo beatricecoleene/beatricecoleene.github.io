@@ -5,11 +5,15 @@
     position: absolute;
     top:16px;
     left:16px;
+    right:0;
+    margin:0 auto;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px){
     #separator{
-        width:26.35rem;
+        width:22.50rem;
         top:45rem;
+        left:-1rem;
     }
 }

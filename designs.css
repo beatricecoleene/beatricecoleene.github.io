@@ -117,23 +117,9 @@ h3:hover{
     position: absolute;
     width: 16px;
     color: rgb(15, 15, 15);
-    font-weight: bolder;
-    font-style: oblique;
-}
-
-#motto{
-    position: absolute;
-    font-size: 16px;
-    color: rgb(26, 25, 25);
-    width: 16px;
-    top:16px;
-    left:16px;
-    font-weight: lighter;
-    background-color: rgba(181, 178, 233, 0.5);
-    border: 1px solid rgb(161, 161, 224);
-    box-shadow: 100px;
     
 }
+
 .bttn {
     background-color: rgb(139, 182, 208);
     background-image: linear-gradient(rgb(134, 134, 240), rgb(173, 173, 228));
@@ -280,19 +266,13 @@ h3:hover{
     }
     
     #intro{
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         top:23.50rem;
         left:2rem;
-        width: 20rem;
+        width: 10rem;
     }
 
-    #motto{
-        width: 13rem;
-        height: 50px;
-        font-size: 1.20rem;
-        top:27.90rem;
-        left:4rem;
-    }
+   
     #line1{
         display: none;
     }
