@@ -1,7 +1,15 @@
 #separator{
-    width: 100px;
+    width: 16px;
     justify-content: center;
     margin: 0 auto;
     position: absolute;
-    top:650px;
+    top:16px;
+    left:16px;
+}
+
+@media only screen and (max-width: 600px){
+    #separator{
+        width:27.35rem;
+        top:45rem;
+    }
 }
