@@ -96,6 +96,8 @@
     width: 16px;
     top:16px;
     left:16px;
+    font-style: oblique;
+    text-shadow: 6px 6px 6px  rgba(141, 105, 42, 0.5);
 }
 
 h3{
@@ -105,7 +107,8 @@ h3{
     width: 16px;
     top:16px;
     left:16px;
-    transition: color 0.3s 
+    transition: color 0.3s ;
+    text-shadow: 6px 6px 6px  rgba(141, 105, 42, 0.5);
 }
 
 h3:hover{
@@ -118,16 +121,20 @@ h3:hover{
     width: 16px;
     color: rgb(55, 48, 48);
     font-weight: bold;
+    text-shadow: 6px 6px 6px  rgba(141, 105, 42, 0.5);
     
 }
 
 .bttn {
     background-color: rgb(139, 182, 208);
-    background-image: linear-gradient(rgb(134, 134, 240), rgb(173, 173, 228));
+    background-image: linear-gradient(rgb(114, 114, 240), rgb(150, 150, 238), rgb(184, 184, 221));
     color: rgb(35, 32, 32);
+    font-size: 18px;
+    font-weight: bold;
     padding: 10px 10px;
-    border-radius: 50px;
-    border: 2px solid rgb(13, 13, 33);
+    border-radius: 10% 10%;
+    border: 0;
+    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -139,7 +146,34 @@ h3:hover{
 }
 .bttn:hover {
     background-color: rgb(20, 91, 89);
-    background-image: linear-gradient( rgb(171, 160, 222), rgb(145, 120, 229));
+    background-image: linear-gradient( rgb(213, 141, 39),rgb(228, 187, 112), rgb(238, 203, 154));
+
+    color: white;
+}
+
+
+.bttn2 {
+    background-color: rgb(139, 182, 208);
+    background-image: linear-gradient(rgb(114, 114, 240), rgb(150, 150, 238), rgb(184, 184, 221));
+    color: rgb(35, 32, 32);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10% 10%;
+    border: 0;
+    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+   
+}
+.bttn2:hover {
+    background-color: rgb(20, 91, 89);
+    background-image: linear-gradient( rgb(223, 163, 78), rgb(238, 203, 154));
 
     color: white;
 }
@@ -253,7 +287,7 @@ h3:hover{
         font-size: 1.65rem;
         top: 18.8rem;
         left:8.20rem;
-        width: 10rem;
+        width: 5rem;
     }
     h3{
         font-size: 2.95rem;
@@ -268,7 +302,7 @@ h3:hover{
         font-size: 1.75rem;
         top:25.50rem;
         left:2.59rem;
-        width: 25rem;
+        width: 20rem;
     }
 
    
@@ -277,12 +311,30 @@ h3:hover{
     }
 
     .bttn{
-        width:13rem ;
-        height: 2.5rem;
-        top:34rem;
-        left:4rem;
+        width:8rem ;
+        height: 3.5rem;
+        top:30rem;
+        left:1rem;
 
     }
+    .bttn:active{
+        top: 30.75rem;
+        left:1.1rem;
+    }
+    
+    .bttn2{
+        width:8rem ;
+        height: 3.5rem;
+        top:30rem;
+        left:10rem;
+        
+
+    }
+    .bttn2:active{
+        top: 30.75rem;
+        left:10.25rem;
+    }
+    
     
         
 }
@@ -400,6 +452,13 @@ h3:hover{
     }
 
     .bttn{
+        width:7rem ;
+        height: 2.5rem;
+        top:29rem;
+        left:6rem;
+
+    }
+    .bttn2{
         width:7rem ;
         height: 2.5rem;
         top:29rem;
