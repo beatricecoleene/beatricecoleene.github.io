@@ -89,7 +89,7 @@
     height: 16px;
 }
 
-h2{
+#hi{
     position:absolute;
     font-size: 16px;
     color: rgb(53, 53, 85);
@@ -116,7 +116,8 @@ h3:hover{
     font-size: 16px;
     position: absolute;
     width: 16px;
-    color: rgb(15, 15, 15);
+    color: rgb(55, 48, 48);
+    font-weight: bold;
     
 }
 
@@ -178,8 +179,8 @@ h3:hover{
 
     #pic1{
         width: 12.25rem;
-        height: 10.75rem;
-        top:4.25rem;
+        height: 12.75rem;
+        top:2.25rem;
         left:2.25rem;
     }
     .rectangles{
@@ -248,28 +249,26 @@ h3:hover{
         left: -2rem;
     }
 
-    h2{
-        font-size: 2.75rem;
+    #hi{
+        font-size: 1.65rem;
         top: 18.8rem;
-        left:3.20rem;
+        left:8.20rem;
         width: 10rem;
     }
     h3{
-        font-size: 3.25rem;
-        top: 18.2rem;
-        left:12rem;
+        font-size: 2.95rem;
+        top: 21.2rem;
+        left:4.50rem;
         width: 3rem;
         transition: 2s ease;
     }
-    h3:hover{
-        font-size: 5rem;
-    }
+   
     
     #intro{
-        font-size: 1.25rem;
-        top:23.50rem;
-        left:2rem;
-        width: 10rem;
+        font-size: 1.75rem;
+        top:25.50rem;
+        left:2.59rem;
+        width: 25rem;
     }
 
    
@@ -377,7 +376,7 @@ h3:hover{
 
     h2{
         font-size: 2.75rem;
-        top: 5.75rem;
+        top: 3.75rem;
         left:2rem;
         width: 10rem;
     }
