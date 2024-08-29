@@ -78,7 +78,7 @@ h4{
 .abt_cont{
     display: flex;
     position: absolute;
-    border: 1px solid black;
+    border: 3px solid rgb(73, 120, 179);
     background-color: rgb(161, 197, 228, 0.3);
 }
 
@@ -106,12 +106,13 @@ h4{
     font-size: 16px;
     height: 16px;
     
+    
 }
 @media only screen and (max-width: 600px){
 
    .container_about{
     background-color: none;
-    border: 1px solid black;
+    border:none;
     top:45rem;
     width: 20rem;
     height: 35rem;
@@ -155,23 +156,23 @@ h4{
 
    .abt_cont{
     width: 20rem;
-    height: 40rem;
+    height: 45rem;
     top:19rem;
    }
 
    #abt-m1{
     top:1.25rem;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     width: 20rem;
    }
    #abt-m2{
-    top:16.25rem;
-    font-size: 1.25rem;
+    top:14.75rem;
+    font-size: 1.20rem;
     width: 20rem;
    }
    #abt-m3{
-    top:34.25rem;
-    font-size: 1.25rem;
+    top:32.25rem;
+    font-size: 1.20rem;
     width: 20rem;
    }
 }
