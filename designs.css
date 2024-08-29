@@ -30,6 +30,23 @@
     border: 1px solid black;
 }
 
+.bttns{
+    display:flex;
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    
+    height: 16px;
+    margin: 0 auto;
+
+    padding: 0;
+    border: 1px solid black;
+}
+
+
+
 
 
 
@@ -126,14 +143,14 @@ h3:hover{
 }
 
 .bttn {
-    background-color: rgb(139, 182, 208);
-    background-image: linear-gradient(rgb(114, 114, 240), rgb(150, 150, 238), rgb(184, 184, 221));
-    color: rgb(35, 32, 32);
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 10% 10%;
-    border: 0;
+    background-color:rgba(106, 140, 208, 0.5) ;
+   
+    color: rgb(21, 5, 91);
+    font-size: 16px;
+   
+    padding: 5px 3px;
+    border-radius:30%;
+   
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
     cursor: pointer;
@@ -146,21 +163,21 @@ h3:hover{
 }
 .bttn:hover {
     background-color: rgb(20, 91, 89);
-    background-image: linear-gradient( rgb(213, 141, 39),rgb(228, 187, 112), rgb(238, 203, 154));
+    background-image: linear-gradient( rgb(233, 190, 131),rgb(228, 187, 112), rgb(238, 203, 154));
 
-    color: white;
+    color: rgb(25, 15, 90);
 }
 
 
 .bttn2 {
-    background-color: rgb(139, 182, 208);
-    background-image: linear-gradient(rgb(114, 114, 240), rgb(150, 150, 238), rgb(184, 184, 221));
+    background-color:rgba(106, 140, 208, 0.5) ;
     color: rgb(35, 32, 32);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 10% 10%;
-    border: 0;
+   
+    padding: 5px px;
+    border-radius: 30%;
+    
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
     cursor: pointer;
@@ -173,10 +190,89 @@ h3:hover{
 }
 .bttn2:hover {
     background-color: rgb(20, 91, 89);
-    background-image: linear-gradient( rgb(223, 163, 78), rgb(238, 203, 154));
+    background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
 
-    color: white;
+    color: rgb(25, 15, 90);
 }
+.bttn3 {
+    background-color:rgba(106, 140, 208, 0.5) ;
+    color: rgb(35, 32, 32);
+    font-size: 16px;
+    font-weight: bold;
+   
+    padding: 5px px;
+    border-radius: 30%;
+    
+    
+    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+   
+}
+.bttn3:hover {
+    background-color: rgb(20, 91, 89);
+    background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
+
+    color: rgb(25, 15, 90);
+}
+
+
+.bttn4 {
+    background-color: rgb(139, 182, 208);
+    background-color:rgba(106, 140, 208, 0.5) ;
+    color: rgb(35, 32, 32);
+    font-size: 16px;
+    font-weight: bold;
+   
+    padding: 5px px;
+    border-radius: 30%;
+   
+    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+   
+}
+.bttn4:hover {
+    background-color: rgb(20, 91, 89);
+    background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
+
+    color: rgb(25, 15, 90);
+}
+
+.bttn5 {
+    background-color:rgba(106, 140, 208, 0.5) ;
+    color: rgb(35, 32, 32);
+    font-size: 16px;
+    font-weight: bold;
+   
+    padding: 5px px;
+    border-radius: 30%;
+ 
+    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+   
+}
+.bttn5:hover {
+    background-color: rgb(20, 91, 89);
+    background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
+
+    color: rgb(25, 15, 90);}
 
 #pic1{
     display: flex;
@@ -187,14 +283,10 @@ h3:hover{
     left:16px;
 }
 
-#line1{
-    display: flex;
-    position: absolute;
-    width: 16px;
-    top:16px;
-    left:16px;
-}
-   
+
+
+
+
 
 
 
@@ -205,10 +297,10 @@ h3:hover{
 @media only screen and (max-width: 600px){
     .container{
         width: 21rem;
-        height: 33rem;
+        height: 35rem;
         top:6rem;
-        left:1.50rem;
-        border: none;
+        left:1rem;
+        border: 1px solid black;
     }
 
     #pic1{
@@ -222,14 +314,14 @@ h3:hover{
         width: 18rem;
         height: 17rem;
         top:2rem;
-        left:1.50rem;
-        border: none;
+        left:1.20rem;
+        border: 1px solid black;
     }
     .rectangledes{
         width: 11.25rem;
         height: 2.65rem;
         top:2rem;
-        left: 4rem;
+        left: 2rem;
         transition:1s ease-in-out;
 
     }
@@ -253,7 +345,7 @@ h3:hover{
         width: 12.25rem;
         height: 2.65rem;
         top:7.1rem;
-        left: 2rem;
+        left: 1rem;
         transition:1s ease-in-out;
 }
     .rectangledes2:hover{
@@ -286,34 +378,39 @@ h3:hover{
     #hi{
         font-size: 1.65rem;
         top: 18.8rem;
-        left:8.20rem;
+        left:1.20rem;
         width: 5rem;
     }
     h3{
-        font-size: 2.95rem;
+        font-size: 2.50rem;
         top: 21.2rem;
-        left:4.50rem;
+        left:5.53rem;
         width: 3rem;
         transition: 2s ease;
     }
    
     
     #intro{
-        font-size: 1.75rem;
+        font-size: 1.35rem;
         top:25.50rem;
-        left:2.59rem;
+        left:4.59rem;
         width: 20rem;
     }
-
-   
-    #line1{
-        display: none;
+    .bttns{
+        display: flex;
+        width: 20rem;
+        height: 3rem;
+        top:29rem;
+        left:0.35rem;
+        border: 1px solid black;
     }
+   
 
     .bttn{
-        width:8rem ;
-        height: 3.5rem;
-        top:30rem;
+        font-size: 0.70rem;
+        width:4rem ;
+        height: 2.5rem;
+        top:0.35rem;
         left:1rem;
 
     }
@@ -323,21 +420,67 @@ h3:hover{
     }
     
     .bttn2{
-        width:8rem ;
-        height: 3.5rem;
-        top:30rem;
-        left:10rem;
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:8.50rem;
         
 
     }
     .bttn2:active{
         top: 30.75rem;
-        left:10.25rem;
+        left:11.75rem;
     }
+
+    .bttn3{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:11.50rem;
+        
+
+    }
+    .bttn3:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn4{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:14.50rem;
+        
+
+    }
+    .bttn4:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn5{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:17.50rem;
+        
+
+    }
+    .bttn5:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+
+   
+    
     
     
         
 }
+
 
 @media only screen and (min-width: 600px) and (max-width:900px){
     .container{
