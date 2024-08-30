@@ -37,6 +37,9 @@ h4{
     width: 16px;
     height: 16px;
     box-shadow:  10px 10px 10px  rgba(141, 105, 42, 0.5);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 #pi{
     position: absolute;
@@ -49,7 +52,7 @@ h4{
     font-style: oblique;
     text-decoration: underline;
     text-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
-    
+   
 }
 
 .infos{
@@ -88,6 +91,9 @@ h4{
     border: 3px solid rgb(73, 120, 179);
     background-color: rgb(161, 197, 228, 0.3);
     box-shadow:  10px 10px 10px  rgba(13, 21, 56, 0.5);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -239,5 +245,317 @@ h4{
    #games{
     left:12rem;
    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:900px){
+    .container_about{
+        background-color: none;
+       
+        top:45rem;
+        width:19rem;
+        height: 75rem;
+        left:1rem;
+        border: none;
+    
+       }
+       h4{
+        top:-1rem;
+        left:-1rem;
+        font-size: 1.40rem;
+        width: 12rem; 
+       }
+       #pis{
+        display: flex;
+        width: 19rem;
+        height: 11rem;
+        left:0.10rem;
+        top:3rem;
+        
+       }
+    
+       #pi{
+        top:1.10rem;
+        left:.5rem;
+        font-size: 1.15rem;
+        width: 10rem;
+       }
+       .infos{
+        top:3.30rem;
+        left:1.4rem;
+        font-size: 1rem;
+        width: 19.5rem;
+    
+       }
+       #abt{
+        top:30.50rem;
+        left:1rem;
+        font-size: 1.25rem;
+        width: 2rem;
+       }
+    
+       .abt_cont{
+        width: 20rem;
+        height: 38rem;
+        top:34rem;
+        
+       }
+    
+       #abt-m1{
+        top:1.25rem;
+        font-size: 1.09rem;
+        width: 18rem;
+        height:fit-content;
+        
+       }
+       #abt-m2{
+        top:20.75rem;
+        font-size: 1.09rem;
+        width: 17.75rem;
+        height:fit-content;
+       
+       }
+    
+       .interests{
+        width: 17rem;
+        height: 5rem;
+        top: 20rem;
+       }
+       #interest{
+        font-size: 1.25rem;
+        top:16rem;
+       }
+       #arts, #books, #music, #games{
+        font-size: 1.30rem;
+        top:1rem;
+        left:1rem;
+       }
+       #books{
+        left:4rem;
+    
+       }
+    
+       #music{
+        left:8rem;
+    
+       }
+    
+       #games{
+        left:12rem;
+       }
+    
+    }
+
+
+@media only screen and (min-width: 900px) and (max-width:1024px){
+    .container_about{
+        background-color: none;
+       
+        top:45rem;
+        width:19rem;
+        height: 75rem;
+        left:1rem;
+        border: none;
+    
+       }
+       h4{
+        top:-1rem;
+        left:-1rem;
+        font-size: 1.40rem;
+        width: 12rem; 
+       }
+       #pis{
+        display: flex;
+        width: 19rem;
+        height: 11rem;
+        left:0.10rem;
+        top:3rem;
+        
+       }
+    
+       #pi{
+        top:1.10rem;
+        left:.5rem;
+        font-size: 1.15rem;
+        width: 10rem;
+       }
+       .infos{
+        top:3.30rem;
+        left:1.4rem;
+        font-size: 1rem;
+        width: 19.5rem;
+    
+       }
+       #abt{
+        top:30.50rem;
+        left:1rem;
+        font-size: 1.25rem;
+        width: 2rem;
+       }
+    
+       .abt_cont{
+        width: 20rem;
+        height: 38rem;
+        top:34rem;
+        
+       }
+    
+       #abt-m1{
+        top:1.25rem;
+        font-size: 1.09rem;
+        width: 18rem;
+        height:fit-content;
+        
+       }
+       #abt-m2{
+        top:20.75rem;
+        font-size: 1.09rem;
+        width: 17.75rem;
+        height:fit-content;
+       
+       }
+    
+       .interests{
+        width: 17rem;
+        height: 5rem;
+        top: 20rem;
+       }
+       #interest{
+        font-size: 1.25rem;
+        top:16rem;
+       }
+       #arts, #books, #music, #games{
+        font-size: 1.30rem;
+        top:1rem;
+        left:1rem;
+       }
+       #books{
+        left:4rem;
+    
+       }
+    
+       #music{
+        left:8rem;
+    
+       }
+    
+       #games{
+        left:12rem;
+       }
+    
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1540px){
+    .container_about{
+        background-color:none;
+       
+        top:45rem;
+        width:50rem;
+        height: 75rem;
+        left:1rem;
+        border: none;
+    
+       }
+       h4{
+        top:1rem;
+        left:-2rem;
+        font-size: 2.55rem;
+        width: 17rem; 
+       }
+       #pis{
+        display: flex;
+        width: 26rem;
+        height: 20rem;
+        left:8.10rem;
+        top:7rem;
+        background-color: rgb(253, 248, 243);
+        box-shadow:  10px 10px 10px  rgba(12, 11, 76, 0.5);
+
+        
+       }
+    
+       #pi{
+        top:1.10rem;
+        left:.5rem;
+        font-size: 1.55rem;
+        width: 15rem;
+       }
+
+       .infos{
+        top:4.30rem;
+        left:3.4rem;
+        font-size:10 rem;
+        width: 20.5rem;
+        line-height: 50px;
+    
+       }
+      
+       #abt{
+        top:46.50rem;
+        left:9rem;
+        font-size: 1.95rem;
+        width: 2rem;
+       }
+    
+       .abt_cont{
+        width: 45rem;
+        height: 30rem;
+        top:50em;
+        left:10rem;
+        background-color: none;
+        border-radius: 20px;
+        
+       }
+    
+       #abt-m1{
+        top:3.25rem;
+        font-size: 1.29rem;
+        width: 40rem;
+        height:fit-content;
+        
+       }
+       #abt-m2{
+        top:17.75rem;
+        font-size: 1.29rem;
+        width: 40rem;
+        height:fit-content;
+       
+       }
+    
+       .interests{
+        width: 28rem;
+        height: 6rem;
+        top: 35rem;
+        left: 10rem;
+       }
+       #interest{
+        font-size: 1.75rem;
+        top:30rem;
+        left:9rem;
+        
+       }
+       #arts, #books, #music, #games{
+        font-size: 1.70rem;
+        top:1rem;
+        left:1rem;
+       }
+       #books{
+        left:7rem;
+        text-align: center;
+    
+       }
+    
+       #music{
+        left:15rem;
+        text-align: center;
+    
+       }
+    
+       #games{
+        left:22rem;
+        text-align: center;
+       }
+    
 
 }

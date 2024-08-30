@@ -214,7 +214,7 @@ h5{
 
     .container_proj{
         width: 20rem;
-        height: 73rem;
+        height: 79rem;
         top:126rem;
         left: 1rem;
         border: none;
@@ -322,4 +322,356 @@ h5{
     }
        
     
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:900px){
+    .container_proj{
+        width: 20rem;
+        height: 79rem;
+        top:126rem;
+        left: 1rem;
+        border: none;
+       
+
+    
+    }
+    h5{
+        top:-1rem;
+        left:-1rem;
+        font-size: 1.55rem;
+        
+    }
+
+    .proj_reactangles{
+        top:1rem;
+        left:10rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .proj_rectangledes1{
+        top:-0.70rem;
+        left:-1rem;
+        width: 8rem;
+        height: 1.35rem;
+
+    }
+    .proj_rectangledes2{
+        top:0.19rem;
+        left:1rem;
+        width: 8rem;
+        height: 1.32rem;
+
+    }
+
+    .proj1{
+        width:17rem;
+        height:28rem;
+        top:3.50rem;
+        left:1rem;
+    }
+
+        
+    #dkr, #yt{
+        font-size: 1.25rem;
+        width: 15rem;
+        top: 10rem;
+
+    }
+    .media-image,.media-video{
+        width:15rem;
+        height: 8rem;
+        top:1.15rem;
+        left:0.80rem;
+        background-color: black;
+    }
+
+    #drk-info, #yt-info{
+        top:12rem;
+        left:2rem;
+        
+    }
+    #drk-info , #yt-info li{
+        font-size: 1.10rem;
+        width: 15rem;
+        height: 17rem;
+        left: 1.75rem;
+
+
+    }
+    #yt-info{
+        top:14rem;
+        width: 13rem;
+    }
+
+    #yt-info li{
+        font-size: 1rem;
+        width:14rem ;
+    }
+
+    .dkr_bttn, .yt_bttn{
+        top:23.78rem;
+        left:8rem;
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .yt_bttn{
+        top:28rem;
+    }
+    
+    .proj2{
+        width:17rem;
+        height: 32rem;
+        top:35.50rem;
+        left:1rem;
+    }
+
+    .more{
+        top:70rem;
+        width: 10rem;
+        height: 3rem;
+
+    }
+       
+    
+}
+
+@media only screen and (min-width: 900px) and (max-width:1024px){
+    .container_proj{
+        width: 20rem;
+        height: 79rem;
+        top:126rem;
+        left: 1rem;
+        border: none;
+       
+
+    
+    }
+    h5{
+        top:-1rem;
+        left:-1rem;
+        font-size: 1.55rem;
+        
+    }
+
+    .proj_reactangles{
+        top:1rem;
+        left:10rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .proj_rectangledes1{
+        top:-0.70rem;
+        left:-1rem;
+        width: 8rem;
+        height: 1.35rem;
+
+    }
+    .proj_rectangledes2{
+        top:0.19rem;
+        left:1rem;
+        width: 8rem;
+        height: 1.32rem;
+
+    }
+
+    .proj1{
+        width:17rem;
+        height:28rem;
+        top:3.50rem;
+        left:1rem;
+    }
+
+        
+    #dkr, #yt{
+        font-size: 1.25rem;
+        width: 15rem;
+        top: 10rem;
+
+    }
+    .media-image,.media-video{
+        width:15rem;
+        height: 8rem;
+        top:1.15rem;
+        left:0.80rem;
+        background-color: black;
+    }
+
+    #drk-info, #yt-info{
+        top:12rem;
+        left:2rem;
+        
+    }
+    #drk-info , #yt-info li{
+        font-size: 1.10rem;
+        width: 15rem;
+        height: 17rem;
+        left: 1.75rem;
+
+
+    }
+    #yt-info{
+        top:14rem;
+        width: 13rem;
+    }
+
+    #yt-info li{
+        font-size: 1rem;
+        width:14rem ;
+    }
+
+    .dkr_bttn, .yt_bttn{
+        top:23.78rem;
+        left:8rem;
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .yt_bttn{
+        top:28rem;
+    }
+    
+    .proj2{
+        width:17rem;
+        height: 32rem;
+        top:35.50rem;
+        left:1rem;
+    }
+
+    .more{
+        top:70rem;
+        width: 10rem;
+        height: 3rem;
+
+    }
+       
+    
+
+
+
+}
+
+
+
+@media screen and (min-width:1024px) and (max-width:1540px){
+    .container_proj{
+        width: 50rem;
+        height: 79rem;
+        top:140em;
+        left: 1rem;
+        border:none;
+      
+       
+
+    
+    }
+    h5{
+        top:1rem;
+        left:-1rem;
+        font-size: 2.55rem;
+        
+    }
+
+    .proj_reactangles{
+        top:6rem;
+        left:10rem;
+        width: 3rem;
+        height: 2rem;
+    }
+
+    .proj_rectangledes1{
+        top:2.70rem;
+        left:2.76rem;
+        width: 13rem;
+        height: 2rem;
+
+    }
+    .proj_rectangledes2{
+        top:1rem;
+        left:1rem;
+        width: 13rem;
+        height: 2rem;
+
+    }
+
+    .proj1{
+        width:43rem;
+        height:20rem;
+        top:8.50rem;
+        left:4rem;
+    }
+
+        
+    #dkr, #yt{
+        font-size: 1.75rem;
+        width: 25rem;
+        top: 1rem;
+        left:20rem;
+
+    }
+    .media-image,.media-video{
+        width:18rem;
+        height: 15rem;
+        top:2.45rem;
+        left:0.90rem;
+        background-color: black;
+    }
+
+    #drk-info, #yt-info{
+        top:12rem;
+        left:2rem;
+        
+    }
+    #drk-info , #yt-info li{
+        font-size: 1.10rem;
+        width: 20rem;
+        height: 17rem;
+        left: 20.75rem;
+        top:4rem;
+
+
+    }
+    #yt-info{
+        top:6rem;
+        width: 13rem;
+        left:21rem;
+    }
+
+    #yt-info li{
+        font-size: 1rem;
+        width:20rem ;
+        left:10rem;
+    }
+
+    .dkr_bttn, .yt_bttn{
+        top:15.78rem;
+        left:32rem;
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .yt_bttn{
+        top:16rem;
+    }
+    
+    .proj2{
+        width:43rem;
+        height: 20rem;
+        top:35.50rem;
+        left:4rem;
+    }
+
+    .more{
+        top:60rem;
+        width: 10rem;
+        height: 3rem;
+        left: 20rem;
+
+    }
+       
+    
+
 }
