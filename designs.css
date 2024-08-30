@@ -300,7 +300,7 @@ h3:hover{
         height: 35rem;
         top:6rem;
         left:1rem;
-        border: none;
+        border: 1px solid black;
     }
 
     #pic1{
@@ -315,7 +315,7 @@ h3:hover{
         height: 17rem;
         top:2rem;
         left:1.20rem;
-        border:none;
+        border:1px solid black;
     }
     .rectangledes{
         width: 11.25rem;
@@ -402,7 +402,7 @@ h3:hover{
         height: 3rem;
         top:29rem;
         left:0.35rem;
-        border: none;
+        border: 1px solid black;
     }
    
 

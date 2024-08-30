@@ -80,6 +80,8 @@ h4{
 .abt_cont{
     display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
     border: 3px solid rgb(73, 120, 179);
     background-color: rgb(161, 197, 228, 0.3);
     box-shadow:  10px 10px 10px  rgba(13, 21, 56, 0.5);
@@ -92,6 +94,7 @@ h4{
     width: 16px;
     font-size: 16px;
     height: 16px;
+    text-align: center;
 
 }
 #abt-m2{
@@ -125,12 +128,12 @@ h4{
    h4{
     top:-1rem;
     left:-1rem;
-    font-size: 1.60rem;
-    width: 30rem; 
+    font-size: 1.40rem;
+    width: 12rem; 
    }
    #pis{
     display: flex;
-    width: 20rem;
+    width: 19rem;
     height: 11rem;
     left:0.10rem;
     top:3rem;
@@ -138,44 +141,51 @@ h4{
    }
 
    #pi{
-    top:1.50rem;
-    left:1rem;
+    top:1.10rem;
+    left:.5rem;
     font-size: 1.15rem;
-    width: 15rem;
+    width: 10rem;
    }
    .infos{
     top:3.30rem;
-    left:2rem;
+    left:1.4rem;
     font-size: 1rem;
-    width: 20rem;
+    width: 19.5rem;
 
    }
    #abt{
     top:15.50rem;
     left:1rem;
     font-size: 1.25rem;
-    width: 15rem;
+    width: 2rem;
    }
 
    .abt_cont{
     width: 20rem;
-    height: 45rem;
+    height: 46.75rem;
     top:19rem;
+    
    }
 
    #abt-m1{
     top:1.25rem;
-    font-size: 1.20rem;
-    width: 20rem;
+    font-size: 1.10rem;
+    width: 17rem;
+    height:fit-content;
+    border: 1px solid black;
    }
    #abt-m2{
     top:14.75rem;
-    font-size: 1.20rem;
-    width: 20rem;
+    font-size: 1.10rem;
+    width: 17rem;
+    height:fit-content;
+    border: 1px solid black;
    }
    #abt-m3{
     top:32.25rem;
-    font-size: 1.20rem;
-    width: 20rem;
+    font-size: 1.100rem;
+    width: 17rem;
+    height:fit-content;
+    border: 1px solid black;
    }
 }

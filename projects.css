@@ -30,6 +30,46 @@ h5{
     color: rgb(85, 85, 169);
     text-decoration: underline;
 }
+.proj_reactangles{
+    display:flex;
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    
+    height: 16px;
+    margin: 0 auto;
+
+    padding: 0;
+    border: 1px solid rgb(143, 25, 25);
+}
+
+.proj_rectangledes1{
+    background-color: rgb(148, 195, 225, 0.3);
+
+    border: 1px solid rgb(188, 188, 243, 0.4);
+    display: flex;
+    position:absolute;
+    width:16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+    
+}
+
+.proj_rectangledes2{
+    background-color: rgba(11, 61, 93, 0.3);
+
+    border: 1px solid rgb(228, 228, 250);
+    display: flex;
+    position:absolute;
+    width:16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+}
+
 
 
 
@@ -44,9 +84,31 @@ h5{
     
     }
     h5{
-        top:1rem;
-        left:1rem;
-        font-size: 1.25rem;
+        top:-1rem;
+        left:-1rem;
+        font-size: 1.35rem;
         
+    }
+
+    .proj_reactangles{
+        top:1rem;
+        left:10rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .proj_rectangledes1{
+        top:-0.70rem;
+        left:-1rem;
+        width: 8rem;
+        height: 1rem;
+
+    }
+    .proj_rectangledes2{
+        top:0.19rem;
+        left:1rem;
+        width: 8rem;
+        height: 1rem;
+
     }
 }
