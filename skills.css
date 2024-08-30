@@ -1,0 +1,44 @@
+.skills_cont{
+    display: flex;
+    border: 2px solid black;
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h6{
+    font-size: 16px;
+    position: absolute;
+    top:16px;
+    left:16px;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .skills_-cont{
+        width: 208rem;
+        height: 40rem;
+        top:290rem;
+        left:-1rem;
+        border: 2px solid black;
+    }
+
+    h6{
+        font-size: 50rem;
+        top:200rem;
+
+    }
+}

@@ -66,7 +66,7 @@ h4{
     
 }
 
-#abt{
+#abt, #interest{
     position: absolute;
     display: flex;
     top:16px;
@@ -119,6 +119,30 @@ h4{
     
 }
 
+.interests{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(73, 120, 179);
+    background-color: rgb(161, 197, 228, 0.3);
+    box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
+    border-radius: 10px;
+
+}
+
+#arts, #books, #music, #games{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    top:16px;
+    left:16px;
+    width: 16px;
+    height: 16px;
+    color: rgb(36, 33, 33);
+    text-shadow:10px 10px 10px  rgba(141, 105, 42, 0.5) ;
+}
+
 @media only screen and (max-width: 600px){
 
    .container_about{
@@ -126,8 +150,9 @@ h4{
    
     top:45rem;
     width:19rem;
-    height: 35rem;
+    height: 75rem;
     left:1rem;
+    border: none;
 
    }
    h4{
@@ -159,7 +184,7 @@ h4{
 
    }
    #abt{
-    top:15.50rem;
+    top:30.50rem;
     left:1rem;
     font-size: 1.25rem;
     width: 2rem;
@@ -168,7 +193,7 @@ h4{
    .abt_cont{
     width: 20rem;
     height: 38rem;
-    top:19rem;
+    top:34rem;
     
    }
 
@@ -185,6 +210,34 @@ h4{
     width: 17.75rem;
     height:fit-content;
    
+   }
+
+   .interests{
+    width: 17rem;
+    height: 5rem;
+    top: 20rem;
+   }
+   #interest{
+    font-size: 1.25rem;
+    top:16rem;
+   }
+   #arts, #books, #music, #games{
+    font-size: 1.30rem;
+    top:1rem;
+    left:1rem;
+   }
+   #books{
+    left:4rem;
+
+   }
+
+   #music{
+    left:8rem;
+
+   }
+
+   #games{
+    left:12rem;
    }
 
 }

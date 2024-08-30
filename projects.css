@@ -183,6 +183,25 @@ h5{
     box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
 }
 
+.more{
+    position: absolute;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+    background-color:rgba(40, 63, 236, 0.5) ;
+    color: rgb(3, 4, 53);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    text-shadow:10px 10px 10px  rgba(103, 110, 160, 0.5); ;
+
+}
+
 
 
 
@@ -195,9 +214,11 @@ h5{
 
     .container_proj{
         width: 20rem;
-        height: 120rem;
-        top:106rem;
+        height: 73rem;
+        top:126rem;
         left: 1rem;
+        border: none;
+       
 
     
     }
@@ -232,7 +253,7 @@ h5{
 
     .proj1{
         width:17rem;
-        height: rem;
+        height:28rem;
         top:3.50rem;
         left:1rem;
     }
@@ -289,8 +310,15 @@ h5{
     .proj2{
         width:17rem;
         height: 32rem;
-        top:37.50rem;
+        top:35.50rem;
         left:1rem;
+    }
+
+    .more{
+        top:70rem;
+        width: 10rem;
+        height: 3rem;
+
     }
        
     
