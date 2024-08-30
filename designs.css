@@ -151,7 +151,7 @@ h3:hover{
     padding: 5px 3px;
     border-radius:30%;
    
-    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    box-shadow: 6px 6px 10px rgba(89, 72, 37, 0.4);
     position: absolute;
     cursor: pointer;
     transition: background-color 0.3s ease;

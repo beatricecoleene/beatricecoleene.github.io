@@ -1,0 +1,52 @@
+
+.container_proj{
+    display: flex;
+    border: 1px solid black;
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+
+
+
+h5{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    left:16px;
+    color: rgb(85, 85, 169);
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .container_proj{
+        width: 20rem;
+        height: 30rem;
+        top:116rem;
+        left: 1rem;
+
+    
+    }
+    h5{
+        top:1rem;
+        left:1rem;
+        font-size: 1.25rem;
+        
+    }
+}
