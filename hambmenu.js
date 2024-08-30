@@ -12,3 +12,10 @@ function playVideo(){
     video.style.pointerEvents= 'auto';
     video.play();
 }
+
+function bttnheader(){
+    document.getElementById('portfolio').addEventListener('click', function() {
+        window.location.href = 'index.html';
+      });
+      
+}
