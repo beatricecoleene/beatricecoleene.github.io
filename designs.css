@@ -296,7 +296,7 @@ h3:hover{
 
 @media only screen and (max-width: 600px){
     .container{
-        width: 21rem;
+        width: 20rem;
         height: 35rem;
         top:6rem;
         left:1rem;
@@ -376,9 +376,9 @@ h3:hover{
     }
 
     #hi{
-        font-size: 1.65rem;
+        font-size: 1.35rem;
         top: 18.8rem;
-        left:1.20rem;
+        left:2.40rem;
         width: 5rem;
     }
     h3{
@@ -394,7 +394,7 @@ h3:hover{
         font-size: 1.35rem;
         top:25.50rem;
         left:4.59rem;
-        width: 20rem;
+        width: 15rem;
     }
     .bttns{
         display: flex;

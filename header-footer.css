@@ -4,7 +4,7 @@
     padding: 10px;
     height: 70px;
     text-align: end;
-   
+   right:0;
     top:0;
     width: 100%;
     position: sticky;
@@ -21,7 +21,7 @@
     padding: 8px ;
     font-size: 25px;
     text-align: start;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 h1{
     font-size: 17px;
@@ -42,9 +42,9 @@ h1{
 }
 .hamb-menu .line{
     width: 30px;
-    height: 4px;
+    height: 3px;
     background-color: rgb(44, 44, 41);
-    margin: 4px 0;
+    margin: 3px 0;
 }
 
 
@@ -101,7 +101,7 @@ h1{
     }
 
     h1{
-        font-size: 1.50rem;
+        font-size: 1.30rem;
     }
 
     .hamb-menu p {
@@ -119,11 +119,14 @@ h1{
         position: absolute;
         top: 50px;
         right:0;
+        
+        
        
     }
 
     .menu a{
-        font-size: 1.30rem;
+        font-size: 1.10rem;
+       
     }
 
     .menu.show{
@@ -133,7 +136,7 @@ h1{
 
     .menu li {
         text-align: center;
-        margin: 15px 0;
+        margin: 10px 0;
         border-bottom: 1px solid rgb(19, 19, 58);
     }
     .footer{
