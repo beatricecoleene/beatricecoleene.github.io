@@ -46,7 +46,8 @@ h5{
 }
 
 .proj_rectangledes1{
-    background-color: rgb(148, 195, 225, 0.3);
+  
+    background-color: rgba(26, 60, 81, 0.3);
 
     border: 1px solid rgb(188, 188, 243, 0.4);
     display: flex;
@@ -59,9 +60,10 @@ h5{
 }
 
 .proj_rectangledes2{
-    background-color: rgba(11, 61, 93, 0.3);
 
-    border: 1px solid rgb(228, 228, 250);
+    background-color: rgba(28, 65, 146, 0.3);
+
+    border: 1px solid rgb(212, 212, 253);
     display: flex;
     position:absolute;
     width:16px;
@@ -69,6 +71,49 @@ h5{
     top:16px;
     left:16px;
 }
+
+.proj1{
+    display: flex;
+    position: absolute;
+    background-color: rgb(239, 229, 215);
+    color: rgb(28, 26, 26);
+    top:16px;
+    left:16px;
+    width: 16px;
+    width: 16px;
+    border: 2px solid rgb(8, 32, 73);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
+}
+.media-image, .media-video{
+    position: absolute;
+    display: flex;
+    top:16px;
+    left:16px;
+    width:16px ;
+    height: 16px;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+    border: 2px solid rgb(36, 35, 35);
+
+}
+
+.media-video{
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.proj1:hover .media-image{
+    opacity: 0;
+}
+
+.proj1:hover .media-video{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
 
 
 
@@ -78,7 +123,7 @@ h5{
     .container_proj{
         width: 20rem;
         height: 30rem;
-        top:116rem;
+        top:106rem;
         left: 1rem;
 
     
@@ -86,7 +131,7 @@ h5{
     h5{
         top:-1rem;
         left:-1rem;
-        font-size: 1.35rem;
+        font-size: 1.55rem;
         
     }
 
@@ -101,14 +146,30 @@ h5{
         top:-0.70rem;
         left:-1rem;
         width: 8rem;
-        height: 1rem;
+        height: 1.35rem;
 
     }
     .proj_rectangledes2{
         top:0.19rem;
         left:1rem;
         width: 8rem;
-        height: 1rem;
+        height: 1.32rem;
 
     }
+
+    .proj1{
+        width:16rem;
+        height: 20rem;
+        top:3.50rem;
+        left:2rem;
+    }
+
+    .media-image,.media-video{
+        width:15rem;
+        height: 8rem;
+        top:1.65rem;
+        left:0.33rem;
+    }
+
+    
 }
