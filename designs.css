@@ -493,38 +493,34 @@ h3:hover{
 
 @media only screen and (min-width: 600px) and (max-width:900px){
     .container{
-        width: 40rem;
-        height: 50rem;
+        width: 20rem;
+        height: 35rem;
         top:6rem;
-        left:1.24;
-        border:none;
+        left:1rem;
+        border: none;
+       
     }
 
     #pic1{
-        width:11rem;
-        height: 13rem;
-        top:2rem;
-        left:4rem;
+        width: 12.25rem;
+        height: 12.75rem;
+        top:2.25rem;
+        left:2.25rem;
     }
-
-
-
-
     .rectangles{
+        display: flex;
         width: 18rem;
-        height: 16rem;
+        height: 17rem;
         top:2rem;
-        left:21.24rem;
-        
+        left:1.20rem;
         border: none;
+       
     }
-
-
     .rectangledes{
         width: 11.25rem;
         height: 2.65rem;
         top:2rem;
-        left: 4rem;
+        left: 2rem;
         transition:1s ease-in-out;
 
     }
@@ -548,7 +544,7 @@ h3:hover{
         width: 12.25rem;
         height: 2.65rem;
         top:7.1rem;
-        left: 2rem;
+        left: 1rem;
         transition:1s ease-in-out;
 }
     .rectangledes2:hover{
@@ -578,234 +574,297 @@ h3:hover{
         left: -2rem;
     }
 
-    h2{
-        font-size: 2.75rem;
-        top: 3.75rem;
-        left:2rem;
-        width: 10rem;
+    #hi{
+        font-size: 1.35rem;
+        top: 19.7rem;
+        left:2.40rem;
+        width: 5rem;
     }
     h3{
-        font-size: 3.75rem;
-        top: 8.5rem;
-        left:10rem;
-        width: 5rem;
+        font-size: 2.50rem;
+        top: 21.2rem;
+        left:5.53rem;
+        width: 3rem;
         transition: 2s ease;
     }
-    h3:hover{
-        font-size: 5rem;
-    }
-
+   
     
     #intro{
-        font-size: 1.90rem;
-        top:13.75rem;
-        left:1rem;
-        width: 30rem;
+        font-size: 1.35rem;
+        top:25.50rem;
+        left:4.59rem;
+        width: 13rem;
     }
+    .bttns{
+        display: flex;
+        width: 20rem;
+        height: 3rem;
+        top:29rem;
+        left:0.02rem;
+       border: none;
+    }
+   
 
     .bttn{
-        width:7rem ;
+        font-size: 0.70rem;
+        width:4rem ;
         height: 2.5rem;
-        top:29rem;
-        left:6rem;
+        top:0.35rem;
+        left:1rem;
 
     }
+    .bttn:active{
+        top: 30.75rem;
+        left:1.1rem;
+    }
+    
     .bttn2{
-        width:7rem ;
-        height: 2.5rem;
-        top:29rem;
-        left:6rem;
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:8.50rem;
+        
 
     }
+    .bttn2:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
 
+    .bttn3{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:11.50rem;
+        
+
+    }
+    .bttn3:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn4{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:14.50rem;
+        
+
+    }
+    .bttn4:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn5{
+        font-size: 0.90rem;
+        width:2.5rem ;
+        height: 2rem;
+        top:0.35rem;
+        left:17.50rem;
+        
+
+    }
+    .bttn5:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+
+   
 
 
 }
 
 @media only screen and (min-width: 900px) and (max-width:1024px){
    
-        .container{
-            width: 20rem;
-            height: 35rem;
-            top:6rem;
-            left:1rem;
-            border: none;
-           
-        }
-    
-        #pic1{
-            width: 12.25rem;
-            height: 12.75rem;
-            top:2.25rem;
-            left:2.25rem;
-        }
-        .rectangles{
-            display: flex;
-            width: 18rem;
-            height: 17rem;
-            top:2rem;
-            left:1.20rem;
-            border: none;
-           
-        }
-        .rectangledes{
-            width: 11.25rem;
-            height: 2.65rem;
-            top:2rem;
-            left: 2rem;
-            transition:1s ease-in-out;
-    
-        }
-    
-        .rectangledes:hover{
-            left: 1rem;
-        }
-    
-        .rectangledes1{
-            width: 11.25rem;
-            height: 2.65rem;
-            top:4.63rem;
-            left: 6rem;
-            transition:1s ease-in;
-        }
-    
-        .rectangledes1:hover{
-            left:10rem
-        }
-        .rectangledes2{
-            width: 12.25rem;
-            height: 2.65rem;
-            top:7.1rem;
-            left: 1rem;
-            transition:1s ease-in-out;
+    .container{
+        width: 20rem;
+        height: 35rem;
+        top:6rem;
+        left:1rem;
+        border: none;
+       
     }
-        .rectangledes2:hover{
-            left:-1rem
-        }
-        .rectangledes3{
-            width: 12.25rem;
-            height: 2.65rem;
-            top:9.73rem;
-            left: 4rem;
-            transition:1s ease-in-out;
-        }
-    
-        .rectangledes3:hover{
-            left:8rem;
-        }
-        .rectangledes4{
-            width: 12.55rem;
-            height: 2.65rem;
-            top:12.3rem;
-            left: 2.3rem;
-            transition:1s ease-in-out;
-    
-        }
-    
-        .rectangledes4:hover{
-            left: -2rem;
-        }
-    
-        #hi{
-            font-size: 1.35rem;
-            top: 19.7rem;
-            left:2.40rem;
-            width: 5rem;
-        }
-        h3{
-            font-size: 2.50rem;
-            top: 21.2rem;
-            left:5.53rem;
-            width: 3rem;
-            transition: 2s ease;
-        }
+
+    #pic1{
+        width: 12.25rem;
+        height: 12.75rem;
+        top:2.25rem;
+        left:2.25rem;
+    }
+    .rectangles{
+        display: flex;
+        width: 18rem;
+        height: 17rem;
+        top:5rem;
+        left:18.20rem;
+        border: none;
        
-        
-        #intro{
-            font-size: 1.35rem;
-            top:25.50rem;
-            left:4.59rem;
-            width: 13rem;
-        }
-        .bttns{
-            display: flex;
-            width: 20rem;
-            height: 3rem;
-            top:29rem;
-            left:0.02rem;
-           border: none;
-        }
-       
-    
-        .bttn{
-            font-size: 0.70rem;
-            width:4rem ;
-            height: 2.5rem;
-            top:0.35rem;
-            left:1rem;
-    
-        }
-        .bttn:active{
-            top: 30.75rem;
-            left:1.1rem;
-        }
-        
-        .bttn2{
-            font-size: 0.90rem;
-            width:2.5rem ;
-            height: 2rem;
-            top:0.35rem;
-            left:8.50rem;
-            
-    
-        }
-        .bttn2:active{
-            top: 30.75rem;
-            left:11.75rem;
-        }
-    
-        .bttn3{
-            font-size: 0.90rem;
-            width:2.5rem ;
-            height: 2rem;
-            top:0.35rem;
-            left:11.50rem;
-            
-    
-        }
-        .bttn3:active{
-            top: 30.75rem;
-            left:11.75rem;
-        }
-        .bttn4{
-            font-size: 0.90rem;
-            width:2.5rem ;
-            height: 2rem;
-            top:0.35rem;
-            left:14.50rem;
-            
-    
-        }
-        .bttn4:active{
-            top: 30.75rem;
-            left:11.75rem;
-        }
-        .bttn5{
-            font-size: 0.90rem;
-            width:2.5rem ;
-            height: 2rem;
-            top:0.35rem;
-            left:17.50rem;
-            
-    
-        }
-        .bttn5:active{
-            top: 30.75rem;
-            left:11.75rem;
-        }
-    
-    
+    }
+    .rectangledes{
+        width: 11.25rem;
+        height: 2.65rem;
+        top:2rem;
+        left: 2rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes:hover{
+        left: 1rem;
+    }
+
+    .rectangledes1{
+        width: 11.25rem;
+        height: 2.65rem;
+        top:4.63rem;
+        left: 6rem;
+        transition:1s ease-in;
+    }
+
+    .rectangledes1:hover{
+        left:10rem
+    }
+    .rectangledes2{
+        width: 12.25rem;
+        height: 2.65rem;
+        top:7.1rem;
+        left: 1rem;
+        transition:1s ease-in-out;
 }
+    .rectangledes2:hover{
+        left:-1rem
+    }
+    .rectangledes3{
+        width: 12.25rem;
+        height: 2.65rem;
+        top:9.73rem;
+        left: 4rem;
+        transition:1s ease-in-out;
+    }
+
+    .rectangledes3:hover{
+        left:8rem;
+    }
+    .rectangledes4{
+        width: 12.55rem;
+        height: 2.65rem;
+        top:12.3rem;
+        left: 2.3rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes4:hover{
+        left: -2rem;
+    }
+
+    #hi{
+        font-size: 2.50rem;
+        top: 6.7rem;
+        left:-17.40rem;
+        width: 10rem;
+    }
+    h3{
+        font-size: 3.80rem;
+        top: 10.2rem;
+        left:-12.53rem;
+        width: 3rem;
+        transition: 2s ease;
+    }
+   
+    
+    #intro{
+        font-size: 2rem;
+        top:15.50rem;
+        left:-6.59rem;
+        width: 22rem;
+    }
+    .bttns{
+        display: flex;
+        width: 35rem;
+        height: 5rem;
+        top:22rem;
+        left:-22.02rem;
+       border: none;
+    }
+   
+
+    .bttn{
+        font-size: 1rem;
+        width:6rem ;
+        height: 3.5rem;
+        top:0.35rem;
+        left:3rem;
+        border-radius:12px ;
+
+    }
+    .bttn:active{
+        top: 30.75rem;
+        left:1.1rem;
+    }
+    
+    .bttn2{
+        font-size: 1.50rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:15.10rem;
+        
+
+    }
+    .bttn2:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+    .bttn3{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:19.70rem;
+        
+
+    }
+    .bttn3:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn4{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:24.20rem;
+        
+
+    }
+    .bttn4:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn5{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:28.50rem;
+        
+
+    }
+    .bttn5:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+
+}
+
+
 
 
 @media screen and (min-width:1024px) and (max-width:1540px){
@@ -989,6 +1048,192 @@ h3:hover{
         top: 30.75rem;
         left:11.75rem;
     }
+
+
+}
+
+@media screen and (min-width:1540px) and (max-width:5000px){
+    .container{
+        width: 20rem;
+        height: 35rem;
+        top:6rem;
+        left:1rem;
+        border: none;
+       
+    }
+
+    #pic1{
+        width: 12.25rem;
+        height: 12.75rem;
+        top:2.25rem;
+        left:2.25rem;
+    }
+    .rectangles{
+        display: flex;
+        width: 18rem;
+        height: 17rem;
+        top:5rem;
+        left:18.20rem;
+        border: none;
+       
+    }
+    .rectangledes{
+        width: 11.25rem;
+        height: 2.65rem;
+        top:2rem;
+        left: 2rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes:hover{
+        left: 1rem;
+    }
+
+    .rectangledes1{
+        width: 11.25rem;
+        height: 2.65rem;
+        top:4.63rem;
+        left: 6rem;
+        transition:1s ease-in;
+    }
+
+    .rectangledes1:hover{
+        left:10rem
+    }
+    .rectangledes2{
+        width: 12.25rem;
+        height: 2.65rem;
+        top:7.1rem;
+        left: 1rem;
+        transition:1s ease-in-out;
+}
+    .rectangledes2:hover{
+        left:-1rem
+    }
+    .rectangledes3{
+        width: 12.25rem;
+        height: 2.65rem;
+        top:9.73rem;
+        left: 4rem;
+        transition:1s ease-in-out;
+    }
+
+    .rectangledes3:hover{
+        left:8rem;
+    }
+    .rectangledes4{
+        width: 12.55rem;
+        height: 2.65rem;
+        top:12.3rem;
+        left: 2.3rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes4:hover{
+        left: -2rem;
+    }
+
+    #hi{
+        font-size: 2.50rem;
+        top: 6.7rem;
+        left:-17.40rem;
+        width: 10rem;
+    }
+    h3{
+        font-size: 3.80rem;
+        top: 10.2rem;
+        left:-12.53rem;
+        width: 3rem;
+        transition: 2s ease;
+    }
+   
+    
+    #intro{
+        font-size: 2rem;
+        top:15.50rem;
+        left:-6.59rem;
+        width: 22rem;
+    }
+    .bttns{
+        display: flex;
+        width: 35rem;
+        height: 5rem;
+        top:22rem;
+        left:-22.02rem;
+       border: none;
+    }
+   
+
+    .bttn{
+        font-size: 1rem;
+        width:6rem ;
+        height: 3.5rem;
+        top:0.35rem;
+        left:3rem;
+        border-radius:12px ;
+
+    }
+    .bttn:active{
+        top: 30.75rem;
+        left:1.1rem;
+    }
+    
+    .bttn2{
+        font-size: 1.50rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:15.10rem;
+        
+
+    }
+    .bttn2:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+    .bttn3{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:19.70rem;
+        
+
+    }
+    .bttn3:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn4{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:24.20rem;
+        
+
+    }
+    .bttn4:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn5{
+        font-size: 1.20rem;
+        width:3.5rem ;
+        height: 3rem;
+        top:0.35rem;
+        left:28.50rem;
+        
+
+    }
+    .bttn5:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
 
 
 }
