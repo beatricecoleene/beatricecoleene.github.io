@@ -878,58 +878,58 @@ h3:hover{
     }
 
     #pic1{
-        width: 12.25rem;
-        height: 12.75rem;
-        top:2.25rem;
+        width: 17.25rem;
+        height: 20.75rem;
+        top:-1.20rem;
         left:2.25rem;
     }
     .rectangles{
         display: flex;
-        width: 18rem;
-        height: 17rem;
-        top:5rem;
+        width: 24rem;
+        height: 20rem;
+        top:6rem;
         left:18.20rem;
         border: none;
        
     }
     .rectangledes{
-        width: 11.25rem;
-        height: 2.65rem;
-        top:2rem;
+        width: 14.25rem;
+        height: 2.95rem;
+        top:3.52rem;
         left: 2rem;
         transition:1s ease-in-out;
 
     }
 
     .rectangledes:hover{
-        left: 1rem;
+        left: -3rem;
     }
 
     .rectangledes1{
-        width: 11.25rem;
-        height: 2.65rem;
-        top:4.63rem;
+        width: 14.25rem;
+        height: 2.95rem;
+        top:6.52rem;
         left: 6rem;
         transition:1s ease-in;
     }
 
     .rectangledes1:hover{
-        left:10rem
+        left:10rem;
     }
     .rectangledes2{
-        width: 12.25rem;
-        height: 2.65rem;
-        top:7.1rem;
+        width: 14.25rem;
+        height: 2.95rem;
+        top:9.5rem;
         left: 1rem;
         transition:1s ease-in-out;
 }
     .rectangledes2:hover{
-        left:-1rem
+        left:10rem;
     }
     .rectangledes3{
-        width: 12.25rem;
-        height: 2.65rem;
-        top:9.73rem;
+        width: 14.25rem;
+        height: 2.95rem;
+        top:12.40rem;
         left: 4rem;
         transition:1s ease-in-out;
     }
@@ -938,10 +938,10 @@ h3:hover{
         left:8rem;
     }
     .rectangledes4{
-        width: 12.55rem;
-        height: 2.65rem;
-        top:12.3rem;
-        left: 2.3rem;
+        width: 14.25rem;
+        height: 2.95rem;
+        top:15.3rem;
+        left: 2.6rem;
         transition:1s ease-in-out;
 
     }

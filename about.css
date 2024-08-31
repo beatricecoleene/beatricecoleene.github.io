@@ -149,6 +149,8 @@ h4{
     text-shadow:10px 10px 10px  rgba(141, 105, 42, 0.5) ;
 }
 
+
+
 @media only screen and (max-width: 600px){
 
    .container_about{
@@ -189,6 +191,8 @@ h4{
     width: 19.5rem;
 
    }
+
+
    #abt{
     top:30.50rem;
     left:1rem;
@@ -499,13 +503,15 @@ h4{
        }
 
        .infos{
-        top:4.30rem;
+        top:2.30rem;
         left:3.4rem;
         font-size:10 rem;
         width: 20.5rem;
         line-height: 50px;
     
        }
+
+       
       
        #abt{
         top:46.50rem;
