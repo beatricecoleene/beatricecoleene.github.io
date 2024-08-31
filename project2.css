@@ -932,7 +932,176 @@ h3, h4{
         left: 2rem;
         width:50rem ;
         height: 32rem;
-        border: 1px solid black;
+        border: none;
+
+    }
+
+    .html1{
+        width:45rem;
+        height: 24rem;
+        top:5.50rem;
+        left:3rem;
+    }
+}
+
+@media screen and (min-width:1540px) and (max-width:5000px){
+    .projects{
+        top:10rem;
+        left: 2rem;
+        width:50rem ;
+        height: 105rem;
+        border: none;
+    }
+    #h1-proj{
+        top:1rem;
+        left:1rem;
+        font-size: 3rem;
+    }
+    h2{
+        top:8rem;
+        left:3rem;
+        font-size: 1.74rem;
+    }
+    
+    .python1{
+        width:45rem;
+        height:23rem;
+        top:10.50rem;
+        left:3rem;
+    }
+
+        
+    #dkr-py, #yt-py, #calc-py, #rembg-py, #bnkjv, #html{
+        font-size: 1.75rem;
+        width: 20rem;
+        top: 2rem;
+        left:21rem;
+
+    }
+    .media-image,.media-video{
+        width:19rem;
+        height: 18rem;
+        top:2.35rem;
+        left:0.80rem;
+        background-color: black;
+    }
+
+    #drk-py-info, #yt-py-info, #calc-py-info, #rembg-py-info, #bnkjv-info, #html-info{
+        top:6rem;
+        left:20rem;
+        
+    }
+    #drk-py-info , #yt-py-info , #calc-py-info , #rembg-py-info, #bnkjv-info, #html-info li{
+        font-size: 2rem;
+        width: 15rem;
+        height: 17rem;
+        left: 22.75rem;
+
+
+    }
+    #yt-py-info{
+        top:7rem;
+        width: 13rem;
+    }
+
+    #yt-py-info li{
+        font-size: 1rem;
+        width:14rem ;
+    }
+
+    #calc-py-info{
+        top:10rem;
+        width: 13rem;
+    }
+
+    #calc-py-info li{
+        font-size: 1rem;
+        width:14rem ;
+    }
+
+    #rembg-py-info{
+        top:10rem;
+        width: 13rem;
+        
+    }
+
+    
+
+    .dkr-py_bttn, .yt-py_bttn,.calc-py_bttn, .rembg-py_bttn, .bnkjv_bttn, .html_bttn{
+        top:17.78rem;
+        left:33rem;
+        width: 6rem;
+        height: 3rem;
+    }
+
+    .yt-py_bttn{
+        top:21rem;
+    }
+    .calc-py_bttn{
+        top:20rem;
+    }
+    .rembg-py_bttn{
+        top:20rem;
+    }
+    .python2{
+        width:45rem;
+        height: 25rem;
+        top:39.50rem;
+        left:3rem;
+    }
+    .python3{
+        width:45rem;
+        height: 25rem;
+        top:69.50rem;
+        left:3rem;
+    }
+    .python4{
+        width:45rem;
+        height: 24rem;
+        top:99.70rem;
+        left:3rem;
+    }
+    .java-cont{
+        top:145rem;
+        left: 2rem;
+        width:50rem ;
+        height: 32rem;
+        border: none;
+    }
+    h3{
+        top:1rem;
+        left:3rem;
+        font-size: 1.74rem;
+    }
+
+    .java1{
+        width:45rem;
+        height: 24rem;
+        top:5.50rem;
+        left:3rem;
+    }
+    #bnkjv-info{
+        top:10rem;
+        left:24rem;
+        width: 25rem;
+    }
+    .bnkjv_bttn{
+        top:18rem;
+    }
+
+    h4{
+        top:1rem;
+        left:3rem;
+        font-size: 1.74rem;
+        width: 30rem;
+    }
+    
+    .html-cont{
+        top:180rem;
+        left: 2rem;
+        width:50rem ;
+        height: 32rem;
+        border: none;
 
     }
 
