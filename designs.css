@@ -15,6 +15,41 @@
 
 }
 
+.ty_container{
+    display: flex;
+    border: 1px solid black;
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.ty_cont{
+    display: flex;
+    
+    position: absolute;
+    top:16px;
+    left:16px;
+    right: 16px;
+    width: 16px;
+    border: 1.90px solid rgb(51, 50, 48);
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    margin: 0 auto;
+    padding: 0;
+   
+    
+
+}
+
 .rectangles{
     display:flex;
     position: absolute;
@@ -58,7 +93,7 @@
     border-left: 1px solid rgb(110, 153, 244) ;
     border-right: 1px solid rgb(110, 153, 244) ;
     display: flex;
-    position:absolute;
+    position:relative;
     width:16px;
     height: 16px;
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
@@ -108,13 +143,13 @@
     position: absolute;
     width:16px;
     height: 16px;
-    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
+    box-shadow: 15px 16px 20px rgba(20, 7, 37, 0.4);
 }
 
 #hi{
     position:absolute;
     font-size: 16px;
-    color: rgb(90, 90, 174);
+    color: rgb(60, 44, 89);
     width: 16px;
     top:16px;
     left:16px;
@@ -126,7 +161,7 @@
 h3{
     position:absolute;
     font-size: 16px;
-    color: rgb(7, 22, 89);
+    color: rgb(54, 43, 138);
     width: 16px;
     top:16px;
     left:16px;
@@ -150,14 +185,14 @@ h3:hover{
 
 .bttn {
     background-color:rgba(106, 140, 208, 0.5) ;
-   
+    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
    
     padding: 5px 3px;
-    border-radius:30%;
+    border-radius:50px;
     font-weight: bolder;
-    box-shadow: 6px 6px 10px rgba(89, 72, 37, 0.4);
+    box-shadow: 10px 10px 18px rgba(185, 155, 94, 0.7);
     position: absolute;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -169,7 +204,7 @@ h3:hover{
 }
 .bttn:hover {
     background-color: rgb(20, 91, 89);
-    background-image: linear-gradient( rgb(233, 190, 131),rgb(228, 187, 112), rgb(238, 203, 154));
+    background-image: linear-gradient( rgb(230, 184, 120),rgb(228, 187, 112), rgb(238, 203, 154));
 
     color: rgb(25, 15, 90);
 }
@@ -177,12 +212,13 @@ h3:hover{
 
 .bttn2 {
     background-color:rgba(106, 140, 208, 0.5) ;
+    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
     font-weight: bold;
    
     padding: 5px px;
-    border-radius: 30%;
+    border-radius: 60px;
     
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
@@ -202,12 +238,13 @@ h3:hover{
 }
 .bttn3 {
     background-color:rgba(106, 140, 208, 0.5) ;
+    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
     font-weight: bold;
    
     padding: 5px px;
-    border-radius: 30%;
+    border-radius: 60px;
     
     
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
@@ -230,13 +267,13 @@ h3:hover{
 
 .bttn4 {
     background-color: rgb(139, 182, 208);
-    background-color:rgba(106, 140, 208, 0.5) ;
+    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
     font-weight: bold;
    
-    padding: 5px px;
-    border-radius: 30%;
+    padding: 5px ;
+    border-radius: 60px;
    
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
@@ -257,12 +294,13 @@ h3:hover{
 
 .bttn5 {
     background-color:rgba(106, 140, 208, 0.5) ;
+    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
     font-weight: bold;
    
     padding: 5px px;
-    border-radius: 30%;
+    border-radius: 60px;
  
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
@@ -293,6 +331,94 @@ h3:hover{
 
 
 
+#ty{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    font-weight:bolder;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    justify-content: center;
+    color: rgb(15, 83, 177);
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ty2{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 16px;
+    height: 16px;
+    top:16px;
+    justify-content: center;
+    color: rgb(43, 125, 201);
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+#bye{
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    width: 16px;
+    top:16px;
+    margin-left:16px;
+    justify-content: center;
+    color: rgb(28, 25, 25);
+    text-shadow: 5px 5px 7px rgb(166, 136, 81);
+}
+
+#bttns_end {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem; 
+    height: 20rem;
+}
+
+#bttns_end a {
+    
+    font-size: 2rem;
+    color: rgb(13, 96, 175);
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#fb i, #ig i, #git i {
+    
+    font-size: 3rem; /* Adjust icon size */
+}
+
+#ig i{
+    color: rgb(216, 42, 129);
+
+}
+#git i{
+    color:black;
+}
+    
+
+#fb span, #ig span, #git span {
+    font-size: 1.7rem;
+    color: rgb(3, 23, 42);
+    margin-left: 8px; /* Space between the icon and the text */
+}
+
+#fb, #ig, #git{
+    position: absolute;
+    top:16px;
+}
+
+
 
 
 
@@ -305,9 +431,9 @@ h3:hover{
     .container{
         width: 20rem;
         height: 35rem;
-        top:6rem;
-        left:1rem;
-        border: none;
+        top:3rem;
+        left:0.20rem;
+        border: 1px solid black;
        
     }
 
@@ -321,8 +447,8 @@ h3:hover{
         display: flex;
         width: 18rem;
         height: 17rem;
-        top:2rem;
-        left:1.20rem;
+        top:1.30rem;
+        left:1rem;
         border: none;
        
     }
@@ -385,42 +511,42 @@ h3:hover{
     }
 
     #hi{
-        font-size: 1.35rem;
-        top: 19.7rem;
-        left:2.40rem;
-        width: 5rem;
+        font-size: 2rem;
+        top: 17.7rem;
+        left:7rem;
+        width: 8rem;
     }
     h3{
-        font-size: 2.50rem;
-        top: 21.2rem;
-        left:5.53rem;
+        font-size: 3.50rem;
+        top: 20rem;
+        left:3rem;
         width: 3rem;
         transition: 2s ease;
     }
    
     
     #intro{
-        font-size: 1.35rem;
+        font-size: 1.75rem;
         top:25.50rem;
-        left:4.59rem;
-        width: 15rem;
+        left:1.25rem;
+        width: 18rem;
     }
     .bttns{
         display: flex;
         width: 20rem;
-        height: 3rem;
+        height: 14rem;
         top:29rem;
         left:0.02rem;
-       border: none;
+       border: 1px solid black;
     }
    
 
     .bttn{
-        font-size: 0.70rem;
-        width:4rem ;
-        height: 2.5rem;
-        top:0.35rem;
-        left:1rem;
+        font-size: 1.2rem;
+        width:13rem ;
+        height: 3.5rem;
+        top:2rem;
+        left:3rem;
 
     }
     .bttn:active{
@@ -432,7 +558,7 @@ h3:hover{
         font-size: 0.90rem;
         width:2.5rem ;
         height: 2rem;
-        top:0.35rem;
+        top:10.35rem;
         left:8.50rem;
         
 
@@ -446,7 +572,7 @@ h3:hover{
         font-size: 0.90rem;
         width:2.5rem ;
         height: 2rem;
-        top:0.35rem;
+        top:10.35rem;
         left:11.50rem;
         
 
@@ -459,7 +585,7 @@ h3:hover{
         font-size: 0.90rem;
         width:2.5rem ;
         height: 2rem;
-        top:0.35rem;
+        top:10.35rem;
         left:14.50rem;
         
 
@@ -472,7 +598,7 @@ h3:hover{
         font-size: 0.90rem;
         width:2.5rem ;
         height: 2rem;
-        top:0.35rem;
+        top:10.35rem;
         left:17.50rem;
         
 
@@ -482,6 +608,59 @@ h3:hover{
         left:11.75rem;
     }
 
+    .ty_container{
+        top:280rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 22rem;
+        height: 40rem;
+        left:0.5rem;
+    }
+
+    #ty{
+        font-size: 3rem;
+        width: 20px;
+        left:6.87rem;
+        top:3rem;
+
+    }
+    #ty2{
+        font-size: 3rem;
+        width: 20px;
+        top:7rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 1.55rem;
+        top:13rem;
+        margin-left:0.1rem;
+        width: 20rem;
+    }
+
+    #bttns_end{
+        top:15rem;
+    }
+
+    #fb{
+        top:8rem;
+    }
+
+    #ig{
+        top:12rem;
+        left:1rem;
+    }
+
+    #git{
+        top:16rem;
+        left:1rem;
+    }
 
    
     
@@ -673,6 +852,70 @@ h3:hover{
     }
 
 
+    
+
+    .ty_container{
+        top:280rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 22rem;
+        height: 40rem;
+        left:0.5rem;
+    }
+
+    #ty{
+        font-size: 3rem;
+        width: 20px;
+        left:6.87rem;
+        top:3rem;
+
+    }
+    #ty2{
+        font-size: 3rem;
+        width: 20px;
+        top:7rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 1.55rem;
+        top:13rem;
+        margin-left:0.1rem;
+        width: 20rem;
+    }
+
+    #bttns_end{
+        top:15rem;
+    }
+
+
+    #bttns_end{
+        top:15rem;
+    }
+
+    #fb{
+        top:8rem;
+    }
+
+    #ig{
+        top:12rem;
+        left:1rem;
+    }
+
+    #git{
+        top:16rem;
+        left:1rem;
+    }
+
+   
+
+
    
 
 
@@ -763,7 +1006,7 @@ h3:hover{
     }
 
     #hi{
-        font-size: 2.50rem;
+        font-size: 3.50rem;
         top: 6.7rem;
         left:-17.40rem;
         width: 10rem;
@@ -861,6 +1104,68 @@ h3:hover{
         left:11.75rem;
     }
 
+    
+
+    .ty_container{
+        top:280rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 22rem;
+        height: 40rem;
+        left:0.5rem;
+    }
+
+    #ty{
+        font-size: 3rem;
+        width: 20px;
+        left:6.87rem;
+        top:3rem;
+
+    }
+    #ty2{
+        font-size: 3rem;
+        width: 20px;
+        top:7rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 1.55rem;
+        top:13rem;
+        margin-left:0.1rem;
+        width: 20rem;
+    }
+
+    #bttns_end{
+        top:15rem;
+    }
+
+
+    #bttns_end{
+        top:15rem;
+    }
+
+    #fb{
+        top:8rem;
+    }
+
+    #ig{
+        top:12rem;
+        left:1rem;
+    }
+
+    #git{
+        top:16rem;
+        left:1rem;
+    }
+
+   
 
 }
 
@@ -1049,6 +1354,69 @@ h3:hover{
         left:11.75rem;
     }
 
+    
+
+    .ty_container{
+        top:280rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 22rem;
+        height: 40rem;
+        left:0.5rem;
+    }
+
+    #ty{
+        font-size: 3rem;
+        width: 20px;
+        left:6.87rem;
+        top:3rem;
+
+    }
+    #ty2{
+        font-size: 3rem;
+        width: 20px;
+        top:7rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 1.55rem;
+        top:13rem;
+        margin-left:0.1rem;
+        width: 20rem;
+    }
+
+    #bttns_end{
+        top:15rem;
+    }
+
+
+    #bttns_end{
+        top:15rem;
+    }
+
+    #fb{
+        top:8rem;
+    }
+
+    #ig{
+        top:12rem;
+        left:1rem;
+    }
+
+    #git{
+        top:16rem;
+        left:1rem;
+    }
+
+   
+
 
 }
 
@@ -1233,6 +1601,68 @@ h3:hover{
         top: 30.75rem;
         left:11.75rem;
     }
+    
+
+    .ty_container{
+        top:280rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 22rem;
+        height: 40rem;
+        left:0.5rem;
+    }
+
+    #ty{
+        font-size: 3rem;
+        width: 20px;
+        left:6.87rem;
+        top:3rem;
+
+    }
+    #ty2{
+        font-size: 3rem;
+        width: 20px;
+        top:7rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 1.55rem;
+        top:13rem;
+        margin-left:0.1rem;
+        width: 20rem;
+    }
+
+    #bttns_end{
+        top:15rem;
+    }
+
+
+    #bttns_end{
+        top:15rem;
+    }
+
+    #fb{
+        top:8rem;
+    }
+
+    #ig{
+        top:12rem;
+        left:1rem;
+    }
+
+    #git{
+        top:16rem;
+        left:1rem;
+    }
+
+   
 
 
 

@@ -23,6 +23,17 @@ body{
     font-size: 16px;
    
 }
+.main {
+    display: flex;
+    border: 5px solid black;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height:16px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; /* Ensures the border is included in the width/height */
+}
 
 
 
@@ -32,6 +43,9 @@ body{
         font-size:1rem ;
 
     }
+    .main{
+        height: 350rem;
+    }
 
 }
 
@@ -39,12 +53,19 @@ body{
     body{
     font-size: 1.25rem;
 }
+    .main{
+        height: 300rem;
+    }
+   
 }
 
 @media only screen and (min-width: 900px) and (max-width:1024px){
     body{
         font-size:0.75rem ;
 
+    }
+    .main{
+        height: 300rem;
     }
 
 }
@@ -55,6 +76,9 @@ body{
         font-size:1rem ;
 
     }
+    .main{
+        height: 350rem;
+    }
 
 }
 
@@ -62,8 +86,11 @@ body{
 @media screen and (min-width:1540px) and (max-width:5000px){
     body{
         font-size:1.10rem ;
-        max-width: 2000px;
+      
 
+    }
+    .main{
+        height: 300rem;
     }
 
 }
