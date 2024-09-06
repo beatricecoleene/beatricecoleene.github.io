@@ -188,7 +188,7 @@ h3:hover{
     background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
     font-size: 16px;
-   
+    justify-content: center;
     padding: 5px 3px;
     border-radius:50px;
     font-weight: bolder;
@@ -200,6 +200,7 @@ h3:hover{
     height: 16px;
     top:16px;
     left:16px;
+ 
    
 }
 .bttn:hover {
@@ -210,7 +211,7 @@ h3:hover{
 }
 
 
-.bttn2 {
+.bttn2, .bttn3, .bttn4 {
     background-color:rgba(106, 140, 208, 0.5) ;
     background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
     color: rgb(35, 32, 32);
@@ -218,7 +219,7 @@ h3:hover{
     font-weight: bold;
    
     padding: 5px px;
-    border-radius: 60px;
+    border-radius:30px;
     
     box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
     position: absolute;
@@ -236,27 +237,6 @@ h3:hover{
 
     color: rgb(25, 15, 90);
 }
-.bttn3 {
-    background-color:rgba(106, 140, 208, 0.5) ;
-    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
-    color: rgb(35, 32, 32);
-    font-size: 16px;
-    font-weight: bold;
-   
-    padding: 5px px;
-    border-radius: 60px;
-    
-    
-    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
-    position: absolute;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 16px;
-    height: 16px;
-    top:16px;
-    left:16px;
-   
-}
 .bttn3:hover {
     background-color: rgb(20, 91, 89);
     background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
@@ -265,26 +245,6 @@ h3:hover{
 }
 
 
-.bttn4 {
-    background-color: rgb(139, 182, 208);
-    background-image: linear-gradient( rgb(55, 116, 181),rgb(101, 165, 217), rgb(159, 199, 232));
-    color: rgb(35, 32, 32);
-    font-size: 16px;
-    font-weight: bold;
-   
-    padding: 5px ;
-    border-radius: 60px;
-   
-    box-shadow: 6px 6px 10px rgba(20, 7, 37, 0.4);
-    position: absolute;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 16px;
-    height: 16px;
-    top:16px;
-    left:16px;
-   
-}
 .bttn4:hover {
     background-color: rgb(20, 91, 89);
     background-image: linear-gradient( rgb(233, 191, 132), rgb(238, 203, 154));
@@ -396,6 +356,7 @@ h3:hover{
 #fb i, #ig i, #git i {
     
     font-size: 3rem; /* Adjust icon size */
+    color: rgb(58, 79, 148);
 }
 
 #ig i{
@@ -410,12 +371,26 @@ h3:hover{
 #fb span, #ig span, #git span {
     font-size: 1.7rem;
     color: rgb(3, 23, 42);
-    margin-left: 8px; /* Space between the icon and the text */
+    margin-left: 60px;
+    margin-top: 1rem;
 }
 
 #fb, #ig, #git{
     position: absolute;
     top:16px;
+}
+
+.bttns i{
+    position: absolute;
+    font-size: 2.2rem;
+    color: rgb(4, 9, 33);
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   
+    left:10px;
+    top:8px;
 }
 
 
@@ -429,11 +404,11 @@ h3:hover{
 
 @media only screen and (max-width: 600px){
     .container{
-        width: 20rem;
+        width: 17rem;
         height: 35rem;
         top:3rem;
         left:0.20rem;
-        border: 1px solid black;
+        border: none;
        
     }
 
@@ -533,13 +508,14 @@ h3:hover{
     }
     .bttns{
         display: flex;
-        width: 20rem;
+        width: 17rem;
         height: 14rem;
         top:29rem;
         left:0.02rem;
-       border: 1px solid black;
+       border: none;
     }
-   
+    
+    
 
     .bttn{
         font-size: 1.2rem;
@@ -555,11 +531,11 @@ h3:hover{
     }
     
     .bttn2{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
+        font-size: 1.2rem;
+        width:4rem ;
+        height: 4rem;
         top:10.35rem;
-        left:8.50rem;
+        left:3.2rem;
         
 
     }
@@ -569,11 +545,12 @@ h3:hover{
     }
 
     .bttn3{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
+        font-size: 1.2rem;
+        width:4rem ;
+        height: 4rem;
         top:10.35rem;
-        left:11.50rem;
+        left:8.3rem;
+        
         
 
     }
@@ -583,10 +560,10 @@ h3:hover{
     }
     .bttn4{
         font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
+        width:4rem ;
+        height: 4rem;
         top:10.35rem;
-        left:14.50rem;
+        left:13.50rem;
         
 
     }
@@ -594,32 +571,27 @@ h3:hover{
         top: 30.75rem;
         left:11.75rem;
     }
-    .bttn5{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
-        top:10.35rem;
-        left:17.50rem;
-        
+
+    .bttns i{
+        left:0.9rem;
 
     }
-    .bttn5:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
+   
 
     .ty_container{
-        top:280rem;
+        top:295rem;
         left:0.74rem;
         width: 22rem;
         height: 50rem;
+        border: none;
     }
 
     .ty_cont{
         top:3rem;
-        width: 22rem;
+        width: 21rem;
         height: 40rem;
         left:0.5rem;
+        border: none;
     }
 
     #ty{
@@ -646,19 +618,21 @@ h3:hover{
 
     #bttns_end{
         top:15rem;
+        border: none;
     }
 
     #fb{
-        top:8rem;
+        top:11rem;
+        left: 1rem;
     }
 
     #ig{
-        top:12rem;
+        top:16rem;
         left:1rem;
     }
 
     #git{
-        top:16rem;
+        top:20rem;
         left:1rem;
     }
 
@@ -673,9 +647,9 @@ h3:hover{
 @media only screen and (min-width: 600px) and (max-width:900px){
     .container{
         width: 20rem;
-        height: 35rem;
-        top:6rem;
-        left:1rem;
+        height: 45rem;
+        top:3rem;
+        left:0.20rem;
         border: none;
        
     }
@@ -690,8 +664,8 @@ h3:hover{
         display: flex;
         width: 18rem;
         height: 17rem;
-        top:2rem;
-        left:1.20rem;
+        top:1.30rem;
+        left:1rem;
         border: none;
        
     }
@@ -754,42 +728,43 @@ h3:hover{
     }
 
     #hi{
-        font-size: 1.35rem;
+        font-size: 2.50rem;
         top: 19.7rem;
-        left:2.40rem;
-        width: 5rem;
+        left:6.5rem;
+        width: 8rem;
     }
     h3{
-        font-size: 2.50rem;
-        top: 21.2rem;
-        left:5.53rem;
+        font-size: 4rem;
+        top: 23rem;
+        left:2.40rem;
         width: 3rem;
         transition: 2s ease;
     }
    
     
     #intro{
-        font-size: 1.35rem;
-        top:25.50rem;
-        left:4.59rem;
-        width: 13rem;
+        font-size: 2.3rem;
+        top:28.50rem;
+        left:-1rem;
+        width: 24rem;
     }
     .bttns{
         display: flex;
-        width: 20rem;
-        height: 3rem;
-        top:29rem;
+        width: 17rem;
+        height: 14rem;
+        top:32rem;
         left:0.02rem;
        border: none;
     }
-   
+    
+    
 
     .bttn{
-        font-size: 0.70rem;
-        width:4rem ;
-        height: 2.5rem;
-        top:0.35rem;
-        left:1rem;
+        font-size: 1.75rem;
+        width:18rem ;
+        height: 4.2rem;
+        top:2rem;
+        left:0.4rem;
 
     }
     .bttn:active{
@@ -798,11 +773,11 @@ h3:hover{
     }
     
     .bttn2{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
-        top:0.35rem;
-        left:8.50rem;
+        font-size: 1.2rem;
+        width:4.5rem ;
+        height: 4.5rem;
+        top:10.35rem;
+        left:1rem;
         
 
     }
@@ -812,11 +787,12 @@ h3:hover{
     }
 
     .bttn3{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
-        top:0.35rem;
-        left:11.50rem;
+        font-size: 1.2rem;
+        width:4.5rem ;
+        height: 4.5rem;
+        top:10.35rem;
+        left:7.3rem;
+        
         
 
     }
@@ -826,10 +802,10 @@ h3:hover{
     }
     .bttn4{
         font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
-        top:0.35rem;
-        left:14.50rem;
+        width:4.5rem ;
+        height: 4.45rem;
+        top:10.35rem;
+        left:13.50rem;
         
 
     }
@@ -837,347 +813,87 @@ h3:hover{
         top: 30.75rem;
         left:11.75rem;
     }
-    .bttn5{
-        font-size: 0.90rem;
-        width:2.5rem ;
-        height: 2rem;
-        top:0.35rem;
-        left:17.50rem;
-        
+
+    .bttns i{
+        left:1.1rem;
+        top:1rem;
 
     }
-    .bttn5:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-
-
-    
+   
 
     .ty_container{
-        top:280rem;
+        top:300rem;
         left:0.74rem;
         width: 22rem;
         height: 50rem;
+        border: none;
     }
 
     .ty_cont{
         top:3rem;
-        width: 22rem;
+        width: 21rem;
         height: 40rem;
         left:0.5rem;
+        border: none;
     }
 
     #ty{
-        font-size: 3rem;
+        font-size: 5rem;
         width: 20px;
         left:6.87rem;
-        top:3rem;
+        top:-1rem;
 
     }
     #ty2{
-        font-size: 3rem;
+        font-size: 5rem;
         width: 20px;
-        top:7rem;
+        top:6rem;
         left:12rem;
 
     }
 
     #bye{
-        font-size: 1.55rem;
-        top:13rem;
+        font-size: 2.2rem;
+        top:14rem;
         margin-left:0.1rem;
-        width: 20rem;
+        width: 30rem;
     }
 
     #bttns_end{
-        top:15rem;
-    }
-
-
-    #bttns_end{
-        top:15rem;
+        top:18rem;
+        border: none;
     }
 
     #fb{
-        top:8rem;
+        top:9rem;
+        left: 1rem;
+        width: 25rem;
     }
 
     #ig{
-        top:12rem;
+        top:14rem;
         left:1rem;
     }
 
     #git{
-        top:16rem;
+        top:19rem;
         left:1rem;
     }
 
    
-
-
-   
-
-
+    
+    
+    
+        
 }
 
 @media only screen and (min-width: 900px) and (max-width:1024px){
    
     .container{
-        width: 20rem;
-        height: 35rem;
-        top:6rem;
-        left:1rem;
-        border: none;
-       
-    }
-
-    #pic1{
-        width: 12.25rem;
-        height: 12.75rem;
-        top:2.25rem;
-        left:2.25rem;
-    }
-    .rectangles{
-        display: flex;
-        width: 18rem;
-        height: 17rem;
-        top:5rem;
-        left:18.20rem;
-        border: none;
-       
-    }
-    .rectangledes{
-        width: 11.25rem;
-        height: 2.65rem;
-        top:2rem;
-        left: 2rem;
-        transition:1s ease-in-out;
-
-    }
-
-    .rectangledes:hover{
-        left: 1rem;
-    }
-
-    .rectangledes1{
-        width: 11.25rem;
-        height: 2.65rem;
-        top:4.63rem;
-        left: 6rem;
-        transition:1s ease-in;
-    }
-
-    .rectangledes1:hover{
-        left:10rem
-    }
-    .rectangledes2{
-        width: 12.25rem;
-        height: 2.65rem;
-        top:7.1rem;
-        left: 1rem;
-        transition:1s ease-in-out;
-}
-    .rectangledes2:hover{
-        left:-1rem
-    }
-    .rectangledes3{
-        width: 12.25rem;
-        height: 2.65rem;
-        top:9.73rem;
-        left: 4rem;
-        transition:1s ease-in-out;
-    }
-
-    .rectangledes3:hover{
-        left:8rem;
-    }
-    .rectangledes4{
-        width: 12.55rem;
-        height: 2.65rem;
-        top:12.3rem;
-        left: 2.3rem;
-        transition:1s ease-in-out;
-
-    }
-
-    .rectangledes4:hover{
-        left: -2rem;
-    }
-
-    #hi{
-        font-size: 3.50rem;
-        top: 6.7rem;
-        left:-17.40rem;
-        width: 10rem;
-    }
-    h3{
-        font-size: 3.80rem;
-        top: 10.2rem;
-        left:-12.53rem;
-        width: 3rem;
-        transition: 2s ease;
-    }
-   
-    
-    #intro{
-        font-size: 2rem;
-        top:15.50rem;
-        left:-6.59rem;
-        width: 22rem;
-    }
-    .bttns{
-        display: flex;
-        width: 35rem;
-        height: 5rem;
-        top:22rem;
-        left:-22.02rem;
-       border: none;
-    }
-   
-
-    .bttn{
-        font-size: 1rem;
-        width:6rem ;
-        height: 3.5rem;
-        top:0.35rem;
-        left:3rem;
-        border-radius:12px ;
-
-    }
-    .bttn:active{
-        top: 30.75rem;
-        left:1.1rem;
-    }
-    
-    .bttn2{
-        font-size: 1.50rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:15.10rem;
-        
-
-    }
-    .bttn2:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-
-    .bttn3{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:19.70rem;
-        
-
-    }
-    .bttn3:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-    .bttn4{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:24.20rem;
-        
-
-    }
-    .bttn4:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-    .bttn5{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:28.50rem;
-        
-
-    }
-    .bttn5:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-
-    
-
-    .ty_container{
-        top:280rem;
-        left:0.74rem;
-        width: 22rem;
-        height: 50rem;
-    }
-
-    .ty_cont{
-        top:3rem;
-        width: 22rem;
-        height: 40rem;
-        left:0.5rem;
-    }
-
-    #ty{
-        font-size: 3rem;
-        width: 20px;
-        left:6.87rem;
-        top:3rem;
-
-    }
-    #ty2{
-        font-size: 3rem;
-        width: 20px;
-        top:7rem;
-        left:12rem;
-
-    }
-
-    #bye{
-        font-size: 1.55rem;
-        top:13rem;
-        margin-left:0.1rem;
-        width: 20rem;
-    }
-
-    #bttns_end{
-        top:15rem;
-    }
-
-
-    #bttns_end{
-        top:15rem;
-    }
-
-    #fb{
-        top:8rem;
-    }
-
-    #ig{
-        top:12rem;
-        left:1rem;
-    }
-
-    #git{
-        top:16rem;
-        left:1rem;
-    }
-
-   
-
-}
-
-
-
-
-@media screen and (min-width:1024px) and (max-width:1540px){
-    .container{
-        width: 20rem;
-        height: 35rem;
-        top:6rem;
-        left:1rem;
+        width: 40rem;
+        height: 45rem;
+        top:-3rem;
+        left:-11rem;
         border: none;
        
     }
@@ -1192,8 +908,8 @@ h3:hover{
         display: flex;
         width: 24rem;
         height: 20rem;
-        top:6rem;
-        left:18.20rem;
+        top:8rem;
+        left:30rem;
         border: none;
        
     }
@@ -1256,43 +972,46 @@ h3:hover{
     }
 
     #hi{
-        font-size: 2.50rem;
-        top: 6.7rem;
-        left:-17.40rem;
-        width: 10rem;
+        font-size: 3.2rem;
+        top: 11.7rem;
+        left:3.40rem;
+        width: 16rem;
     }
     h3{
-        font-size: 3.80rem;
-        top: 10.2rem;
-        left:-12.53rem;
+        font-size: 5.80rem;
+        top: 16.2rem;
+        left:4.53rem;
         width: 3rem;
         transition: 2s ease;
+        border:none;
     }
    
     
     #intro{
-        font-size: 2rem;
-        top:15.50rem;
-        left:-6.59rem;
-        width: 22rem;
+        font-size: 3rem;
+        top:24.50rem;
+        left:1.59rem;
+        width: 31rem;
+        
     }
     .bttns{
         display: flex;
-        width: 35rem;
-        height: 5rem;
-        top:22rem;
-        left:-22.02rem;
-       border: none;
+        width: 47rem;
+        height: 14rem;
+        top:28rem;
+        left:0.02rem;
+        border:none;
+       
     }
-   
+    
+    
 
     .bttn{
-        font-size: 1rem;
-        width:6rem ;
-        height: 3.5rem;
-        top:0.35rem;
-        left:3rem;
-        border-radius:12px ;
+        font-size: 1.45rem;
+        width:15rem ;
+        height: 3.82rem;
+        top:2rem;
+        left:0.4rem;
 
     }
     .bttn:active{
@@ -1300,13 +1019,13 @@ h3:hover{
         left:1.1rem;
     }
     
-    .bttn2{
-        font-size: 1.50rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:15.10rem;
-        
+    .bttn2, .bttn3, .bttn4{
+        font-size: 1.5rem;
+        width:4rem ;
+        height:3rem;
+        top:2rem;
+        left:30rem;
+        border-radius: 15px;
 
     }
     .bttn2:active{
@@ -1315,11 +1034,10 @@ h3:hover{
     }
 
     .bttn3{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:19.70rem;
+        font-size: xx-large;
+        top:2rem;
+        left:36rem;
+        
         
 
     }
@@ -1328,11 +1046,9 @@ h3:hover{
         left:11.75rem;
     }
     .bttn4{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:24.20rem;
+       
+        top:2rem;
+        left:42.50rem;
         
 
     }
@@ -1340,83 +1056,321 @@ h3:hover{
         top: 30.75rem;
         left:11.75rem;
     }
-    .bttn5{
-        font-size: 1.20rem;
-        width:3.5rem ;
-        height: 3rem;
-        top:0.35rem;
-        left:28.50rem;
-        
+
+    .bttns i{
+        left:1.1rem;
+        top:1rem;
 
     }
-    .bttn5:active{
-        top: 30.75rem;
-        left:11.75rem;
-    }
-
-    
+   
 
     .ty_container{
-        top:280rem;
+        top:245rem;
         left:0.74rem;
         width: 22rem;
         height: 50rem;
+        border: none;
     }
 
     .ty_cont{
         top:3rem;
-        width: 22rem;
+        width: 21rem;
         height: 40rem;
         left:0.5rem;
+        border: none;
     }
 
     #ty{
-        font-size: 3rem;
+        font-size: 5rem;
         width: 20px;
         left:6.87rem;
-        top:3rem;
+        top:-1rem;
 
     }
     #ty2{
-        font-size: 3rem;
+        font-size: 5rem;
         width: 20px;
-        top:7rem;
+        top:6rem;
         left:12rem;
 
     }
 
     #bye{
-        font-size: 1.55rem;
-        top:13rem;
-        margin-left:0.1rem;
-        width: 20rem;
+        font-size: 2.2rem;
+        top:14rem;
+        margin-left:6.1rem;
+        width: 30rem;
     }
 
     #bttns_end{
-        top:15rem;
-    }
-
-
-    #bttns_end{
-        top:15rem;
+        top:18rem;
+        border: none;
+        left:5rem;
     }
 
     #fb{
-        top:8rem;
+        top:9rem;
+        left: 1rem;
+        width: 25rem;
     }
 
     #ig{
-        top:12rem;
+        top:14rem;
         left:1rem;
     }
 
     #git{
-        top:16rem;
+        top:19rem;
         left:1rem;
     }
 
    
+    
+    
+    
+        
+}
 
+
+@media screen and (min-width:1024px) and (max-width:1540px){
+    .container{
+        width: 40rem;
+        height: 45rem;
+        top:-3rem;
+        left:-11rem;
+        border: none;
+       
+    }
+
+    #pic1{
+        width: 17.25rem;
+        height: 20.75rem;
+        top:-1.20rem;
+        left:2.25rem;
+    }
+    .rectangles{
+        display: flex;
+        width: 24rem;
+        height: 20rem;
+        top:8rem;
+        left:30rem;
+        border: none;
+       
+    }
+    .rectangledes{
+        width: 14.25rem;
+        height: 2.95rem;
+        top:3.52rem;
+        left: 2rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes:hover{
+        left: -3rem;
+    }
+
+    .rectangledes1{
+        width: 14.25rem;
+        height: 2.95rem;
+        top:6.52rem;
+        left: 6rem;
+        transition:1s ease-in;
+    }
+
+    .rectangledes1:hover{
+        left:10rem;
+    }
+    .rectangledes2{
+        width: 14.25rem;
+        height: 2.95rem;
+        top:9.5rem;
+        left: 1rem;
+        transition:1s ease-in-out;
+}
+    .rectangledes2:hover{
+        left:10rem;
+    }
+    .rectangledes3{
+        width: 14.25rem;
+        height: 2.95rem;
+        top:12.40rem;
+        left: 4rem;
+        transition:1s ease-in-out;
+    }
+
+    .rectangledes3:hover{
+        left:8rem;
+    }
+    .rectangledes4{
+        width: 14.25rem;
+        height: 2.95rem;
+        top:15.3rem;
+        left: 2.6rem;
+        transition:1s ease-in-out;
+
+    }
+
+    .rectangledes4:hover{
+        left: -2rem;
+    }
+
+    #hi{
+        font-size: 3.2rem;
+        top: 11.7rem;
+        left:3.40rem;
+        width: 16rem;
+    }
+    h3{
+        font-size: 5.80rem;
+        top: 16.2rem;
+        left:4.53rem;
+        width: 3rem;
+        transition: 2s ease;
+        border:none;
+    }
+   
+    
+    #intro{
+        font-size: 3rem;
+        top:24.50rem;
+        left:1.59rem;
+        width: 31rem;
+        
+    }
+    .bttns{
+        display: flex;
+        width: 47rem;
+        height: 14rem;
+        top:28rem;
+        left:0.02rem;
+        border:none;
+       
+    }
+    
+    
+
+    .bttn{
+        font-size: 1.45rem;
+        width:15rem ;
+        height: 3.82rem;
+        top:2rem;
+        left:0.4rem;
+
+    }
+    .bttn:active{
+        top: 30.75rem;
+        left:1.1rem;
+    }
+    
+    .bttn2, .bttn3, .bttn4{
+        font-size: 1.5rem;
+        width:4rem ;
+        height:3rem;
+        top:2rem;
+        left:30rem;
+        border-radius: 15px;
+
+    }
+    .bttn2:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+    .bttn3{
+        font-size: xx-large;
+        top:2rem;
+        left:36rem;
+        
+        
+
+    }
+    .bttn3:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+    .bttn4{
+       
+        top:2rem;
+        left:42.50rem;
+        
+
+    }
+    .bttn4:active{
+        top: 30.75rem;
+        left:11.75rem;
+    }
+
+    .bttns i{
+        left:1.1rem;
+        top:1rem;
+
+    }
+   
+
+    .ty_container{
+        top:245rem;
+        left:0.74rem;
+        width: 22rem;
+        height: 50rem;
+        border: none;
+    }
+
+    .ty_cont{
+        top:3rem;
+        width: 21rem;
+        height: 40rem;
+        left:0.5rem;
+        border: none;
+    }
+
+    #ty{
+        font-size: 5rem;
+        width: 20px;
+        left:6.87rem;
+        top:-1rem;
+
+    }
+    #ty2{
+        font-size: 5rem;
+        width: 20px;
+        top:6rem;
+        left:12rem;
+
+    }
+
+    #bye{
+        font-size: 2.2rem;
+        top:14rem;
+        margin-left:6.1rem;
+        width: 30rem;
+    }
+
+    #bttns_end{
+        top:18rem;
+        border: none;
+        left:5rem;
+    }
+
+    #fb{
+        top:9rem;
+        left: 1rem;
+        width: 25rem;
+    }
+
+    #ig{
+        top:14rem;
+        left:1rem;
+    }
+
+    #git{
+        top:19rem;
+        left:1rem;
+    }
+
+   
+    
+    
 
 }
 

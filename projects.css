@@ -2,13 +2,14 @@
 .container_proj{
     display: flex;
     border: 1px solid black;
-    position: absolute;
+    position: relative;
     top:16px;
     left:16px;
     right: 16px;
     width: 16px;
     justify-content: center;
     align-items: center;
+    align-content: center;
     height: 16px;
     margin: 0 auto;
     padding: 0;
@@ -109,7 +110,7 @@ h5, h6{
     left:16px;
     width:16px ;
     height: 16px;
-    object-fit: contain;
+    object-fit: cover;
     transition: opacity 0.3s ease;
     border: 2px solid rgb(36, 35, 35);
     box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);;
@@ -224,16 +225,16 @@ h5, h6{
     .container_proj{
         width: 20rem;
         height: 76rem;
-        top:126rem;
+        top:-10rem;
         left: 1rem;
-        border: 1px solid black;
+        border: none;
        
 
     
     }
     h5{
         top:-1rem;
-        left:-1rem;
+        left:1rem;
         font-size: 2.55rem;
         
     }
@@ -273,24 +274,28 @@ h5, h6{
     #dkr, #yt{
         font-size: 1.25rem;
         width: 15rem;
-        top: 10rem;
+        top: 16rem;
 
+    }
+    #yt{
+        top:14.7rem;
     }
     .media-image,.media-video{
         width:15rem;
-        height: 8rem;
+        height: 13rem;
         top:1.15rem;
         left:0.80rem;
         background-color: black;
     }
 
     #drk-info, #yt-info{
-        top:12rem;
+        top:19rem;
         left:2rem;
         
     }
+    
     #drk-info , #yt-info li{
-        font-size: 1.10rem;
+        font-size: 1.15rem;
         width: 15rem;
         height: 17rem;
         left: 1.75rem;
@@ -298,7 +303,7 @@ h5, h6{
 
     }
     #yt-info{
-        top:14rem;
+        top:18rem;
         width: 13rem;
     }
 
@@ -315,12 +320,12 @@ h5, h6{
     }
 
     .yt_bttn{
-        top:28rem;
+        top:24rem;
     }
     
     .proj2{
         width:17rem;
-        height: 32rem;
+        height: 28rem;
         top:35.50rem;
         left:1rem;
     }
@@ -335,23 +340,25 @@ h5, h6{
     
 }
 
-@media only screen and (min-width: 900px) and (max-width:1024px){
+@media only screen and (min-width:600px) and (max-width:900px){
     .container_proj{
-        width: 20rem;
-        height: 79rem;
-        top:126rem;
-        left: 1rem;
-        border: none;
+        width: 35rem;
+        height: 76rem;
+        top:-28rem;
+        left: 0.3rem;
+        border:none;
        
 
     
     }
     h5{
         top:-1rem;
-        left:-1rem;
-        font-size: 2.55rem;
+        left:1rem;
+        font-size: 2.90rem;
         
     }
+
+   
 
     .proj_reactangles{
         top:1rem;
@@ -363,47 +370,57 @@ h5, h6{
     .proj_rectangledes1{
         top:-0.70rem;
         left:-1rem;
-        width: 8rem;
-        height: 1.35rem;
+        width: 12rem;
+        height: 2.35rem;
 
     }
     .proj_rectangledes2{
-        top:0.19rem;
-        left:1rem;
-        width: 8rem;
-        height: 1.32rem;
+        top:1.5rem;
+        left:6rem;
+        width: 12rem;
+        height: 2rem;
 
     }
 
-    .proj1{
-        width:17rem;
+    .proj1, .proj2{
+        width:20rem;
         height:28rem;
-        top:3.50rem;
-        left:1rem;
+        top:5.50rem;
+        left:8rem;
     }
+    .proj2{
+       
+        top:35.50rem;
+        
+    }
+
 
         
     #dkr, #yt{
-        font-size: 1.25rem;
+        font-size: 1.45rem;
         width: 15rem;
-        top: 10rem;
+        top: 14.75rem;
 
     }
+    #yt{
+        top:14.7rem;
+    }
     .media-image,.media-video{
-        width:15rem;
-        height: 8rem;
+        width:18rem;
+        height: 13rem;
         top:1.15rem;
         left:0.80rem;
         background-color: black;
     }
 
     #drk-info, #yt-info{
-        top:12rem;
+        top:19rem;
         left:2rem;
         
     }
+    
     #drk-info , #yt-info li{
-        font-size: 1.10rem;
+        font-size: 1.15rem;
         width: 15rem;
         height: 17rem;
         left: 1.75rem;
@@ -411,7 +428,7 @@ h5, h6{
 
     }
     #yt-info{
-        top:14rem;
+        top:18rem;
         width: 13rem;
     }
 
@@ -428,166 +445,43 @@ h5, h6{
     }
 
     .yt_bttn{
-        top:28rem;
+        top:24rem;
     }
     
-    .proj2{
-        width:17rem;
-        height: 32rem;
-        top:35.50rem;
-        left:1rem;
-    }
-
+   
     .more{
-        top:70rem;
-        width: 10rem;
-        height: 3rem;
+        top:68rem;
+        width: 13rem;
+        height: 3.7rem;
+        font-size: 1.5rem;
 
     }
        
     
-
-
-
 }
-
-
-
-@media screen and (min-width:1024px) and (max-width:1540px){
-    .container_proj{
-        width: 50rem;
-        height: 79rem;
-        top:140em;
-        left: 1rem;
-        border:none;
-      
-       
-
     
-    }
-    h5{
-        top:1rem;
-        left:-1rem;
-        font-size: 2.85rem;
-        
-    }
-
-    .proj_reactangles{
-        top:6rem;
-        left:10rem;
-        width: 3rem;
-        height: 2rem;
-    }
-
-    .proj_rectangledes1{
-        top:2.70rem;
-        left:2.76rem;
-        width: 13rem;
-        height: 2rem;
-
-    }
-    .proj_rectangledes2{
-        top:1rem;
-        left:1rem;
-        width: 13rem;
-        height: 2rem;
-
-    }
-
-    .proj1{
-        width:43rem;
-        height:20rem;
-        top:8.50rem;
-        left:4rem;
-    }
-
-        
-    #dkr, #yt{
-        font-size: 1.75rem;
-        width: 25rem;
-        top: 1rem;
-        left:20rem;
-
-    }
-    .media-image,.media-video{
-        width:18rem;
-        height: 15rem;
-        top:2.45rem;
-        left:0.90rem;
-        background-color: black;
-    }
-
-    #drk-info, #yt-info{
-        top:12rem;
-        left:2rem;
-        
-    }
-    #drk-info , #yt-info li{
-        font-size: 1.10rem;
-        width: 20rem;
-        height: 17rem;
-        left: 20.75rem;
-        top:4rem;
 
 
-    }
-    #yt-info{
-        top:6rem;
-        width: 13rem;
-        left:21rem;
-    }
 
-    #yt-info li{
-        font-size: 1rem;
-        width:20rem ;
-        left:10rem;
-    }
-
-    .dkr_bttn, .yt_bttn{
-        top:15.78rem;
-        left:32rem;
-        width: 6rem;
-        height: 3rem;
-    }
-
-    .yt_bttn{
-        top:16rem;
-    }
-    
-    .proj2{
-        width:43rem;
-        height: 20rem;
-        top:35.50rem;
-        left:4rem;
-    }
-
-    .more{
-        top:60rem;
-        width: 10rem;
-        height: 3rem;
-        left: 20rem;
-
-    }
-}
-
-
-@media only screen and (min-width: 600px) and (max-width:900px){
+@media only screen and (min-width: 900px) and (max-width:1024px){
     .container_proj{
-        width: 20rem;
-        height: 79rem;
-        top:126rem;
-        left: 1rem;
-        border: none;
+        width: 60rem;
+        height: 52rem;
+        top:-20rem;
+        left: 0.3rem;
+        border:1px solid red;
        
 
     
     }
     h5{
         top:-1rem;
-        left:-1rem;
-        font-size: 2.85rem;
+        left:1rem;
+        font-size: 2.90rem;
         
     }
+
+   
 
     .proj_reactangles{
         top:1rem;
@@ -599,61 +493,72 @@ h5, h6{
     .proj_rectangledes1{
         top:-0.70rem;
         left:-1rem;
-        width: 8rem;
-        height: 1.35rem;
+        width: 12rem;
+        height: 2.35rem;
 
     }
     .proj_rectangledes2{
-        top:0.19rem;
-        left:1rem;
-        width: 8rem;
-        height: 1.32rem;
+        top:1.5rem;
+        left:6rem;
+        width: 12rem;
+        height: 2rem;
 
     }
 
-    .proj1{
-        width:23rem;
+    .proj1, .proj2{
+        width:20rem;
         height:28rem;
-        top:3.50rem;
-        left:1rem;
+        top:5.50rem;
+        left:8rem;
     }
+    .proj2{
+       
+        top:5.50rem;
+        left:35rem;
+        
+    }
+
 
         
     #dkr, #yt{
-        font-size: 1.25rem;
+        font-size: 1.45rem;
         width: 15rem;
-        top: 10rem;
+        top: 14.75rem;
 
     }
+    #yt{
+        top:14.7rem;
+    }
     .media-image,.media-video{
-        width:21rem;
-        height: 8rem;
+        width:18rem;
+        height: 13rem;
         top:1.15rem;
         left:0.80rem;
         background-color: black;
     }
 
     #drk-info, #yt-info{
-        top:12rem;
+        top:19rem;
         left:2rem;
         
     }
+    
     #drk-info , #yt-info li{
-        font-size: 1.10rem;
-        width: 20rem;
+        font-size: 1.15rem;
+        width: 15rem;
         height: 17rem;
         left: 1.75rem;
 
 
     }
     #yt-info{
-        top:14rem;
-        width: 20rem;
+        top:18rem;
+        width: 13rem;
     }
 
     #yt-info li{
         font-size: 1rem;
-        width:20rem ;
+        width:14rem ;
     }
 
     .dkr_bttn, .yt_bttn{
@@ -664,144 +569,19 @@ h5, h6{
     }
 
     .yt_bttn{
-        top:28rem;
+        top:24rem;
     }
     
-    .proj2{
-        width:23rem;
-        height: 32rem;
-        top:35.50rem;
-        left:1rem;
-    }
-
+   
     .more{
-        top:70rem;
-        width: 10rem;
-        height: 3rem;
+        top:40rem;
+        width: 13rem;
+        height: 3.7rem;
+        font-size: 1.5rem;
+        left:40rem;
 
     }
        
-    
-}
-
-@media only screen and (min-width: 900px) and (max-width:1024px){
-    .container_proj{
-        width: 50rem;
-        height: 79rem;
-        top:140em;
-        left: 1rem;
-        border:none;
-      
-       
-
-    
-    }
-    h5{
-        top:1rem;
-        left:-1rem;
-        font-size: 2.85rem;
-        
-    }
-
-    .proj_reactangles{
-        top:6rem;
-        left:10rem;
-        width: 3rem;
-        height: 2rem;
-    }
-
-    .proj_rectangledes1{
-        top:2.70rem;
-        left:2.76rem;
-        width: 13rem;
-        height: 2rem;
-
-    }
-    .proj_rectangledes2{
-        top:1rem;
-        left:1rem;
-        width: 13rem;
-        height: 2rem;
-
-    }
-
-    .proj1{
-        width:43rem;
-        height:20rem;
-        top:8.50rem;
-        left:4rem;
-    }
-
-        
-    #dkr, #yt{
-        font-size: 1.75rem;
-        width: 25rem;
-        top: 1rem;
-        left:20rem;
-
-    }
-    .media-image,.media-video{
-        width:18rem;
-        height: 15rem;
-        top:2.45rem;
-        left:0.90rem;
-        background-color: black;
-    }
-
-    #drk-info, #yt-info{
-        top:12rem;
-        left:2rem;
-        
-    }
-    #drk-info , #yt-info li{
-        font-size: 1.10rem;
-        width: 20rem;
-        height: 17rem;
-        left: 20.75rem;
-        top:4rem;
-
-
-    }
-    #yt-info{
-        top:6rem;
-        width: 13rem;
-        left:21rem;
-    }
-
-    #yt-info li{
-        font-size: 1rem;
-        width:20rem ;
-        left:10rem;
-    }
-
-    .dkr_bttn, .yt_bttn{
-        top:15.78rem;
-        left:32rem;
-        width: 6rem;
-        height: 3rem;
-    }
-
-    .yt_bttn{
-        top:16rem;
-    }
-    
-    .proj2{
-        width:43rem;
-        height: 20rem;
-        top:35.50rem;
-        left:4rem;
-    }
-
-    .more{
-        top:60rem;
-        width: 10rem;
-        height: 3rem;
-        left: 20rem;
-
-    }
-       
-    
-
 }
 
 
@@ -809,237 +589,244 @@ h5, h6{
 
 @media screen and (min-width:1024px) and (max-width:1540px){
     .container_proj{
-        width: 50rem;
-        height: 79rem;
-        top:140em;
-        left: 1rem;
+        width: 60rem;
+        height: 52rem;
+        top:-45rem;
+        left: 0.3rem;
         border:none;
-      
        
 
     
     }
     h5{
-        top:1rem;
-        left:-1rem;
-        font-size: 2.85rem;
+        top:-1rem;
+        left:1rem;
+        font-size: 2.90rem;
         
     }
 
+   
+
     .proj_reactangles{
-        top:6rem;
+        top:1rem;
         left:10rem;
-        width: 3rem;
-        height: 2rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .proj_rectangledes1{
-        top:2.70rem;
-        left:2.76rem;
-        width: 13rem;
-        height: 2rem;
+        top:-0.70rem;
+        left:-1rem;
+        width: 12rem;
+        height: 2.35rem;
 
     }
     .proj_rectangledes2{
-        top:1rem;
-        left:1rem;
-        width: 13rem;
+        top:1.5rem;
+        left:6rem;
+        width: 12rem;
         height: 2rem;
 
     }
 
-    .proj1{
-        width:43rem;
-        height:20rem;
-        top:8.50rem;
-        left:4rem;
+    .proj1, .proj2{
+        width:20rem;
+        height:28rem;
+        top:5.50rem;
+        left:8rem;
     }
+    .proj2{
+       
+        top:5.50rem;
+        left:35rem;
+        
+    }
+
 
         
     #dkr, #yt{
-        font-size: 1.75rem;
-        width: 25rem;
-        top: 1rem;
-        left:20rem;
+        font-size: 1.45rem;
+        width: 15rem;
+        top: 14.75rem;
 
+    }
+    #yt{
+        top:14.7rem;
     }
     .media-image,.media-video{
         width:18rem;
-        height: 15rem;
-        top:2.45rem;
-        left:0.90rem;
+        height: 13rem;
+        top:1.15rem;
+        left:0.80rem;
         background-color: black;
     }
 
     #drk-info, #yt-info{
-        top:12rem;
+        top:19rem;
         left:2rem;
         
     }
+    
     #drk-info , #yt-info li{
-        font-size: 1.10rem;
-        width: 20rem;
+        font-size: 1.15rem;
+        width: 15rem;
         height: 17rem;
-        left: 20.75rem;
-        top:4rem;
+        left: 1.75rem;
 
 
     }
     #yt-info{
-        top:6rem;
+        top:18rem;
         width: 13rem;
-        left:21rem;
     }
 
     #yt-info li{
         font-size: 1rem;
-        width:20rem ;
-        left:10rem;
+        width:14rem ;
     }
 
     .dkr_bttn, .yt_bttn{
-        top:15.78rem;
-        left:32rem;
+        top:23.78rem;
+        left:8rem;
         width: 6rem;
         height: 3rem;
     }
 
     .yt_bttn{
-        top:16rem;
+        top:24rem;
     }
     
-    .proj2{
-        width:43rem;
-        height: 20rem;
-        top:35.50rem;
-        left:4rem;
-    }
-
+   
     .more{
-        top:60rem;
-        width: 10rem;
-        height: 3rem;
-        left: 20rem;
+        top:40rem;
+        width: 13rem;
+        height: 3.7rem;
+        font-size: 1.5rem;
+        left:40rem;
 
     }
        
-    
 
 }
+
+
 @media screen and (min-width:1540px) and (max-width:5000px){
     .container_proj{
-        width: 50rem;
-        height: 79rem;
-        top:140em;
-        left: 1rem;
-        border:none;
-      
+        width: 60rem;
+        height: 52rem;
+        top:-70rem;
+        left: 0.3rem;
+        border:1px solid red;
        
 
     
     }
     h5{
-        top:1rem;
-        left:-1rem;
-        font-size: 2.85rem;
+        top:-1rem;
+        left:1rem;
+        font-size: 2.90rem;
         
     }
 
+   
+
     .proj_reactangles{
-        top:6rem;
+        top:1rem;
         left:10rem;
-        width: 3rem;
-        height: 2rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .proj_rectangledes1{
-        top:2.70rem;
-        left:2.76rem;
-        width: 13rem;
-        height: 2rem;
+        top:-0.70rem;
+        left:-1rem;
+        width: 12rem;
+        height: 2.35rem;
 
     }
     .proj_rectangledes2{
-        top:1rem;
-        left:1rem;
-        width: 13rem;
+        top:1.5rem;
+        left:6rem;
+        width: 12rem;
         height: 2rem;
 
     }
 
-    .proj1{
-        width:43rem;
-        height:20rem;
-        top:8.50rem;
-        left:4rem;
+    .proj1, .proj2{
+        width:20rem;
+        height:28rem;
+        top:5.50rem;
+        left:8rem;
     }
+    .proj2{
+       
+        top:5.50rem;
+        left:35rem;
+        
+    }
+
 
         
     #dkr, #yt{
-        font-size: 1.75rem;
-        width: 25rem;
-        top: 1rem;
-        left:20rem;
+        font-size: 1.45rem;
+        width: 15rem;
+        top: 14.75rem;
 
+    }
+    #yt{
+        top:14.7rem;
     }
     .media-image,.media-video{
         width:18rem;
-        height: 15rem;
-        top:2.45rem;
-        left:0.90rem;
+        height: 13rem;
+        top:1.15rem;
+        left:0.80rem;
         background-color: black;
     }
 
     #drk-info, #yt-info{
-        top:12rem;
+        top:19rem;
         left:2rem;
         
     }
+    
     #drk-info , #yt-info li{
-        font-size: 1.10rem;
-        width: 20rem;
+        font-size: 1.15rem;
+        width: 15rem;
         height: 17rem;
-        left: 20.75rem;
-        top:4rem;
+        left: 1.75rem;
 
 
     }
     #yt-info{
-        top:6rem;
+        top:18rem;
         width: 13rem;
-        left:21rem;
     }
 
     #yt-info li{
         font-size: 1rem;
-        width:20rem ;
-        left:10rem;
+        width:14rem ;
     }
 
     .dkr_bttn, .yt_bttn{
-        top:15.78rem;
-        left:32rem;
+        top:23.78rem;
+        left:8rem;
         width: 6rem;
         height: 3rem;
     }
 
     .yt_bttn{
-        top:16rem;
+        top:24rem;
     }
     
-    .proj2{
-        width:43rem;
-        height: 20rem;
-        top:35.50rem;
-        left:4rem;
-    }
-
+   
     .more{
-        top:60rem;
-        width: 10rem;
-        height: 3rem;
-        left: 20rem;
+        top:40rem;
+        width: 13rem;
+        height: 3.7rem;
+        font-size: 1.5rem;
+        left:40rem;
 
     }
-
+       
 }

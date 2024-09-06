@@ -14,7 +14,8 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1500px;
-   
+    background-color: rgba(36, 106, 162, 0.3);
+    border: 1.50px solid rgb(117, 159, 227);
 
 }
 h4{
@@ -57,7 +58,7 @@ h4{
     
 }
 
-#abt, #interest{
+#abt{
     position: absolute;
     display: flex;
     top:16px;
@@ -70,18 +71,33 @@ h4{
     font-weight: 900;
     text-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
 }
+#interest{
+    position: absolute;
+    display: flex;
+    top:16px;
+    left:16px;
+    width: 16px;
+    color: rgb(50, 64, 123);
+    font-size: 16px;
+    font-style: oblique;
+    
+    font-weight: bold;
+    text-shadow: 10px 10px 10px  rgba(82, 111, 123, 0.5);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+
+}
 
 .abt_cont{
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
-    border: 3px solid rgb(73, 120, 179);
-    background-color: rgb(161, 197, 228, 0.3);
-    box-shadow:  10px 10px 10px  rgba(13, 21, 56, 0.5);
+  
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 
@@ -118,8 +134,9 @@ h4{
     position: absolute;
     justify-content: center;
     align-items: center;
-    border: 3px solid rgb(73, 120, 179);
-    background-color: rgb(161, 197, 228, 0.3);
+    margin: 0 auto;
+    border: 2px solid rgb(48, 121, 167);
+    background-color: rgba(210, 223, 248, 0.7);
     box-shadow: 10px 10px 10px  rgba(141, 105, 42, 0.5);
     border-radius: 10px;
 
@@ -135,9 +152,10 @@ h4{
     height: 16px;
     color: rgb(36, 33, 33);
     text-shadow:10px 10px 10px  rgba(141, 105, 42, 0.5) ;
+    
 }
 
-#name{
+#name, #interests, #bday, #pos, #course{
     display: flex;
     font-size: 16px;
     position: absolute;
@@ -148,22 +166,23 @@ h4{
     
 }
 
+
 @media only screen and (max-width: 600px){
 
    .container_about{
-    background-color: none;
    
-    top:45rem;
-    width:19rem;
-    height: 75rem;
-    left:1rem;
-    border: none;
+   
+    top:58rem;
+    
+    height: 60rem;
+    left:0.3rem;
+    
 
    }
    h4{
-    top:10rem;
-    left:-1rem;
-    font-size: 1.40rem;
+    top:1rem;
+    left:1rem;
+    font-size: 1.75rem;
     width: 12rem; 
    }
    
@@ -177,12 +196,7 @@ h4{
    }
 
 
-   #abt{
-    top:30.50rem;
-    left:1rem;
-    font-size: 1.25rem;
-    width: 2rem;
-   }
+ 
 
    .abt_cont{
     width: 20rem;
@@ -192,82 +206,89 @@ h4{
    }
 
    #abt-m1{
-    top:1.25rem;
-    font-size: 1.09rem;
-    width: 18rem;
+    top:-19.25rem;
+    font-size: 1.12rem;
+    width: 18.75rem;
     height:fit-content;
     
    }
    #abt-m2{
-    top:20.75rem;
-    font-size: 1.09rem;
-    width: 17.75rem;
+    top:2.75rem;
+    font-size: 1.12rem;
+    width: 18.75rem;
     height:fit-content;
    
    }
 
-   .interests{
-    width: 17rem;
-    height: 5rem;
-    top: 20rem;
-   }
+  
    #interest{
-    font-size: 1.25rem;
-    top:16rem;
+    font-size: 2.10rem;
+    top:6rem;
+    left:1rem;
+    width:20rem;
    }
    #arts, #books, #music, #games{
     font-size: 1.30rem;
-    top:1rem;
-    left:1rem;
+    top:16rem;
+    left:2rem;
    }
    #books{
-    left:4rem;
+    left:6rem;
 
    }
 
    #music{
-    left:8rem;
+    left:10rem;
 
    }
 
    #games{
-    left:12rem;
+    left:14rem;
    }
+
+   #name, #bday, #pos, #course, #interests {
+    font-size: 1.25rem;
+    width:18rem;
+    left:1rem;
+    top:2rem;
+   }
+   #bday{
+    top:6rem;
+   }
+   #pos{
+    top:8.5rem;
+   }
+   #course{
+    top:11rem;
+   }
+   #interests{
+    top:14rem;
+   }
+
+
 
 }
 
 @media only screen and (min-width: 600px) and (max-width:900px){
+   
     .container_about{
-        background-color: none;
-       
-        top:45rem;
-        width:19rem;
-        height: 75rem;
-        left:1rem;
-        border: none;
+   
+   
+        top:58rem;
+        
+        height: 60rem;
+        left:0.3rem;
+        
     
        }
        h4{
-        top:-1rem;
-        left:-1rem;
-        font-size: 1.40rem;
+        top:1rem;
+        left:1rem;
+        font-size:2.5rem;
         width: 12rem; 
        }
-       #pis{
-        display: flex;
-        width: 19rem;
-        height: 11rem;
-        left:0.10rem;
-        top:3rem;
-        
-       }
+       
     
-       #pi{
-        top:1.10rem;
-        left:.5rem;
-        font-size: 1.15rem;
-        width: 10rem;
-       }
        .infos{
         top:3.30rem;
         left:1.4rem;
@@ -275,291 +296,189 @@ h4{
         width: 19.5rem;
     
        }
-       #abt{
-        top:30.50rem;
-        left:1rem;
-        font-size: 1.25rem;
-        width: 2rem;
-       }
+    
+    
+     
     
        .abt_cont{
-        width: 30rem;
+        width: 20rem;
         height: 38rem;
         top:34rem;
-        left:-3rem;
         
        }
     
        #abt-m1{
-        top:1.25rem;
-        font-size: 1.09rem;
-        width: 25rem;
+        top:-19.25rem;
+        font-size: 1.4rem;
+        width: 29.75rem;
         height:fit-content;
+        line-height: 1.7rem;
         
        }
        #abt-m2{
-        top:20.75rem;
-        font-size: 1.09rem;
-        width:25rem;
+        top:2.75rem;
+        font-size: 1.4rem;
+        width: 29.75rem;
         height:fit-content;
+        line-height: 1.7rem;
        
        }
     
-       .interests{
-        width: 17rem;
-        height: 5rem;
-        top: 20rem;
-       }
+      
        #interest{
-        font-size: 1.25rem;
-        top:16rem;
+        font-size: 2.74rem;
+        top:6rem;
+        left:5rem;
+        width:30rem;
        }
-       #arts, #books, #music, #games{
-        font-size: 1.30rem;
-        top:1rem;
-        left:1rem;
-       }
-       #books{
-        left:4rem;
-    
-       }
-    
-       #music{
-        left:8rem;
-    
-       }
-    
-       #games{
-        left:12rem;
-       }
-    
-    }
+     
+    }    
 
 
 @media only screen and (min-width: 900px) and (max-width:1024px){
     .container_about{
-        background-color:none;
-       
-        top:45rem;
-        width:50rem;
-        height: 75rem;
-        left:1rem;
-        border: none;
+   
+   
+        top:48rem;
+        
+        height: 50rem;
+        left:0.3rem;
+        
     
        }
        h4{
         top:1rem;
-        left:-2rem;
-        font-size: 2.55rem;
-        width: 17rem; 
+        left:3.4rem;
+        font-size:2.5rem;
+        width: 12rem; 
        }
-       #pis{
-        display: flex;
-        width: 26rem;
-        height: 20rem;
-        left:8.10rem;
-        top:7rem;
-        background-color: rgb(253, 248, 243);
-        box-shadow:  10px 10px 10px  rgba(12, 11, 76, 0.5);
-
-        
+       
+    
+       .infos{
+        top:3.30rem;
+        left:1.4rem;
+        font-size: 1rem;
+        width: 19.5rem;
+    
        }
     
-       #pi{
-        top:1.10rem;
-        left:.5rem;
-        font-size: 1.55rem;
-        width: 15rem;
-       }
-
-       
-      
-       #abt{
-        top:46.50rem;
-        left:9rem;
-        font-size: 1.95rem;
-        width: 2rem;
-       }
+    
+     
     
        .abt_cont{
-        width: 37rem;
-        height: 30rem;
-        top:50em;
-        left:10rem;
-        background-color: none;
-        border-radius: 20px;
+        width: 20rem;
+        height: 38rem;
+        top:34rem;
         
        }
     
        #abt-m1{
-        top:3.25rem;
-        font-size: 1.20rem;
-        width: 34rem;
+        top:-19.25rem;
+        font-size: 1.4rem;
+        width: 50.75rem;
         height:fit-content;
+        line-height: 1.9rem;
+        left: -14rem;
         
        }
        #abt-m2{
-        top:17.75rem;
-        font-size: 1.20rem;
-        width: 34rem;
+        top:-1rem;
+        font-size: 1.4rem;
+        width: 50.75rem;
         height:fit-content;
+        line-height: 1.9rem;
+        left: -14rem;
        
        }
     
-       .interests{
-        width: 28rem;
-        height: 6rem;
-        top: 35rem;
-        left: 10rem;
-       }
+      
        #interest{
-        font-size: 1.75rem;
-        top:30rem;
-        left:9rem;
-        
+        font-size: 3.3rem;
+        top:6rem;
+        left:8rem;
+        width:50rem;
        }
-       #arts, #books, #music, #games{
-        font-size: 1.70rem;
-        top:1rem;
-        left:1rem;
-       }
-       #books{
-        left:7rem;
-        text-align: center;
+     
     
-       }
     
-       #music{
-        left:15rem;
-        text-align: center;
     
-       }
     
-       #games{
-        left:22rem;
-        text-align: center;
-       }
-
-       #name{
-        font-size: 100rem;
-       }
     
 
 }
 
 @media screen and (min-width:1024px) and (max-width:1540px){
     .container_about{
-        background-color:none;
-       
-        top:45rem;
-        width:50rem;
-        height: 75rem;
-        left:1rem;
-        border: none;
+   
+   
+        top:48rem;
+        
+        height: 50rem;
+        left:0.3rem;
+        
     
        }
        h4{
         top:1rem;
-        left:-2rem;
-        font-size: 2.55rem;
-        width: 17rem; 
+        left:5.4rem;
+        font-size:2.5rem;
+        width: 12rem; 
        }
-       .pis{
-        display: flex;
-        width: 26rem;
-        height: 20rem;
-        left:8.10rem;
-        top:7rem;
-        background-color: rgb(253, 248, 243);
-        box-shadow:  10px 10px 10px  rgba(12, 11, 76, 0.5);
-
-        
+       
+    
+       .infos{
+        top:3.30rem;
+        left:1.4rem;
+        font-size: 1rem;
+        width: 19.5rem;
+    
        }
     
-       #pi{
-        top:1.10rem;
-        left:.5rem;
-        font-size: 10rem;
-        width: 15rem;
-       }
-
-       #name{
-        display: flex;
-        top:10rem;
-
-        font-size: 30rem;
-       }
-
-       
-      
-       #abt{
-        top:46.50rem;
-        left:9rem;
-        font-size: 1.95rem;
-        width: 2rem;
-       }
+    
+     
     
        .abt_cont{
-        width: 45rem;
-        height: 30rem;
-        top:50em;
-        left:10rem;
-        background-color: none;
-        border-radius: 20px;
+        width: 20rem;
+        height: 38rem;
+        top:34rem;
         
        }
     
        #abt-m1{
-        top:3.25rem;
-        font-size: 1.29rem;
-        width: 40rem;
+        top:-20.25rem;
+        font-size: 1.2rem;
+        width: 50.75rem;
         height:fit-content;
+        line-height: 1.9rem;
+        left: -14rem;
         
        }
        #abt-m2{
-        top:17.75rem;
-        font-size: 1.29rem;
-        width: 40rem;
+        top:-7rem;
+        font-size: 1.2rem;
+        width: 50.75rem;
         height:fit-content;
+        line-height: 1.9rem;
+        left: -14rem;
        
        }
     
-       .interests{
-        width: 28rem;
-        height: 6rem;
-        top: 35rem;
-        left: 10rem;
-       }
+      
        #interest{
-        font-size: 1.75rem;
-        top:30rem;
-        left:9rem;
-        
+        font-size: 2.75rem;
+        top:6rem;
+        left:23rem;
+        width:50rem;
        }
-       #arts, #books, #music, #games{
-        font-size: 1.70rem;
-        top:1rem;
-        left:1rem;
-       }
-       #books{
-        left:7rem;
-        text-align: center;
+     
     
-       }
     
-       #music{
-        left:15rem;
-        text-align: center;
     
-       }
     
-       #games{
-        left:22rem;
-        text-align: center;
-       }
     
 
 }
+
 
 @media screen and (min-width:1540px) and (max-width:5000px){
     .container_about{
