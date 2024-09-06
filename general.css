@@ -25,7 +25,7 @@ body{
 }
 .main {
     display: flex;
-    border: 5px solid black;
+   
     width: 100vw;
     justify-content: center;
     align-items: center;

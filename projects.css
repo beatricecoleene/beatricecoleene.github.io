@@ -714,9 +714,9 @@ h5, h6{
     .container_proj{
         width: 60rem;
         height: 52rem;
-        top:-70rem;
+        top:-15rem;
         left: 0.3rem;
-        border:1px solid red;
+        border:none;
        
 
     
@@ -829,4 +829,5 @@ h5, h6{
 
     }
        
+
 }

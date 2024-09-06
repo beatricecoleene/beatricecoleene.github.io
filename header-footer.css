@@ -1,5 +1,5 @@
 .header {
-    background-color:rgba(106, 140, 208, 0.3)   ;
+    background-color:rgba(175, 192, 222, 0.9)  ;
     color:rgba(30, 30, 30, 1) ;
     padding: 10px;
     height: 70px;
@@ -55,7 +55,7 @@ h1{
     display: flex;
     position: absolute;
     top: 16px;
-    background-color: rgba(204, 217, 240, 0.9) ;
+    background-color: rgba(201, 215, 239, 0.9) ;
     flex-direction: column;
     width: 100%;
     height: 0;
@@ -76,7 +76,7 @@ h1{
 
 .footer {
     
-    background-color:rgba(106, 140, 208, 0.3)   ;
+    background-color:rgba(175, 192, 222, 0.9)  ;
     color:rgba(30, 30, 30, 1) ;
     padding: 10px;
     height: 20px;
@@ -85,6 +85,7 @@ h1{
     display: flex;
     bottom: 0;
     position: fixed;
+    justify-content: space-evenly;
 }
 
 
@@ -102,7 +103,7 @@ h1{
     }
 
     h1{
-        font-size: 1.30rem;
+        font-size: 1.6rem;
     }
 
     .hamb-menu p {
@@ -152,44 +153,60 @@ h1{
 @media only screen and (min-width: 600px) and (max-width:900px){
     .header{
         display: flex;
-        flex-direction: row;
-        height: 60px;
-    }
-    
-    h1{
-        font-size: 1.75rem;
+    } 
+     .hamb-menu{
+        display:flex;
+        text-align: end;
+        cursor: pointer;
+        padding-bottom:10px;
+        text-align: center;
     }
 
-    .hamb-menu  {
-        display:none;
-    
+    h1{
+        font-size: 1.6rem;
+    }
+
+    .hamb-menu p {
+        display:block;
+        font-size: 20px;
+        color:rgba(30, 30, 30, 1) ;
+        padding: 8px ;
+        
+        text-align: center;
+        margin-left: 50px;
         
     }
     .menu {
         display: flex;
         position: absolute;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 20px;
-        background-color:rgb(179, 179, 232,0);
-        width: auto;
-        height: auto;
-        top: 10px;
+        top: 50px;
         right:0;
-       margin-top: 10px;
+        
+        
+       
     }
 
     .menu a{
-        font-size: 1.50rem;
+        font-size: 1.10rem;
+       
     }
 
-    
-    
+    .menu.show{
+        height: auto;
+
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 10px 0;
+        border-bottom: 1px solid rgb(19, 19, 58);
+    }
     .footer{
         display: flex;
-   
-        height: 50px;
+        height: 30px;
     }
+
+
 
 
 }

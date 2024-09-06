@@ -608,47 +608,48 @@ h6{
 
 @media screen and (min-width:1540px) and (max-width:5000px){
     .container_skills{
-       
-        height: 75rem;
-        top:95rem;
+      
+        height: 80rem;
+        top:160rem;
         left:0rem;
-        border: 2px solid black;
+        border: 1px solid rgb(163, 190, 238);
     }
 
     h6{
-        font-size: 2.2rem;
+        font-size: 3.5rem;
         top:1rem;
         left:1.50rem;
 
     }
     .circle1{
-        top:1rem;
-        width: 6rem;
-        height: 1rem;
+        top:2.5rem;
+        width: 8rem;
+        height: 1.4rem;
         
+        left:3rem;
 
     }
     .circle2{
-        top:2.1rem;
-        width: 6rem;
-        height: 1rem;
-        left:3rem;
+        top:4.1rem;
+        width: 8rem;
+        height: 1.4rem;
+        left:8rem;
 
     }
 
     .circle3{
         top:2.4rem;
-        left:10rem;
-        width: 1.90rem;
-        height: 0.75rem;
+        left:20rem;
+        width: 2.90rem;
+        height: 1.15rem;
 
     }
 
     .circle4{
         top: 1.75rem;
-        left: 12rem;
-        height: 0.72rem;
-        width: 1.50rem;
+        left: 14rem;
+        height: 1rem;
+        width: 2.50rem;
 
     }
 
@@ -657,18 +658,19 @@ h6{
         height: 74rem;
         left: 0.1rem;
         top:2rem;
-        border: 1px solid black;
+        border: none;
     }
 
     #language, #design{
-        font-size: 1.75rem;
+        font-size: 2.7rem;
     }
 
     .bttn_pl, #bttnpl2, #bttnpl3, #bttnpl4, #bttn5, #bttnd1, #bttnd2{
-        width: 12rem;
-        height: 14rem;
-        left:5rem;
+        width: 16rem;
+        height: 16rem;
+        left:-7rem;
         top:7rem;
+        font-size: 1.5rem;
         
     }
 
@@ -682,35 +684,35 @@ h6{
 
     #bttnpl2{
         top:7rem;
-        left:20.75rem;
+        left:11.75rem;
 
     }
 
     #bttnpl3{
-        left:5rem;
-        top:22rem;
+        left:30rem;
+        top:7rem;
     }
     #bttnpl4{
-        top:22rem;
-        left:20.75rem;
+        top:26rem;
+        left:-7rem;
 
     }
     #bttnpl5{
-        top:37.2rem;
-        left:5rem;
+        top:26rem;
+        left:11.75rem;
 
     }
 
     #design{
-        top:32em;
+        top:47rem;
     }
     #bttnd1{
-        top:60rem;
-        left:5rem;
+        top:54rem;
+        left:2rem;
     }
 
     #bttnd2{
-        top:60rem;
+        top:54rem;
         left:20rem;
     }
     
