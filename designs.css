@@ -1242,7 +1242,7 @@ h3:hover{
    
 
     .ty_container{
-        top:245rem;
+        margin-top:245rem;
         left:0.74rem;
         width: 22rem;
         height: 50rem;
@@ -1250,22 +1250,24 @@ h3:hover{
     }
 
     .ty_cont{
-        top:3rem;
+        position: absolute;
+        margin-top:5rem;
         width: 21rem;
         height: 40rem;
-        left:0.5rem;
+        left:-35rem;
         border: none;
+        top:5rem;
     }
 
     #ty{
-        font-size: 5rem;
+        font-size: 4rem;
         width: 20px;
         left:6.87rem;
         top:-1rem;
 
     }
     #ty2{
-        font-size: 5rem;
+        font-size: 4rem;
         width: 20px;
         top:6rem;
         left:12rem;
@@ -1273,31 +1275,31 @@ h3:hover{
     }
 
     #bye{
-        font-size: 2.2rem;
+        font-size: 1.7rem;
         top:14rem;
         margin-left:6.1rem;
         width: 30rem;
     }
 
     #bttns_end{
-        top:18rem;
+        top:-10rem;
         border: none;
-        left:5rem;
+        left:34rem;
     }
 
     #fb{
-        top:9rem;
+        top:6rem;
         left: 1rem;
         width: 25rem;
     }
 
     #ig{
-        top:14rem;
+        top:11rem;
         left:1rem;
     }
 
     #git{
-        top:19rem;
+        top:16rem;
         left:1rem;
     }
 
@@ -1484,7 +1486,7 @@ h3:hover{
    
 
     .ty_container{
-        top:245rem;
+        margin-top:245rem;
         left:0.74rem;
         width: 22rem;
         height: 50rem;
@@ -1492,22 +1494,24 @@ h3:hover{
     }
 
     .ty_cont{
-        top:3rem;
+        position: absolute;
+        margin-top:5rem;
         width: 21rem;
         height: 40rem;
-        left:0.5rem;
+        left:-35rem;
         border: none;
+        top:5rem;
     }
 
     #ty{
-        font-size: 5rem;
+        font-size: 4rem;
         width: 20px;
         left:6.87rem;
         top:-1rem;
 
     }
     #ty2{
-        font-size: 5rem;
+        font-size: 4rem;
         width: 20px;
         top:6rem;
         left:12rem;
@@ -1515,31 +1519,31 @@ h3:hover{
     }
 
     #bye{
-        font-size: 2.2rem;
+        font-size: 1.7rem;
         top:14rem;
         margin-left:6.1rem;
         width: 30rem;
     }
 
     #bttns_end{
-        top:18rem;
+        top:-20rem;
         border: none;
-        left:5rem;
+        left:34rem;
     }
 
     #fb{
-        top:9rem;
+        top:12rem;
         left: 1rem;
         width: 25rem;
     }
 
     #ig{
-        top:14rem;
+        top:16rem;
         left:1rem;
     }
 
     #git{
-        top:19rem;
+        top:20rem;
         left:1rem;
     }
 
