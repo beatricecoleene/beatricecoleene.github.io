@@ -1,0 +1,538 @@
+  body {
+                display: grid;
+                
+               
+                background-color:rgb(221, 216, 210);
+               
+                min-height: 300vh;
+              
+
+            }
+
+            body >div {
+                
+                text-align: center;
+                padding: 10px 0;
+                font-size: 30px;
+            }
+
+            header {
+                grid-area: header;
+                position: sticky;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                top: 0; 
+                left: 0;
+                width: 100%;
+                background-color: #132440;
+                color: white;
+                text-align: center;
+               
+                transition: top 0.3s ease; 
+                z-index: 1000; 
+                display: grid;
+                place-items: center;
+                height: 3rem;
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+              
+               
+              }
+
+              header h2{
+                color: aliceblue;
+                font-size: 2.1rem;
+                padding: 1rem;
+              }
+
+              header a{
+                color: aliceblue;
+                font-size: 1.5rem;
+                padding-right: 3rem;
+              }
+              footer  {
+                display: flex;
+                grid-area: footer;
+                position: fixed;
+                bottom: 0; 
+                left: 0;
+                width: 100%;
+                background-color: #132b26;
+                color: white;
+                text-align: start;
+               
+                transition: top 0.3s ease; 
+                z-index: 1000; 
+               
+                place-items: center;
+                height: 3rem;
+                align-items: center;
+                justify-content: center;
+                font-size: 1rem;
+                padding-left: 2rem;
+                gap:2rem;
+
+
+                
+               
+              }
+
+              
+
+          
+            .home {
+                min-height: 100vh;
+               grid-area: home;
+               border: 1px solid black;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(214, 214, 210);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+               
+                display: grid;
+                grid-template-columns: 1.3fr 2fr 3fr 1fr ;
+                grid-template-rows: 1fr 2fr;
+                grid-template-areas: 
+                "title title title date"
+                "choices con con con"
+
+                ;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+                
+               
+              
+            }
+
+            .home h1{
+                font-size: 4.5rem;
+               
+            }
+
+            .topnews {
+                min-height: 100vh;
+               grid-area: info;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(214, 214, 210);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                display: grid;
+                grid-template-columns: 2fr 3fr 2fr 2fr ;
+                grid-template-rows: 4fr 6fr;
+                grid-template-areas: 
+                "main main main content content"
+
+                ;
+                border: 1px solid black;
+                display: none;
+            }
+            .homepage_ {
+                display: grid;
+                min-height: 100vh;
+               grid-area: info;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(214, 214, 210);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                display: grid;
+                grid-template-columns: 2fr 2fr 3fr 2fr ;
+                grid-template-rows: 4fr 6fr;
+                grid-template-areas: 
+                "main main main content content"
+
+                ;
+                border: 1px solid black;
+            }
+
+            .recent{ 
+                min-height: 100vh;
+               grid-area: info;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(202, 202, 199);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                display: grid;
+                grid-template-columns: 2fr 2fr 3fr 2fr ;
+                grid-template-rows: 4fr 6fr;
+                grid-template-areas: 
+                " main main content content"
+
+                ;
+                border: 1px solid black;
+                display: none;
+            }
+            .articles{ 
+                min-height: 100vh;
+               grid-area: info;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(202, 202, 199);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                display: grid;
+                grid-template-columns: 2fr 2fr 3fr 2fr ;
+                grid-template-rows: 4fr 6fr;
+                grid-template-areas: 
+                " main main content content"
+
+                ;
+                border: 1px solid black;
+                display: none;
+            }
+
+            .books {
+                min-height: 100vh;
+               grid-area: info;
+                padding: 0.1rem ;
+                grid-column-start: 2;
+                grid-column-end:5 ;
+                background-color: rgb(214, 214, 210);
+                text-align: center;
+                width: 100%;
+                font-size: 2rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                display: grid;
+                grid-template-columns: 2fr 3fr 2fr 2fr ;
+                grid-template-rows: 4fr 6fr;
+                grid-template-areas: 
+                "main main main content content"
+
+                ;
+                border: 1px solid black;
+                display: none;
+            }
+              
+              
+                    
+            .sidebar {
+                grid-area: sidebar;
+                background-color:rgba(235, 229, 220, 1);
+                padding: 1rem;
+                box-sizing: border-box;
+                height: 100vh;
+                padding-top: 10rem;
+                color: rgb(9, 9, 73);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                font-style: oblique;
+                font-size: 1rem;
+               
+               
+               
+            }
+        
+            .main {
+                grid-area: main;
+                padding: 1rem;
+                grid-column-start: 1;
+                grid-column-end: 4;
+               
+             
+                background-color: rgba(217, 215, 200, 1);
+                height: 100vh;
+               
+            }
+            .main_recent {
+                grid-area: main;
+                padding: 1rem;
+                grid-column-start: 1;
+                grid-column-end: 4;
+               
+             
+                background-color: rgb(191, 98, 194);
+                height: 100vh;
+               
+            }
+            .main_tp {
+                grid-area: main;
+                padding: 1rem;
+                grid-column-start: 1;
+                grid-column-end: 4;
+               
+             
+                background-color: rgb(108, 134, 110);
+                height: 100vh;
+               
+            }
+            .main_articles {
+                grid-area: main;
+                padding: 1rem;
+                grid-column-start: 1;
+                grid-column-end: 4;
+               
+             
+                background-color: rgb(13, 73, 18);
+                height: 100vh;
+               
+            }
+
+            .main_books {
+                grid-area: main;
+                padding: 1rem;
+                grid-column-start: 1;
+                grid-column-end: 4;
+               
+             
+                background-color: rgb(111, 141, 201);
+                height: 100vh;
+               
+            }
+        
+            .content {
+                grid-area: content;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #e4e4e4;
+                padding: 1rem;
+                background-color: rgb(219, 204, 95);
+                height: 100vh;
+              
+            }
+            .content_recent {
+                grid-area: content;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #e4e4e4;
+                padding: 1rem;
+                background-color: rgb(47, 58, 157);
+                height: 100vh;
+              
+            }
+            .content_tp {
+                grid-area: content;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #e4e4e4;
+                padding: 1rem;
+                background-color: rgb(190, 105, 174);
+                height: 100vh;
+              
+            }
+            .content_articles {
+                grid-area: content;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #e4e4e4;
+                padding: 1rem;
+                background-color: rgb(142, 42, 86);
+                height: 100vh;
+              
+            }
+            .content_books {
+                grid-area: content;
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #e4e4e4;
+                padding: 1rem;
+                background-color: rgb(142, 42, 86);
+                height: 100vh;
+              
+            }
+
+
+
+
+            .title{
+             
+                grid-column-start: 1;
+                grid-column-end: 4;
+             
+                color: #0d1b31;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+            }
+           
+           
+            .choices{
+                grid-area: choices;
+                display: grid;
+               font-size: 2rem;
+               
+               grid-template-columns: auto;
+               grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+               grid-template-areas: 
+                    "homepage"
+                    "recents"
+                    "mostpopular"
+                    "articles"
+                    "books";
+            }
+            .choices a{
+                font-size: 1.2rem;
+                text-decoration: none;
+                color: #132440;
+                font-family: "Archivo Black", sans-serif;
+            }
+
+            .homepage_choices{
+                grid-area: homepage;
+                border-top: 1px solid rgb(54, 44, 44);
+                
+            }
+            .recents_choices{
+                grid-area: recents;
+                border-top: 1px solid rgb(54, 44, 44);
+              
+            }
+            .mostpopular_choices{
+                grid-area: mostpopular;
+                border-top: 1px solid rgb(54, 44, 44);
+               
+            }
+
+            .articles_choices{
+                grid-area: articles;
+                border-top: 1px solid rgb(54, 44, 44);
+               
+            }
+            .books_choices{
+                grid-area: books;
+                border-top: 1px solid rgb(54, 44, 44);
+                
+              
+            }
+
+            .con{
+                grid-area: con;
+                background-color: rgb(216, 213, 197);
+                grid-column-start: 2;
+                grid-column-end: 5;
+                border:1px solid #222223;
+                color: #151514;
+                font-size: 1.1rem;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                grid-template-rows:0.6fr 2fr 2fr;
+
+                grid-template-areas: 
+                    "up up "
+                    "picture title"
+                    "picture paragraph"    
+                ;
+
+            }
+
+            
+
+            .top{
+                grid-area: up;
+                display: flex;
+               justify-content: start;
+               align-items: center;
+               padding-left: 2rem;
+                color:rgb(97, 7, 7);
+                font-family: "Archivo Black", sans-serif;
+                font-size: 1.6rem;
+                /* background-color: rgb(222, 216, 200); */
+
+            }
+            .picture{
+                grid-area: picture;
+                background-color: rgb(170, 163, 164);
+            }
+
+            .picture img{
+                width: 90%;
+                height: 90%;
+            }
+
+            .caption{
+                grid-area: title;
+                font-size: 1.23rem;
+               
+
+            }
+
+            .paragraph{
+                grid-area: paragraph;
+               
+                font-size: 1.09rem;
+                align-items: center;
+                justify-content: center;
+               
+                display: flex;
+            }
+
+            .paragraph p{
+                width: 30rem;
+                line-height: 1.7rem;
+                text-align: left;
+               
+            }
+        
+            
+           .container{
+           
+            border:2px solid rgb(56, 30, 18);
+            position: relative;
+            display: grid;
+           
+            grid-template-columns: 0.3fr  3fr 4fr 1.5fr 0.3fr;
+            
+           grid-template-rows: auto auto 1fr 1fr;
+            background-color:rgba(235, 229, 220, 1);
+           
+            min-height: 300vh;
+            grid-template-areas:
+               
+                " home home home home home"
+                "  header header header header header"
+                " sidebar info info info info "
+                "  footer footer footer footer footer";
+            align-items: start;
+            min-width: 90vw;
+          
+           }
+          
+        .read_more{
+            background-color: rgba(40, 40, 47, 0);
+            border-radius: 20px;
+            border:2px solid #132440;
+            width: 11rem;
+            height: 2.3rem;
+            font-size: 1rem;
+
+        }
+        
