@@ -602,7 +602,6 @@ x  body {
             padding: 1rem;
             border-left: 1px solid rgb(196, 195, 183);
            
-          
             height: max-content;
             width: 90%;
             display: grid;
@@ -624,6 +623,19 @@ x  body {
             /* background-color: #2b518f; */
            
         }
+
+        #hp_button{
+            background-color: rgba(213, 191, 117, 0.999);
+            border-radius: 20px;
+            border:2px solid #856217;
+            width: 11rem;
+            height: 2rem;
+            font-size: 1rem;
+           
+
+        }
+
+        
 
         .div_hp{
             grid-area: divhp;
@@ -650,12 +662,22 @@ x  body {
             border-top: 0.2px solid #041b0b;
             
             width: 96%;
-            
-            font-size: 1.2rem;
+            padding-bottom: 1rem;
+            font-size: 1rem;
             
            
            
           
+        }
+
+        .hp_div h1{
+            font-size: 1.5rem;
+            justify-self: start;
+            align-self: center;
+        }
+
+        .hp_div h3{
+            font-size: 1.6rem;
         }
 
         .hp_div img {
@@ -664,6 +686,10 @@ x  body {
             border: 3px solid rgb(220, 201, 169);
         }
 
+        .hp_div p{
+            font-size: 1.3rem;
+        }
+       
 
         .hp_cont{
             border-top:1px solid  #676761;
@@ -850,7 +876,7 @@ x  body {
         }
 
         .pic_s{
-            width: 95%;
+            width: 100%;
             border:2.5px solid #dfd8cd;
             color: rgb(210, 210, 220);
             font-size: 2.3rem;

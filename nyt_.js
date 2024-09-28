@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost/khloris_/booksamp.json';
+const API_URL = 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=K5zsJoRkJJVRrQFqJTEJu5fKWovOs4zY';
 
 const TopNews= document.getElementById('caption_');
 

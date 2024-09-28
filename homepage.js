@@ -3,7 +3,7 @@
 // const API_URL =
 // 'https://api.nytimes.com/svc/topstories/v2/arts.json?api-key={token}';
 
-const API_URL='http://localhost/khloris_/booksamp.json';
+const API_URL='https://api.nytimes.com/svc/topstories/v2/home.json?api-key=K5zsJoRkJJVRrQFqJTEJu5fKWovOs4zY';
 
 const HomePage = document.getElementById('homepage_div');
 const DivHp= document.getElementById('divhp');
@@ -33,10 +33,16 @@ const updateHomepage = (data) => {
         newcont.innerHTML=`
             <h1 id= "sectionsub" style= "text-transform: capitalize;">${news?.section}: ${news?.subsection}</h1>
             <h3>${news?.title}</h3>
+            <p id="by">${news?.byline}</p>
             <img src="${imageUrl}" alt="news_img" />
            
-            <p style="color: black;">${news?.abstract}</p>`;
+            <p style="color: black;">${news?.abstract}</p>
+          
+            `;
 
+           
+         
+ 
         HomePage.appendChild(newcont);
 
 
@@ -55,7 +61,7 @@ const updateHomepage = (data) => {
         php.style.fontFamily = '"Cambria", serif';
         php.style.color='black';
         php.style.fontWeight='500';
-        php.style.fontSize='1.3rem';
+        php.style.fontSize='1.4rem';
 
     });
 };

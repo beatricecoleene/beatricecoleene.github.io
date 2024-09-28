@@ -1,4 +1,4 @@
-const API_URL= 'http://localhost/khloris_/science.json';
+const API_URL= 'https://api.nytimes.com/svc/topstories/v2/science.json?api-key=K5zsJoRkJJVRrQFqJTEJu5fKWovOs4zY';
 
 
 const S_title= document.getElementById('sttl');

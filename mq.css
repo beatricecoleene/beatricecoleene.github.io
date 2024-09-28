@@ -114,7 +114,7 @@
   }
   
   .s_pic{
-    width: 70%;
+    width: 100%;
     left: 10px;
     justify-content: end;
 
@@ -125,5 +125,5 @@
   }
 
   .h_pic{
-    width: 50%;
+    width: 100%;
   }
