@@ -1,0 +1,37 @@
+.other {
+    grid-area: other;
+   
+
+    text-align: center;
+    /* border: 1px solid #1b7410; */
+}
+.white-way {
+    background-color: white; 
+    height: 100%;
+    border-radius: 140% 0 0 150% / 20% 0 0 30%; 
+   
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.blueblob2 {
+    width: 80%;
+    height: 30%;
+    padding-right: 0;
+    background-size:300px;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url('pattern.svg'), linear-gradient(to bottom, #FFFFF2, #FBDDE4, #F6B0D2);
+
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+    overflow-x: hidden;
+
+    /* Custom border-radius to flatten the right and top */
+    border-radius:  10% 100% 70% 50%/ 30% 80% 50% 100% ;
+    /* box-shadow: 1px 1px 2px 30px rgba(200, 97, 204, 0.664); */
+}

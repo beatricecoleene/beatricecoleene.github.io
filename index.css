@@ -6,6 +6,10 @@ html, body {
     overflow-x:hidden; 
 }
 
+* {
+    border: none;
+  }
+
 
 body{
     width: 100vw;
@@ -60,7 +64,7 @@ body{
     display: grid;
     height: 1000vh;
     width: 100vw;
-    grid-template-rows:5rem 30rem auto ;
+    grid-template-rows:5rem 30rem 50rem auto ;
     grid-template-areas:
     "header"
     "home"
@@ -72,13 +76,7 @@ body{
 
 
 
-.other {
-    grid-area: other;
-   
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #1b7410;
-}
+
 
 
 
