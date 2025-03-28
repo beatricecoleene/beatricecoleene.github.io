@@ -11,6 +11,7 @@
     position: fixed;
     /* background-color: #e07d9b; */
     /* border: 2px solid #e4507c; */
+    z-index: 4;
 }
 
 

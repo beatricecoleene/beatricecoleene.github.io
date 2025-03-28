@@ -61,10 +61,7 @@
 }
 
 
-.content{
-    grid-area: content;
-    border: 2px solid rgb(83, 158, 83);
-}
+
 /* .wavy-box {
     position: absolute;
     width: 150px;
@@ -81,8 +78,8 @@
     background: #d6abe9;
     border-radius: 50% 40% 60% 40% / 40% 50% 50% 60%;
 
-    z-index: 2;
-    width: 64%;
+    z-index: 1;
+    width: 66%;
     height: 310%;
 
    
@@ -90,7 +87,7 @@
 
 
 .bbl1 .bubble {
-    background: linear-gradient(to bottom,#f3ecf3, #dfabec);
+    background: linear-gradient(to bottom,#f3ecf3, #deabeb,#dfabec);
     place-self: start;
     align-self: baseline;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5); /* Light bottom border */
@@ -101,30 +98,60 @@
 
 
 .bbl2 .bubble {
-    background: linear-gradient(to bottom, #eed4f5, #d993eb);
+    background: #dfabec;
     place-self: end;
     align-self: start;
-    border-top: 2px solid #f3ecf3(255, 255, 255, 0.5); /* Light top border */
-    box-shadow: 0 -10px 15px #f3ecf3(255, 255, 255, 0.5);
+   
 }
 
 .bbl3 .bubble {
-    background: linear-gradient(to bottom, #e3c0ec,#dfabec, #d993eb);
+    background: linear-gradient(to right,#db98eb,#deabeb,#dfabec);
+
     place-self: left;
-    border-top: 2px solid #eed4f5(255, 255, 255, 0.5); /* Light top border */
-    box-shadow: 0 -10px 15px #eed4f5(255, 255, 255, 0.5);
-    
+  
 }
 
 .bbl4 .bubble {
-    background: linear-gradient(to bottom,#dfabec,  #d586e9);
+    background: linear-gradient(to bottom, #dfabec,#dfabec,#dca0eb,#d388e6,#d37be7);
+
     align-self: center;
     place-self:start;
+   
+   
 }
 
 .bbl5 .bubble {
-    background: linear-gradient(to bottom,#dfabec,  #d586e9);
+    background: linear-gradient(to bottom, #dfabec,#dfabec,#dca0eb,#d388e6,#d37be7);
+
     place-self: end;
     align-self: center;
    
+    
+   
+}
+
+
+
+
+.content{
+    grid-area: content;
+    border: 2px solid rgb(83, 158, 83);
+    z-index: 3;
+    position: relative;
+    top: -6rem;
+}
+
+h2{
+    color: #dd7494;
+    font-size: 2.3rem;
+    padding-left: 0.5rem;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke: 1px rgb(201, 36, 118); 
+    text-shadow: 3px 3px 2px rgb(97, 43, 63);
+    z-index: 3;
+}
+
+.desc{
+    color: #3f101e;
+
 }
