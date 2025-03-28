@@ -24,12 +24,13 @@ body{
     position: absolute;
 }
 .pinkblob {
-    width: 250px;
+    width: 55%;
     height: 180px;
+    padding-right: 0;
     background: linear-gradient(to bottom,#FFFFF2, #cf264d69, #dd1a488f);
     position: relative;
     top: -20px;
-    left: 67.5%;
+    left: 72%;
     transform: translateX(-50%);
     max-width: 90vw;
     overflow-x: hidden;

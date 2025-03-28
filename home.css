@@ -9,13 +9,16 @@
 }
 
 .wavy-box {
-    width: 300px;
-    height: 500px;
-    background: #e4507c;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to bottom, #c59bd8, #c876ee, #7b4a92);
     position: relative;
-    
-    /* Apply smooth waves using SVG path */
-    clip-path: path("M0,100 Q50,30 100,100 T200,100 T300,100 L300,400 Q250,470 200,400 T100,400 T0,400 Z");
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+    overflow: hidden;
 
-
+    /* Wavy edges using border-radius */
+    border-radius: 150% 140% 100% 40% / 40% 100% 50% 60%;
 }
