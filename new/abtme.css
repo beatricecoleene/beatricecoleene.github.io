@@ -1,0 +1,96 @@
+.other {
+    grid-area: other;
+    /* grid-template-rows: 4rem auto auto;
+
+    grid-template-areas: 
+    "title"
+    "abt"
+    "contacts"
+    ; */
+   
+
+    text-align: center;
+    /* border: 1px solid #1b7410; */
+}
+
+.white-way {
+    display: grid;
+    grid-template-rows: 5rem 20rem 10rem;
+    grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+    grid-template-areas: 
+        "title title"
+        "circle abt"
+        "contacts contacts";  /* 'contacts' is in the last row, spanning both columns */
+
+    background-color: white; 
+    height: 100%;
+    border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+    box-shadow: 0 10px 6px rgba(49, 11, 36, 0.658);
+}
+
+.contact {
+    grid-area: contacts; /* This ensures it spans across both columns in the last row */
+    border: 3px solid #353096;
+    background-color: lightblue;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ttl{
+    position: relative; 
+    /* border:2px solid #153111; */
+    justify-items: end;
+    align-items: start;
+    width: 100vw;
+   
+}
+
+h3{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #353096;
+    font-size: 2.3rem;
+    padding-left: 0.5rem;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke: 1px rgb(7, 4, 59); 
+    text-shadow: 3px 3px 2px rgb(129, 57, 85);
+}
+
+.blueblob2 {
+    grid-area: circle;
+    /* border: 2px solid brown; */
+    display: grid;
+    width: 190%;
+    height: 80%;
+    padding-right: 0;
+    background-size:300px;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url('pattern.svg'), linear-gradient(to bottom, #FFFFF2, #FBDDE4, #F6B0D2);
+
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+    overflow-x: hidden;
+
+    /* Custom border-radius to flatten the right and top */
+    border-radius:  10% 100% 70% 50%/ 30% 80% 50% 100% ;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.abt{
+    grid-area: abt;
+    border:3px solid #353096;
+    background-color: lightblue;
+}
+.abts{
+    font-size: 3rem;
+    position: relative;
+    left: 0;
+}
+
+

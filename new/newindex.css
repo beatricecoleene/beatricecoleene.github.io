@@ -64,11 +64,13 @@ body{
     display: grid;
     height: 1000vh;
     width: 100vw;
-    grid-template-rows:5rem 30rem 50rem auto ;
+    grid-template-rows:5rem 40rem 50rem 70rem auto ;
     grid-template-areas:
     "header"
     "home"
-    "other";
+    "other"
+    "proj"
+    ;
    
     border: 2px solid rgb(109, 16, 16);
 
