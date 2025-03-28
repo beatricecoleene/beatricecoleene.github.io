@@ -2,23 +2,123 @@
 
 .home {
     grid-area: home;
+    display: grid;
+    grid-template-rows:22rem auto ;
+    grid-template-areas: 
+    "design"
+    "content"
+    ;
    
     padding: 20px;
     text-align: center;
     border: 1px solid #3824a5;
 }
 
-.wavy-box {
-    width: 100%;
-    height: 10%;
-    background: linear-gradient(to bottom, #c59bd8, #c876ee, #7b4a92);
-    position: relative;
-    top: 1%;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 90vw;
-    overflow: hidden;
 
-    /* Wavy edges using border-radius */
-    border-radius: 150% 140% 100% 40% / 40% 100% 50% 60%;
+.design{
+    grid-area: design;
+    border: 2px solid green;
+    display: grid;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem ;
+    grid-template-areas: 
+    "bbl1"
+    "bbl2"
+    "bbl3"
+    "bbl4"
+    "bbl5"
+    ;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.bbl1, .bbl2, .bbl3, .bbl4, .bbl5 {
+    position: relative; /* Ensures child elements position correctly */
+    display: grid;
+}
+.bbl1{
+    grid-area: bbl1;
+    
+    border: 2px solid rgb(61, 30, 9);
+    /* place-self: center; */
+}
+.bbl2{
+    grid-area: bbl2;
+    border: 2px solid rgb(61, 30, 9);
+    justify-content: left;
+}
+.bbl3{
+    grid-area: bbl3;
+    border: 2px solid rgb(61, 30, 9);
+}
+.bbl4{
+    grid-area: bbl4;
+    border: 2px solid rgb(61, 30, 9);
+}
+.bbl5{
+    grid-area: bbl5;
+    border: 2px solid rgb(61, 30, 9);
+}
+
+
+.content{
+    grid-area: content;
+    border: 2px solid rgb(83, 158, 83);
+}
+/* .wavy-box {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    background: #d09be6;
+    left: 25px;
+    top: 50px;
+    clip-path: path("M50 0 C100 -20, 140 40, 130 100 C125 150, 80 190, 50 200 C10 190, 0 130, 5 80 C10 40, 20 10, 50 0 Z");
+} */
+
+
+.bubble {
+    position: absolute; /* Make it respect top/left positioning */
+    background: #d6abe9c0;
+    border-radius: 50%;
+    z-index: 2;
+    width: 130px;
+    height: 130px;
+}
+
+/* Directly target the bubble inside each bbl */
+.bbl1 .bubble {
+    /* width: 100px;
+    height: 90px; */
+    /* top: 10px;
+    left: 10px; */
+    place-self: center;
+
+}
+
+.bbl2 .bubble {
+    /* width: 110px;
+    height: 110px; */
+    top: 20px;
+    left: 20px;
+}
+
+.bbl3 .bubble {
+    /* width: 130px;
+    height: 130px; */
+    top: 30px;
+    left: 30px;
+}
+
+.bbl4 .bubble {
+    /* width: 130px;
+    height: 130px; */
+    top: 40px;
+    left: 40px;
+}
+
+.bbl5 .bubble {
+    /* width: 130px;
+    height: 130px; */
+    top: 50px;
+    left: 50px;
+    color: black;
 }

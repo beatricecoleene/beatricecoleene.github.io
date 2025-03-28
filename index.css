@@ -9,7 +9,7 @@ html, body {
 
 body{
     width: 100vw;
-    height: 1000vh ;
+    /* height: 1000vh ; */
     margin: 0;
     /* background-image: url('pattern.svg'); */
     background-size:300px;
@@ -21,7 +21,8 @@ body{
 }
 .pinkblob, .blueblob {
     max-width: 100vw; /* Prevent them from exceeding viewport width */
-    position: absolute;
+    position: relative;
+    z-index: 1;
 }
 .pinkblob {
     width: 55%;
@@ -46,6 +47,7 @@ body{
     position: absolute;
     top: 12rem;
     left: -60px;
+   
     
 
     border-radius: 50% 40% 60% 40% / 40% 50% 50% 60%;
@@ -58,13 +60,13 @@ body{
     display: grid;
     height: 1000vh;
     width: 100vw;
-    grid-template-rows:5rem auto auto ;
+    grid-template-rows:5rem 30rem auto ;
     grid-template-areas:
     "header"
     "home"
     "other";
    
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(109, 16, 16);
 
 }
 
