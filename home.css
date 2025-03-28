@@ -1,0 +1,21 @@
+
+
+.home {
+    grid-area: home;
+   
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #3824a5;
+}
+
+.wavy-box {
+    width: 300px;
+    height: 500px;
+    background: #e4507c;
+    position: relative;
+    
+    /* Apply smooth waves using SVG path */
+    clip-path: path("M0,100 Q50,30 100,100 T200,100 T300,100 L300,400 Q250,470 200,400 T100,400 T0,400 Z");
+
+
+}

@@ -1,0 +1,48 @@
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 20rem 2rem;
+
+    grid-template-areas:
+    "logo hambg";
+   
+    padding: 10px;
+
+    position: fixed;
+    /* background-color: #e07d9b; */
+    /* border: 2px solid #e4507c; */
+}
+
+
+.logo{
+    grid-area: logo;
+    /* border:2px solid #e4507c; */
+}
+.hambg{
+    grid-area: hambg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+i{
+    color: #e4507c;
+    font-size: 1.3rem;
+}
+
+h1{
+    color: #e4507c;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    font-family: 'Kavoon', cursive;
+    -webkit-text-stroke: 1px rgb(201, 36, 118); 
+    text-shadow: 3px 3px 2px rgb(129, 57, 85);
+}
+
+
+
+
+
+
