@@ -25,17 +25,17 @@ body{
 }
 .pinkblob {
     width: 250px;
-    height: 230px;
+    height: 180px;
     background: linear-gradient(to bottom,#FFFFF2, #cf264d69, #dd1a488f);
-    position: absolute;
+    position: relative;
     top: -20px;
-    left: 67%;
+    left: 67.5%;
     transform: translateX(-50%);
     max-width: 90vw;
     overflow-x: hidden;
 
     /* Custom border-radius to flatten the right and top */
-    border-radius: 0 0 60% 40% / 0 0 50% 60%;
+    border-radius: 10% 10% 70% 60% / 0 0 30% 80%;
 }
 
 .blueblob{
