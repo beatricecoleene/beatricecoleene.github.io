@@ -19,8 +19,8 @@ body{
     background-size:300px;
     background-repeat: repeat;
     background-position: center;
-    background-image: url('pattern.svg'), linear-gradient(to bottom, #FFFFF2, #FBDDE4, #F6B0D2, #E8ACE0, #e6bafa, #d8c1f0, #c0c8ec, #a5b8df);
-
+    background-image: linear-gradient(to bottom, #FFFFF2, #FBDDE4, #F6B0D2, #E8ACE0, #e6bafa, #d8c1f0, #c0c8ec, #a5b8df);
+/* url('pattern.svg'),  */
 
 }
 .pinkblob, .blueblob {
@@ -32,7 +32,7 @@ body{
     width: 55%;
     height: 180px;
     padding-right: 0;
-    background: linear-gradient(to bottom,#FFFFF2, #cf264d69, #dd1a488f);
+    background: url('pattern.svg'),linear-gradient(to bottom,#FFFFF2, #cf264d69, #dd1a488f);
     position: relative;
     top: -20px;
     left: 72%;
@@ -47,7 +47,7 @@ body{
 .blueblob{
     width: 200px;
     height: 230px;
-    background: linear-gradient(to bottom,#093f86a9, #0d65a09f, #9fa8ca );
+    background: url('pattern.svg'),linear-gradient(to bottom,#093f86a9, #0d65a09f, #9fa8ca );
     position: absolute;
     top: 12rem;
     left: -60px;
