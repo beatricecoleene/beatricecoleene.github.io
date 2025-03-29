@@ -1,6 +1,6 @@
 .proj {
     grid-area: proj;
-    grid-template-rows:10rem 5rem 30rem;
+    grid-template-rows:10rem 5rem 20rem;
 
     grid-template-areas: 
     "empty"
@@ -105,6 +105,8 @@ h6{
 } */
 
 
+
+
 .carousel {
     position: relative;
     width: 100vw;
@@ -137,6 +139,8 @@ h6{
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /* 🔹 FIXED ARROWS (NOW USING ID) */
 #prev, #next {
@@ -193,4 +197,21 @@ h6{
 
 .dot.active {
     background-color: white;
+}
+
+
+.project-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-info h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #666;
 }
