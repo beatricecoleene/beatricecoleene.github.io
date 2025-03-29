@@ -1,6 +1,6 @@
 .proj {
     grid-area: proj;
-    grid-template-rows:10rem 5rem 15rem;
+    grid-template-rows:10rem 5rem 30rem;
 
     grid-template-areas: 
     "empty"
@@ -27,6 +27,24 @@
     /* border:1px solid #332ab1; */
     width: 100vw;
     /* background-color: aliceblue; */
+    color: #353096;
+    font-size: 2.3rem;
+    padding-left: 0.5rem;
+    font-family: 'Silkscreen', sans-serif;
+    /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+    text-shadow: 3px 4px 5px rgb(129, 57, 85);
+}
+
+h6{
+    /* position: absolute;
+    top: 10%;
+    left: 10%; */
+    color: #353096;
+    font-size: 2.3rem;
+    padding-left: 0.5rem;
+    font-family: 'Silkscreen', sans-serif;
+    /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+    text-shadow: 3px 3px 2px rgb(129, 57, 85);
 }
 .projects{
     grid-area: projects;
@@ -39,6 +57,7 @@
     "project"
     ;
     width: 100%;
+    
     justify-content: left;
 }
 
