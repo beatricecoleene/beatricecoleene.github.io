@@ -9,7 +9,7 @@
     "content"
     ;
    
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     /* border: 1px solid #3824a5; */
 }
@@ -35,14 +35,15 @@
     ;
     /* justify-content: center;
     align-items: center; */
+    /* left:0; */
 }
 
 .bbl1, .bbl2, .bbl3, .bbl4, .bbl5 {
     position: relative; /* Ensures child elements position correctly */
     display: grid;
     /* border: 2px solid rgb(61, 30, 9); */
-    width: 100vw;
-    left:-20px;
+    width: 95%;
+    /* left:-20px; */
 }
 .bbl1{
     grid-area: bbl1;

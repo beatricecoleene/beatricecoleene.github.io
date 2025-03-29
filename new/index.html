@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="proj.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-    <!-- Glide.js CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+   <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
     <title>Portfolio: Beatrice</title>
@@ -68,87 +70,58 @@
             
         </div>
 
-        <div id="proj" class="proj">
+        <div class="proj">
             <div class="empty"></div>
-
-            <div class="proj1">
-               Projects
-            </div>
+            <div class="proj1">PROJECTS</div>
+            
             <div class="projects">
-               
-                <div class="project">
-                
-                    <div class="glide"> 
-                        <div class="glide__track" data-glide-el="track">
-                            <ul class="glide__slides">
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYbtIcJPC-G_V_U-aJxj-osuaaipYyNmYFg&s" alt="proj1">
-                                        <h5>Project1</h5>
-                                        <p>D</p>
-                                        <a href="https://github.com/beatricecoleene" target="_blank">View Project</a>                        
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYbtIcJPC-G_V_U-aJxj-osuaaipYyNmYFg&s" alt="proj2">
-                                        <h5>Project2</h5>
-                                        <p>DESCEDHEIDEODMEKJHGFGHJKLKJHGHJKLKJHGHJKLKJHGVFGHJK</p>
-                                        <a href="https://github.com/beatricecoleene" target="_blank">View Project</a>                        
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYbtIcJPC-G_V_U-aJxj-osuaaipYyNmYFg&s" alt="proj3">
-                                        <h5>Project3</h5>
-                                        <p>DESCEDHEIDEODMEKJHGFGHJKLKJHGHJKLKJHGHJKLKJHGVFGHJK</p>
-                                        <a href="https://github.com/beatricecoleene" target="_blank">View Project</a>                        
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYbtIcJPC-G_V_U-aJxj-osuaaipYyNmYFg&s" alt="proj4">
-                                        <h5>Project4</h5>
-                                        <p>DESCEDHEIDEODMEKJHGFGHJKLKJHGHJKLKJHGHJKLKJHGVFGHJK</p>
-                                        <a href="https://github.com/beatricecoleene" target="_blank">View Project</a>                        
-                                    </div>
-                                </li>
-                            </ul>
-                        </div> 
-                    <!-- <!-- pagination inside `.glide` -->
-                        <div class="glide__bullets" data-glide-el="controls[nav]">
-                            <button class="glide__bullet" data-glide-dir="=0"></button>
-                            <button class="glide__bullet" data-glide-dir="=1"></button>
-                            <button class="glide__bullet" data-glide-dir="=2"></button>
-                        </div> 
+                <div class="carousel">
+                    <button id="prev" class="nav-btn">‹</button>
+                    
+                    <div class="carousel-container">
+                        <div class="carousel-track">
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfYDaWBJ_mq037WSgR-WKKBk152cDX7G4Mw&s" alt="Project 1">
+                                <h3>Project 1</h3>
+                                <p>Sleek, modern design for your projects.</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfYDaWBJ_mq037WSgR-WKKBk152cDX7G4Mw&s" alt="Project 2">
+                                <h3>Project 2</h3>
+                                <p>Elegant UI with smooth animations.</p>
+                            </div>
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfYDaWBJ_mq037WSgR-WKKBk152cDX7G4Mw&s" alt="Project 3">
+                                <h3>Project 3</h3>
+                                <p>Fully responsive and adaptive layout.</p>
+                            </div>
+                        </div>
                     </div>
-                    
-                    
-                    <!-- arrows inside `.glide` -->
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <div class="left">
-                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
-                        </div>
-                        <div class="right">
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
-                        </div>
-                        
-                    </div> 
-                    
-                </div>
+        
+                    <button id="next" class="nav-btn">›</button>
                 
+        
+                <!-- Pagination -->
+                    <div class="pagination">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
             </div>
         </div>
+        
         
 
         
     </div>   
     <!-- end -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
 
 
-    <!-- <script src="card.js" defer></script> -->
+
+    <script src="card.js"></script>
     
     
 
