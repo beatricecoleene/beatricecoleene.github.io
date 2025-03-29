@@ -1,19 +1,67 @@
 .proj {
     grid-area: proj;
-    grid-template-rows:auto 50rem;
+    grid-template-rows:10rem 5rem 15rem;
 
     grid-template-areas: 
+    "empty"
     "proj1"
     "projects"
     ;
+
+    display: grid;
    
 
-    text-align: center;
-    border: 1px solid #520752;
+    /* text-align: center; */
+    border: 3px solid #520752;
+    width: 100vw;
+    /* background-color: #555; */
+}
+.empty{
+    grid-area: empty;
+    width:100vw;
+}
+
+.proj1{
+    grid-area: proj1;
+    border:1px solid #332ab1;
+    width: 100vw;
+}
+.projects{
+    grid-area: projects;
+    border:1px solid #1dce2c;
+
+    display: grid;
+    grid-template-columns: 3rem auto 3rem;
+    grid-template-areas:
+    "left project right"
+    ;
+    width: 100vw;
+    justify-content: left;
+}
+
+.left, .right {
+    height: 100%;
+    width: 100%; /* Occupy their grid area */
+    display: flex; /* Use flexbox if needed */
+    align-items: center;
+    justify-content: center;
+    background-color: #332ab1;
+}
+.project{
+    grid-area: project;
+  
+    border: 3px solid rgb(8, 61, 32);
+    height: 100%;
+    width: 100%; /* Occupy their grid area */
+    display: flex;
+    
 }
 
 
 
+
+
+/* 
 .pink-way {
     grid-area: projects;
     display: grid;
@@ -22,39 +70,107 @@
     grid-template-areas: 
        "carousel";
 
-    background-color: rgba(200, 223, 233, 0.979); 
+    background-color: rgba(200, 223, 233, 0.514); 
     height: 50%; 
-    border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+    border-radius: 150% 150% 0 0 / 40% 90% 0 0;
+
+
+
     border:1px solid #1547a3;
     box-shadow: 0 10px 6px rgba(0, 1, 54, 0.658);
     justify-items: center;
     align-items: center;
     position: relative;
+    top:10%;
     
+} */
+
+.glide{
+    width: 100vw;
+    max-width: 900px;
+    margin:auto;
 }
 
-.car-proj{
-    grid-area: carousel;
-    border: 4px solid red ;
-    height:60% ;
-    width: 200%;
-    display: flex;
-    position: absolute;
-    left:30%
+.glide__slide{
+    display: grid;
+    /* justify-content: left; */
+}
 
+.card{
+    width: 20%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e6aae6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
 
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 
-h5{
+
+.card h5{
+    margin: 10px 0;
     font-family:'Times New Roman', Times, serif;
     font-size: 1.6rem;
     color: #580d58;
     -webkit-text-stroke: 1px rgb(7, 4, 59); 
     text-shadow: 3px 3px 2px rgb(129, 57, 85);
 }
-
-cllg, desc2{
-    font-size: 1.7rem;
-
+.card p {
+    font-size: 0.9rem;
+    color: #555;
 }
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.glide__arrows button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.glide__arrows  button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.glide__bullets {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Adds space between dots */
+}
+
+.glide__bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.glide__bullet:hover {
+    background-color: #580d58;
+    transform: scale(1.2);
+}
+
+.glide__bullet--active {
+    background-color: #e6aae6;
+    transform: scale(1.3);
+}
+
+

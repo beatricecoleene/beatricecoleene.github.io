@@ -41,6 +41,8 @@
     position: relative; /* Ensures child elements position correctly */
     display: grid;
     /* border: 2px solid rgb(61, 30, 9); */
+    width: 100vw;
+    left:-20px;
 }
 .bbl1{
     grid-area: bbl1;
@@ -148,6 +150,8 @@
     z-index: 3;
     position: relative;
     top: -6rem;
+    display: grid;
+    width: 100vw;
 }
 
 h2{
