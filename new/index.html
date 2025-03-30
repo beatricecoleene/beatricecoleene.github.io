@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="abtme.css">
     <link rel="stylesheet" href="proj.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="contact.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
    <!-- Swiper CSS -->
@@ -28,14 +30,24 @@
         <div class="pinkblob"></div>
         <div class="blueblob"></div>
        
-        <div class="header">
+        <header class="header">
             <div class="logo">
                 <h1>Beatrice</h1>
             </div>
-            <div class="hambg">
+
+            <nav class="nav-links">
+                <ul>
+                    <div class="about"><li><a href="#other">About</a></li></div>
+                    <div class="projects_"><li><a href="#proj">Projects</a></li></div>
+                    <div class="skills_"><li><a href="#skills_cont">Skills</a></li></div>
+                    <div class="contacts_"><li><a href="#contacts">Contact</a></li></div>
+                    <div class="resume"><li><button class="resume_bttn">Resume</button></li></div>
+                </ul>
+            </nav>
+            <div class="hambg" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </div>
-        </div>
+        </header>
 
         <div id= "home" class="home">
            
@@ -70,7 +82,7 @@
             
         </div>
 
-        <div class="proj">
+        <div id= "proj" class="proj">
             <div class="empty"></div>
             <div class="proj1">PROJECTS</div>
         
@@ -113,8 +125,51 @@
                 </div>
             </div>
         </div>
+        <div id= "skills_cont" class="skills-container">
+            <div class="title"><h5>Techincal Skills</h5></div>
+
+            <div class="skill-category">Programming Languages</div>
+            <div class="skill"><i class="fa-brands fa-python"></i>Python</div>
+            <div class="skill"><i class="fa-brands fa-js"></i>JavaScript</div>
+            <div class="skill"><i class="fa-brands fa-php"></i>PHP</div>
+            <div class="skill"><i class="fa-solid fa-code"></i>C++</div>
         
+            <div class="skill-category">Web Development</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i>HTML</div>
+            <div class="skill"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+            <div class="skill"><i class="fa-brands fa-node"></i>Node.js</div>
         
+            <div class="skill-category">Database Management</div>
+            <div class="skill"><i class="fa-solid fa-database"></i>MySQL</div>
+            <div class="skill"><i class="fa-solid fa-server"></i>phpMyAdmin</div>
+        
+            <div class="skill-category">Tools & Technologies</div>
+            <div class="skill"><i class="fa-brands fa-github"></i>GitHub</div>
+            <div class="skill"><i class="fa-brands fa-docker"></i>Docker</div>
+            <div class="skill"><i class="fa-solid fa-microchip"></i>Virtual Machines</div>
+            <div class="skill"><i class="fa-solid fa-box"></i>XAMPP</div>
+            <div class="skill"><i class="fa-brands fa-figma"></i>Figma</div>
+        
+        </div>
+        <div class="space"></div>
+        <div id="contacts" class="contacts">
+            <!-- <h3 class="contact-title">Contact Me</h3> -->
+        
+            <div class="ty"><p class="thank-you">Thank you for visiting my portfolio! 💜</p></div>
+            <div class="contact-buttons">
+                <a href="tel:+639301577324" class="contact-btn">📞 </a>
+                <a href="https://github.com/beatricecoleene" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> </a>
+                <a href="mailto:delacruzbeatrice10@gmail.com" class="contact-btn">✉ </a>
+            </div>
+        </div>
+        
+
+            
+
+                
+                
+                
+                
         
 
         

@@ -12,6 +12,7 @@
     text-align: center;
     /* border: 1px solid #1b7410; */
     display: grid;
+    width: 100vw;
 }
 
 .white-way {

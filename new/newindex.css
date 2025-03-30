@@ -61,19 +61,27 @@ body{
 
 
 .main{
+    margin: 0;
     display: grid;
-    height: 1000vh;
+    height: 550vh;
     width: 100vw;
-    grid-template-rows:5rem 40rem 50rem 70rem auto ;
+    grid-template-rows:5rem 40rem 50rem 40rem 90rem 10rem 30rem ;
     grid-template-areas:
     "header"
     "home"
     "other"
     "proj"
+    "skills"
+    "space"
+    "contacts"
     ;
    
-    border: 2px solid rgb(109, 16, 16);
+    /* border: 2px solid rgb(109, 16, 16); */
 
+}
+
+.space{
+    grid-area: space;
 }
 
 
@@ -83,7 +91,7 @@ body{
 
 
 
-@media (min-width: 768px){
+@media (min-width: 600px){
     body{
         background-size: 500px;
     }

@@ -53,3 +53,8 @@ dots.forEach((dot, dotIndex) => {
 
 // Initialize first project info
 updateCarousel();
+
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
