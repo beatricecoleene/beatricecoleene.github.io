@@ -502,10 +502,7 @@ h3{
 
 
 }
-@media (min-width: 2024px){
-    body{
-        background-size: 700px;
-    }
+@media (min-width: 1900px){
     .other {
         grid-area: other;
         /* grid-template-rows: 4rem auto auto;
@@ -518,30 +515,27 @@ h3{
        
     
         text-align: center;
-        border: 1px solid #1b7410;
+        /* border: 1px solid #1b7410; */
         display: grid;
         width: 100vw;
-        /* height: 100vh; */
         margin-top: 5%;
-        /* background-color: #1b7410; */
     }
     
     .white-way {
         display: grid;
         grid-template-rows: 5rem 20rem 10rem;
-        grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+        grid-template-columns: 10rem 70rem; /* Keeping the columns at 10rem width for now */
         grid-template-areas: 
             "title title"
             "circle abt"
             "contacts contacts";  /* 'contacts' is in the last row, spanning both columns */
     
         background-color: white; 
-        
+        height: 100%;
         border-radius: 140% 0 0 120% / 20% 0 0 30%; 
         box-shadow: 0 10px 6px rgba(49, 11, 36, 0.658);
         border:1px solid rgba(73, 71, 71, 0.253);
         width: 100vw;
-        height: max-content;
     }
     
     .contact {
@@ -564,10 +558,10 @@ h3{
     
     h3{
         position: absolute;
-        top: 1%;
+        top: 10%;
         left: 10%;
         color: #353096;
-        font-size: 5rem;
+        font-size: 3rem;
         padding-left: 0.5rem;
         font-family: 'Silkscreen', sans-serif;
         /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
@@ -578,8 +572,8 @@ h3{
         grid-area: circle;
         /* border: 2px solid brown; */
         display: grid;
-        width: 450%;
-        height: 70%;
+        width: 400%;
+        height: 100%;
         padding-right: 0;
         background-size:300px;
         background-repeat: repeat;
@@ -609,19 +603,19 @@ h3{
     
 }
 .abts{
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     position: relative;
-    left: 0;
+    left: 30%;
     top:11%;
     text-align: right;
     
-    line-height: 1.1rem;
+    line-height: 1.5rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: rgb(18, 5, 43);
-    letter-spacing: 0.5px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    letter-spacing: 0.6px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    /* max-width: 600px; */
     background: linear-gradient(to right, #06021a,#300425, #170225);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -636,30 +630,28 @@ h3{
     top:50%;
    
 }
-
-.contact h3{
-    font-size: 1.2rem;
+.contact h3 {
+    font-size: 2rem;
     color: #e9dce4;
     line-height: 1.1rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    
     letter-spacing: 0.5px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 10px 1px 2px rgba(0, 0, 0, 0.1);
     font-family: 'Silkscreen', sans-serif;
     
-    
-    background: linear-gradient(to right, #413096,#aa2d8b, #891fcf);
- 
-    position: relative;
-    left:0;
+    background: linear-gradient(to right, #413096, #aa2d8b, #891fcf);
+    background-size: 200% 200%; /* Expand the gradient */
+    background-position: center;
+    padding: 10px 20px; /* Increase padding to expand area */
 }
+
 .contact p{
     /* text-align: ; */
     position: relative;
-    top:30%;
-    left:10%;
-    font-size: 1rem;
+    top:10%;
+    left:24%;
+    font-size: 1.5rem;
     color: #170225;
     line-height: 1.1rem;
     font-weight: 500;
@@ -672,6 +664,7 @@ h3{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
    

@@ -108,3 +108,373 @@
         transform: translateY(0);
     }
 }
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    body{
+        background-size: 500px;
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 1024px){
+    
+    .contacts {
+        grid-area: contacts;
+        grid-template-rows: 20rem 10rem;
+    
+        grid-template-areas: 
+        "ty"
+        "buttons"
+        ;
+       
+    
+        text-align: center;
+        /* border: 2px solid #1b7410; */
+        display: grid;
+        background-color: rgb(248, 231, 242); 
+        height: 100%;
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(2, 16, 63, 0.76);
+        border:1px solid rgba(209, 125, 177, 0.521);
+        width: 100vw;
+    }
+    
+    
+    .ty{
+        grid-area: ty;
+        /* border:2px solid rgb(116, 64, 116) */
+    
+    }
+    
+    
+    
+    .bttns{
+        grid-area: buttons;
+        border: #8f21bb;
+    }
+    
+    /* Contact Section Styling */
+    #contact {
+        text-align: center;
+        /* padding: 50px 20px; */
+        background-color: #f8f4fc;
+    }
+    
+    .contact-title {
+        font-size: 2.5rem;
+        color: #370a42;
+        /* margin-bottom: 20px; */
+    }
+    
+    /* Contact Buttons */
+    .contact-buttons {
+        grid-area: buttons;
+        /* border:2px solid #e1f1f1; */
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* margin-bottom: 30px; */
+    }
+    
+    .contact-btn {
+        position: relative;
+        top: 10%;
+        display: inline-block;
+        background: linear-gradient(to right, rgb(223, 142, 156), rgb(207, 128, 226), lightblue);
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        width: 10%;
+        height: 30%; /* Adjust based on content */
+    
+        text-align: center;
+        border: 1px solid rgb(230, 163, 230);
+        border-radius: 50px;
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    
+    
+    .contact-btn:hover {
+        background: #5a1170;
+    }
+    .thank-you {
+        padding-top: 5rem;
+        margin-top: 20px;
+        font-size: 4rem;
+        color: #5a1170;
+        font-size: 2.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 1px 2px rgb(129, 57, 85);
+        opacity: 0;
+        transform: translateY(5rem);
+        animation: fadeBounce 1.5s ease-in-out forwards;
+    }
+    
+    /* Fade-in and bounce animation */
+    @keyframes fadeBounce {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    
+   
+}
+
+
+
+
+@media (min-width: 1900px){
+    .contacts {
+        grid-area: contacts;
+        grid-template-rows: 20rem 10rem;
+    
+        grid-template-areas: 
+        "ty"
+        "buttons"
+        ;
+       
+    
+        text-align: center;
+        /* border: 2px solid #1b7410; */
+        display: grid;
+        background-color: rgb(248, 231, 242); 
+        height: 100%;
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(2, 16, 63, 0.76);
+        border:1px solid rgba(209, 125, 177, 0.521);
+        width: 100vw;
+    }
+    
+    
+    .ty{
+        grid-area: ty;
+        /* border:2px solid rgb(116, 64, 116) */
+    
+    }
+    
+    
+    
+    .bttns{
+        grid-area: buttons;
+        border: #8f21bb;
+    }
+    
+    /* Contact Section Styling */
+    #contact {
+        text-align: center;
+        /* padding: 50px 20px; */
+        background-color: #f8f4fc;
+    }
+    
+    .contact-title {
+        font-size: 2.5rem;
+        color: #370a42;
+        /* margin-bottom: 20px; */
+    }
+    
+    /* Contact Buttons */
+    .contact-buttons {
+        grid-area: buttons;
+        /* border:2px solid #e1f1f1; */
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* margin-bottom: 30px; */
+    }
+    
+    .contact-btn {
+        position: relative;
+        top: 10%;
+        display: inline-block;
+        background: linear-gradient(to right, rgb(223, 142, 156), rgb(207, 128, 226), lightblue);
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        width: 10%;
+        height: 30%; /* Adjust based on content */
+    
+        text-align: center;
+        border: 1px solid rgb(230, 163, 230);
+        border-radius: 50px;
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    
+    
+    .contact-btn:hover {
+        background: #5a1170;
+    }
+    .thank-you {
+        padding-top: 5rem;
+        margin-top: 20px;
+        font-size: 4rem;
+        color: #5a1170;
+        font-size: 2.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 1px 2px rgb(129, 57, 85);
+        opacity: 0;
+        transform: translateY(5rem);
+        animation: fadeBounce 1.5s ease-in-out forwards;
+    }
+    
+    /* Fade-in and bounce animation */
+    @keyframes fadeBounce {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    
+   
+}
+
+
+
+
+@media (min-width: 2900px){
+    .contacts {
+        grid-area: contacts;
+        grid-template-rows: 20rem 10rem;
+    
+        grid-template-areas: 
+        "ty"
+        "buttons"
+        ;
+       
+    
+        text-align: center;
+        /* border: 2px solid #1b7410; */
+        display: grid;
+        background-color: rgb(248, 231, 242); 
+        height: 100%;
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(2, 16, 63, 0.76);
+        border:1px solid rgba(209, 125, 177, 0.521);
+        width: 100vw;
+    }
+    
+    
+    .ty{
+        grid-area: ty;
+        /* border:2px solid rgb(116, 64, 116) */
+    
+    }
+    
+    
+    
+    .bttns{
+        grid-area: buttons;
+        border: #8f21bb;
+    }
+    
+    /* Contact Section Styling */
+    #contact {
+        text-align: center;
+        /* padding: 50px 20px; */
+        background-color: #f8f4fc;
+    }
+    
+    .contact-title {
+        font-size: 2.5rem;
+        color: #370a42;
+        /* margin-bottom: 20px; */
+    }
+    
+    /* Contact Buttons */
+    .contact-buttons {
+        grid-area: buttons;
+        /* border:2px solid #e1f1f1; */
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* margin-bottom: 30px; */
+    }
+    
+    .contact-btn {
+        position: relative;
+        top: 10%;
+        display: inline-block;
+        background: linear-gradient(to right, rgb(223, 142, 156), rgb(207, 128, 226), lightblue);
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        width: 10%;
+        height: 30%; /* Adjust based on content */
+    
+        text-align: center;
+        border: 1px solid rgb(230, 163, 230);
+        border-radius: 50px;
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    
+    
+    .contact-btn:hover {
+        background: #5a1170;
+    }
+    .thank-you {
+        padding-top: 5rem;
+        margin-top: 20px;
+        font-size: 4rem;
+        color: #5a1170;
+        font-size: 2.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 1px 2px rgb(129, 57, 85);
+        opacity: 0;
+        transform: translateY(5rem);
+        animation: fadeBounce 1.5s ease-in-out forwards;
+    }
+    
+    /* Fade-in and bounce animation */
+    @keyframes fadeBounce {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    
+   
+}
+
+
+
