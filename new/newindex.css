@@ -94,6 +94,7 @@ body{
 @media (min-width: 600px){
     body{
         background-size: 500px;
+        font-size: 1.4rem;
     }
 }
 @media (min-width: 1024px){
@@ -105,5 +106,25 @@ body{
     body{
         background-size: 700px;
     }
+
+    .main{
+    margin: 0;
+    display: grid;
+    height: 550vh;
+    width: 100vw;
+    grid-template-rows:5rem 40rem 50rem 10rem 90rem 10rem 30rem ;
+    grid-template-areas:
+    "header"
+    "home"
+    "other"
+    "proj"
+    "skills"
+    "space"
+    "contacts"
+    ;
+   
+    /* border: 2px solid rgb(109, 16, 16); */
+
+}
 }
 

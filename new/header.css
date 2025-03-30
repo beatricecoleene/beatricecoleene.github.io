@@ -172,26 +172,7 @@ h1{
         background-size: 500px;
     }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background: rgb(240, 239, 227);
-        width: 100%;
-        padding: 1rem 0;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hambg {
-        display: block;
-    }
+   
 }
 @media (min-width: 1024px){
     body{

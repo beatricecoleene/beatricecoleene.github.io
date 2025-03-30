@@ -18,7 +18,7 @@
 .white-way {
     display: grid;
     grid-template-rows: 5rem 20rem 10rem;
-    grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+    grid-template-columns: 8rem 11rem; /* Keeping the columns at 10rem width for now */
     grid-template-areas: 
         "title title"
         "circle abt"
@@ -91,11 +91,423 @@ h3{
     grid-area: abt;
     /* border:3px solid #353096;
     background-color: lightblue; */
+    /* border:1px solid #1b7410; */
+    width: 130%;
+    
 }
 .abts{
-    font-size: 3rem;
+    font-size: 0.9rem;
     position: relative;
     left: 0;
+    top:11%;
+    text-align: right;
+    
+    line-height: 1.1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(18, 5, 43);
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    background: linear-gradient(to right, #06021a,#300425, #170225);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+
+.contact{
+    grid-area: contacts;
+    font-size: 1.3rem;
+    position: relative;
+    left: 0;
+    top:50%;
+   
+}
+
+.contact h3{
+    font-size: 1.2rem;
+    color: #e9dce4;
+    line-height: 1.1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Silkscreen', sans-serif;
+    
+    
+    background: linear-gradient(to right, #413096,#aa2d8b, #891fcf);
+ 
+    position: relative;
+    left:0;
+}
+.contact p{
+    /* text-align: ; */
+    position: relative;
+    top:30%;
+    left:10%;
+    font-size: 1rem;
+    color: #170225;
+    line-height: 1.1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgb(18, 5, 43);
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    
+    background: linear-gradient(to right, #06021a,#300425, #170225);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    .other {
+        grid-area: other;
+        /* grid-template-rows: 4rem auto auto;
+    
+        grid-template-areas: 
+        "title"
+        "abt"
+        "contacts"
+        ; */
+       
+    
+        text-align: center;
+        /* border: 1px solid #1b7410; */
+        display: grid;
+        width: 100vw;
+    }
+    
+    .white-way {
+        display: grid;
+        grid-template-rows: 5rem 20rem 10rem;
+        grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+        grid-template-areas: 
+            "title title"
+            "circle abt"
+            "contacts contacts";  /* 'contacts' is in the last row, spanning both columns */
+    
+        background-color: white; 
+        height: 100%;
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(49, 11, 36, 0.658);
+        border:1px solid rgba(73, 71, 71, 0.253);
+        width: 100vw;
+    }
+    
+    .contact {
+        grid-area: contacts; /* This ensures it spans across both columns in the last row */
+        /* border: 3px solid #353096;
+        background-color: lightblue; */
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .ttl{
+        position: relative; 
+        /* border:2px solid #153111; */
+        justify-items: end;
+        align-items: start;
+        width: 100vw;
+       
+    }
+    
+    h3{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: #353096;
+        font-size: 2.6rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    .blueblob2 {
+        grid-area: circle;
+        /* border: 2px solid brown; */
+        display: grid;
+        width: 250%;
+        height: 90%;
+        padding-right: 0;
+        background-size:300px;
+        background-repeat: repeat;
+        background-position: center;
+        background:   #FBDDE4;
+    /* url('pattern.svg'), */
+        position: relative;
+        top: 30%;
+        left: 5%;
+        transform: translateX(-50%);
+        max-width: 90vw;
+        overflow-x: hidden;
+    
+        /* Custom border-radius to flatten the right and top */
+        border-radius:  10% 100% 70% 50%/ 30% 80% 50% 100% ;
+        box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+        border:1px solid rgba(68, 64, 64, 0.452);
+    }
+    
+    .abt{
+        grid-area: abt;
+        /* border:3px solid #353096;
+        background-color: lightblue; */
+    }
+    .abts{
+        font-size: 1.5rem;
+        position: relative;
+        top:10%;
+        left: 0;
+    }
+    .contact{
+        grid-area: contacts;
+        font-size: 1.3rem;
+        position: relative;
+        top:60%;
+        left: 60%;
+    }
+}
+
+
+
+
+@media (min-width: 1024px){
+    .other {
+        grid-area: other;
+        /* grid-template-rows: 4rem auto auto;
+    
+        grid-template-areas: 
+        "title"
+        "abt"
+        "contacts"
+        ; */
+       
+    
+        text-align: center;
+        /* border: 1px solid #1b7410; */
+        display: grid;
+        width: 100vw;
+        margin-top: 5%;
+    }
+    
+    .white-way {
+        display: grid;
+        grid-template-rows: 5rem 20rem 10rem;
+        grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+        grid-template-areas: 
+            "title title"
+            "circle abt"
+            "contacts contacts";  /* 'contacts' is in the last row, spanning both columns */
+    
+        background-color: white; 
+        height: 100%;
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(49, 11, 36, 0.658);
+        border:1px solid rgba(73, 71, 71, 0.253);
+        width: 100vw;
+    }
+    
+    .contact {
+        grid-area: contacts; /* This ensures it spans across both columns in the last row */
+        /* border: 3px solid #353096;
+        background-color: lightblue; */
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .ttl{
+        position: relative; 
+        /* border:2px solid #153111; */
+        justify-items: end;
+        align-items: start;
+        width: 100vw;
+       
+    }
+    
+    h3{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: #353096;
+        font-size: 3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    .blueblob2 {
+        grid-area: circle;
+        /* border: 2px solid brown; */
+        display: grid;
+        width: 350%;
+        height: 100%;
+        padding-right: 0;
+        background-size:300px;
+        background-repeat: repeat;
+        background-position: center;
+        background:   #FBDDE4;
+    /* url('pattern.svg'), */
+        position: relative;
+        top: 30%;
+        left: 5%;
+        transform: translateX(-50%);
+        max-width: 90vw;
+        overflow-x: hidden;
+    
+        /* Custom border-radius to flatten the right and top */
+        border-radius:  10% 100% 70% 50%/ 30% 80% 50% 100% ;
+        box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+        border:1px solid rgba(68, 64, 64, 0.452);
+    }
+    
+    .abt{
+        grid-area: abt;
+        /* border:3px solid #353096;
+        background-color: lightblue; */
+    }
+    .abts{
+        font-size: 2rem;
+        position: relative;
+        top:10%;
+        left: 80%;
+    }
+    .contact{
+        grid-area: contacts;
+        font-size: 1.3rem;
+        position: relative;
+        top:60%;
+        left: 90%;
+    }
+   
+}
+@media (min-width: 2024px){
+    body{
+        background-size: 700px;
+    }
+    .other {
+        grid-area: other;
+        /* grid-template-rows: 4rem auto auto;
+    
+        grid-template-areas: 
+        "title"
+        "abt"
+        "contacts"
+        ; */
+       
+    
+        text-align: center;
+        border: 1px solid #1b7410;
+        display: grid;
+        width: 100vw;
+        /* height: 100vh; */
+        margin-top: 5%;
+        /* background-color: #1b7410; */
+    }
+    
+    .white-way {
+        display: grid;
+        grid-template-rows: 5rem 20rem 10rem;
+        grid-template-columns: 10rem 10rem; /* Keeping the columns at 10rem width for now */
+        grid-template-areas: 
+            "title title"
+            "circle abt"
+            "contacts contacts";  /* 'contacts' is in the last row, spanning both columns */
+    
+        background-color: white; 
+        
+        border-radius: 140% 0 0 120% / 20% 0 0 30%; 
+        box-shadow: 0 10px 6px rgba(49, 11, 36, 0.658);
+        border:1px solid rgba(73, 71, 71, 0.253);
+        width: 100vw;
+        height: max-content;
+    }
+    
+    .contact {
+        grid-area: contacts; /* This ensures it spans across both columns in the last row */
+        /* border: 3px solid #353096;
+        background-color: lightblue; */
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .ttl{
+        position: relative; 
+        /* border:2px solid #153111; */
+        justify-items: end;
+        align-items: start;
+        width: 100vw;
+       
+    }
+    
+    h3{
+        position: absolute;
+        top: 1%;
+        left: 10%;
+        color: #353096;
+        font-size: 5rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(7, 4, 59);  */
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    .blueblob2 {
+        grid-area: circle;
+        /* border: 2px solid brown; */
+        display: grid;
+        width: 450%;
+        height: 70%;
+        padding-right: 0;
+        background-size:300px;
+        background-repeat: repeat;
+        background-position: center;
+        background:   #FBDDE4;
+    /* url('pattern.svg'), */
+        position: relative;
+        top: 30%;
+        left: 5%;
+        transform: translateX(-50%);
+        max-width: 90vw;
+        overflow-x: hidden;
+    
+        /* Custom border-radius to flatten the right and top */
+        border-radius:  10% 100% 70% 50%/ 30% 80% 50% 100% ;
+        box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+        border:1px solid rgba(68, 64, 64, 0.452);
+    }
+    
+    .abt{
+        grid-area: abt;
+        /* border:3px solid #353096;
+        background-color: lightblue; */
+    }
+    .abts{
+        font-size: 2rem;
+        position: relative;
+        top:10%;
+        left: 80%;
+    }
+    .contact{
+        grid-area: contacts;
+        font-size: 1.3rem;
+        position: relative;
+        top:60%;
+        left: 90%;
+    }
+   
+}
+
 
 
