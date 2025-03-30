@@ -6,11 +6,24 @@ const projectDesc = document.getElementById("project-desc");
 const dots = document.querySelectorAll(".dot");
 
 const projects = [
-    { title: "Khloris Flowershop", desc: "Sleek, modern design for your projects." },
-    { title: "The Wall", desc: "Elegant UI with smooth animations." },
-    { title: "LottoMoto", desc: "Fully responsive and adaptive layout." },
-    { title: "SoftBot - Image BG Remover", desc: "Fully responsive and adaptive layout." }
+    { 
+        title: "Khloris Flowershop", 
+        desc: "Programming Languages: HTML, CSS, JavaScript, MySQL, PHP\nAn ecommerce platform where customers can order readymade and customized bouquets.\nImplemented some of the database connection, backend, and frontend development." 
+    },
+    { 
+        title: "The Wall", 
+        desc: "Programming Languages: JavaScript, Node.js (for backend development)\nDeveloped backend logic for user authentication, admin authorization, groups, posts, and comments.\nImplemented API endpoints for real-time updates." 
+    },
+    { 
+        title: "LottoMoto", 
+        desc: "Programming Languages: JavaScript, Node.js (backend development)\nOptimized database management for efficient lottery draw processing.\nIntegrated real-time updates for lottery results using Socket.io." 
+    },
+    { 
+        title: "SoftBot - Image BG Remover", 
+        desc: "Programming Languages: Python\nDeveloped an automated tool for removing backgrounds from images and converting JPG to PNG format with transparency.\nImplemented the image processing logic using the removebg package for background removal." 
+    }
 ];
+
 
 let index = 0;
 const totalCards = track.children.length;

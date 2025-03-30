@@ -98,9 +98,27 @@ body{
     }
 }
 @media (min-width: 1024px){
-    body{
-        background-size: 500px;
+    
+    .main{
+        margin: 0;
+        display: grid;
+        height: 800vh;
+        width: 100vw;
+        grid-template-rows:5rem 40rem 50rem 70rem 90rem 10rem 30rem ;
+        grid-template-areas:
+        "header"
+        "home"
+        "other"
+        "proj"
+        "skills"
+        "space"
+        "contacts"
+        ;
+       
+        /* border: 2px solid rgb(109, 16, 16); */
+    
     }
+   
 }
 @media (min-width: 2024px){
     body{
@@ -110,9 +128,9 @@ body{
     .main{
     margin: 0;
     display: grid;
-    height: 550vh;
+    height: 650vh;
     width: 100vw;
-    grid-template-rows:5rem 40rem 50rem 10rem 90rem 10rem 30rem ;
+    grid-template-rows:5rem 40rem 50rem 50rem 90rem 10rem 30rem ;
     grid-template-areas:
     "header"
     "home"
