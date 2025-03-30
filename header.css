@@ -175,14 +175,354 @@ h1{
    
 }
 @media (min-width: 1024px){
-    body{
-        background-size: 500px;
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 20rem 2rem;
+    
+        grid-template-areas:
+        "logo hambg";
+       
+        padding: 10px;
+    
+        position: fixed;
+        /* background-color: #e07d9b; */
+        /* border: 2px solid #e4507c; */
+        z-index: 4;
     }
+    
+    
+    .logo{
+        grid-area: logo;
+        /* border:2px solid #e4507c; */
+    }
+    
+    
+    i{
+        color: #e4507c;
+        font-size: 1.3rem;
+    }
+    
+    h1{
+        color: #e4507c;
+        font-size: 2rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        -webkit-text-stroke: 1px rgb(201, 36, 118); 
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    .nav-links {
+        display: none;
+    
+        grid-template-rows:6rem ;
+        grid-template-areas: 
+        "about"
+        "projects_"
+        "skills_"
+        "contacts_"
+        "resume"
+        ;
+       
+        
+        
+        width: 20%;
+        position: fixed;
+        top:7%;
+        right:5%;
+        /* padding: 1rem 0; */
+        text-align: center;
+        
+        /* background-color: black; */
+    }
+    
+    
+    
+    
+    .about{
+        grid-area: about;
+        border: 1px solid #8a4199;
+        /* background-color: #3a101d; */
+        width: 100%;
+        height: 100%;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    .projects_{
+        grid-area: projects_;
+        /* background-color: #c5718a; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+        
+    }
+    .skills_{
+        grid-area: skills;
+        /* background-color: #db688b; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    .contacts_{
+        grid-area: contacts_;
+        /* background-color: #ee1d5b; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        padding-top: 10px;
+        background-color: rgb(253, 194, 229);
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    .resume{
+        grid-area: resume;
+        
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    
+    .resume_bttn{
+        position: relative;
+        top: 10%;
+        display: inline-block;
+        background: linear-gradient(to right, rgb(223, 142, 156), rgb(207, 128, 226), lightblue);
+        color: rgb(32, 41, 119);
+        
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        width: 70%;
+        height: 20%; /* Adjust based on content */
+    
+        text-align: center;
+        border: 1px solid rgb(243, 106, 158);
+        border-radius: 50px;
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    
+    
+    
+    .nav-links.active {
+        display: grid;
+    }
+    
+    .nav-links ul {
+        list-style: none;
+       
+        gap: 1.5rem;
+        
+    }
+    
+    .nav-links ul li a {
+        text-decoration: none;
+        color: rgb(32, 41, 119);
+        
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(201, 36, 118);  */
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    
+    .hambg{
+        grid-area: hambg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        top:5.5%;
+        right:10%;
+        
+        
+        
+    
+    }
+    
 }
 @media (min-width: 2024px){
-    body{
-        background-size: 700px;
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 20rem 2rem;
+    
+        grid-template-areas:
+        "logo hambg";
+       
+        padding: 10px;
+    
+        position: fixed;
+        /* background-color: #e07d9b; */
+        /* border: 2px solid #e4507c; */
+        z-index: 4;
     }
+    
+    
+    .logo{
+        grid-area: logo;
+        /* border:2px solid #e4507c; */
+    }
+    
+    
+    i{
+        color: #e4507c;
+        font-size: 1.3rem;
+    }
+    
+    h1{
+        color: #e4507c;
+        font-size: 2rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        -webkit-text-stroke: 1px rgb(201, 36, 118); 
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    .nav-links {
+        display: none;
+    
+        grid-template-rows:6rem ;
+        grid-template-areas: 
+        "about"
+        "projects_"
+        "skills_"
+        "contacts_"
+        "resume"
+        ;
+       
+        
+        
+        width: 20%;
+        position: fixed;
+        top:7%;
+        right:5%;
+        /* padding: 1rem 0; */
+        text-align: center;
+        
+        /* background-color: black; */
+    }
+    
+    
+    
+    
+    .about{
+        grid-area: about;
+        border: 1px solid #8a4199;
+        /* background-color: #3a101d; */
+        width: 100%;
+        height: 100%;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    .projects_{
+        grid-area: projects_;
+        /* background-color: #c5718a; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+        
+    }
+    .skills_{
+        grid-area: skills;
+        /* background-color: #db688b; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    .contacts_{
+        grid-area: contacts_;
+        /* background-color: #ee1d5b; */
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        padding-top: 10px;
+        background-color: rgb(253, 194, 229);
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    .resume{
+        grid-area: resume;
+        
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8a4199;
+        background-color: rgb(253, 194, 229);
+        padding-top: 10px;
+    }
+    
+    .resume_bttn{
+        position: relative;
+        top: 10%;
+        display: inline-block;
+        background: linear-gradient(to right, rgb(223, 142, 156), rgb(207, 128, 226), lightblue);
+        color: rgb(32, 41, 119);
+        
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        width: 70%;
+        height: 20%; /* Adjust based on content */
+    
+        text-align: center;
+        border: 1px solid rgb(243, 106, 158);
+        border-radius: 50px;
+        box-shadow: 0 10px 6px rgba(110, 3, 69, 0.76);
+    }
+    
+    
+    
+    .nav-links.active {
+        display: grid;
+    }
+    
+    .nav-links ul {
+        list-style: none;
+       
+        gap: 1.5rem;
+        
+    }
+    
+    .nav-links ul li a {
+        text-decoration: none;
+        color: rgb(32, 41, 119);
+        
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+        font-family: 'Silkscreen', sans-serif;
+        /* -webkit-text-stroke: 1px rgb(201, 36, 118);  */
+        text-shadow: 3px 3px 2px rgb(129, 57, 85);
+    }
+    
+    
+    .hambg{
+        grid-area: hambg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        top:5.5%;
+        right:10%;
+        
+        
+        
+    
+    }
+    
 }
 
 
