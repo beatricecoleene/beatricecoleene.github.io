@@ -8,7 +8,7 @@ const dots = document.querySelectorAll(".dot");
 const projects = [
     { 
         title: "Khloris Flowershop", 
-        desc: "Programming Languages: HTML, CSS, JavaScript, MySQL, PHP\nAn ecommerce platform where customers can order readymade and customized bouquets.\nImplemented some of the database connection, backend, and frontend development." 
+        desc: "Programming Languages: HTML, CSS, JavaScript, MySQL, PHP\nAn ecommerce platform where customers can order readymade and customized bouquets.\nImplemented some of the database connection, backend, and frontend(for customization part) development." 
     },
     { 
         title: "The Wall", 
