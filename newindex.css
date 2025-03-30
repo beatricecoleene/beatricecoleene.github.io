@@ -1,0 +1,130 @@
+html, body {
+    /* height: 100%; */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x:visible; 
+}
+
+* {
+    border: none;
+  }
+
+
+body{
+    width: 100vw;
+    /* height: 1000vh ; */
+    margin: 0;
+    /* background-image: url('pattern.svg'); */
+    background-size:300px;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: linear-gradient(to bottom, #FFFFF2, #FBDDE4, #F6B0D2, #E8ACE0, #e6bafa, #d8c1f0, #c0c8ec, #a5b8df);
+/* url('pattern.svg'),  */
+
+}
+.pinkblob, .blueblob {
+    max-width: 100vw; /* Prevent them from exceeding viewport width */
+    position: relative;
+    z-index: 1;
+}
+.pinkblob {
+    width: 55%;
+    height: 180px;
+    padding-right: 0;
+    background: url('pattern.svg'),linear-gradient(to bottom,#FFFFF2, #cf264d69, #dd1a488f);
+    position: absolute;
+    top: -20px;
+    left: 72%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+    overflow-x: hidden;
+
+    /* Custom border-radius to flatten the right and top */
+    border-radius: 10% 10% 70% 60% / 0 0 30% 80%;
+}
+
+.blueblob{
+    width: 200px;
+    height: 230px;
+    background: url('pattern.svg'),linear-gradient(to bottom,#093f86a9, #0d65a09f, #9fa8ca );
+    position: absolute;
+    top: 12rem;
+    left: -60px;
+   
+    
+
+    border-radius: 50% 40% 60% 40% / 40% 50% 50% 60%;
+
+    /* animation: blob-move 5s infinite alternate ease-in-out; */
+}
+
+
+.main{
+    margin: 0;
+    display: grid;
+    height: 550vh;
+    width: 100vw;
+    grid-template-rows:5rem 40rem 50rem 40rem 90rem 10rem 30rem ;
+    grid-template-areas:
+    "header"
+    "home"
+    "other"
+    "proj"
+    "skills"
+    "space"
+    "contacts"
+    ;
+   
+    /* border: 2px solid rgb(109, 16, 16); */
+
+}
+
+.space{
+    grid-area: space;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    body{
+        background-size: 500px;
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 1024px){
+    body{
+        background-size: 500px;
+    }
+}
+@media (min-width: 2024px){
+    body{
+        background-size: 700px;
+    }
+
+    .main{
+    margin: 0;
+    display: grid;
+    height: 550vh;
+    width: 100vw;
+    grid-template-rows:5rem 40rem 50rem 10rem 90rem 10rem 30rem ;
+    grid-template-areas:
+    "header"
+    "home"
+    "other"
+    "proj"
+    "skills"
+    "space"
+    "contacts"
+    ;
+   
+    /* border: 2px solid rgb(109, 16, 16); */
+
+}
+}
+
