@@ -1,0 +1,483 @@
+{
+    "gmail": "beatricedelacruz15@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/beatricedelacruz15",
+    "github": "https://github.com/beatricecoleene",
+    "resume": "",
+
+    "Hero": {
+        "fname": "BEATRICE COLEENE",
+        "lname": "Dela Cruz",
+        "description": "Computer Science graduate who enjoys building software and learning new technologies through practice and experimentation.",
+        "gmail": "beatricedelacruz15@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/beatricedelacruz15",
+        "github": "https://github.com/beatricecoleene",
+
+        "roles":{
+            "main": "Software Developer",
+            "others":[
+                "Software Development",
+                "Web & Automation",
+                "Database Management"
+                
+            ]
+        },
+
+        "skills":[
+            "Software Development",
+            "Web Development",
+            "Database Management",
+            "AI and Machine Learning",
+            "Art and Design",
+            "Software Development",
+            "Web Development",
+            "Database Management",
+            "AI and Machine Learning",
+            "Art and Design"
+        ]
+
+
+    },
+
+    "AboutMe": {
+        "Description": {
+            "I_p": "Hi, I'm Beatrice Coleene S. Dela Cruz, a Computer Science graduate with experience in software development, full-stack development, AI and machine learning, database administration, and digital design.",
+            "II_p": "My technical background is built through academic research, thesis work, personal projects, internship experience, and hands-on software development.",
+            "III_p": "I enjoy creating practical and user-focused solutions by combining programming, data management, and design principles. Through various projects,I am passionate about continuous learning and leveraging technology to solve real-world problems."
+         },
+        "Card":{
+            "Name": "Beatrice Coleene S. Dela Cruz",
+            "Profile": "Computer Science Graduate",
+            "Focus": "Software Development, Web Development, AI & Machine Learning",
+            "Base": "Bulacan, Philippines",
+            "Status": "Open to Oppurtunities"
+
+        },
+
+        "Milestones":{
+            "Education": {
+                "one":{
+                    "title": "Bachelor of Science in Computer Science",
+                    "date": "2022-2026",
+                    "location":"College of Mary Immaculate",
+                    "place":"Pandi, Bulacan",
+                    "Coursework": "Data Structures, Object-Oriented Programming, Programming, Algorithms, Information Security, Natural Language Processing, Intelligent Systems"
+                    
+                }
+            },
+            "Experience": {
+                "one":{
+                    "title": "Software Developer Intern",
+                    "date": "April 2025- May 2025",
+                    "location":"JCAS Logistics",
+                    "place":"Malolos, Bulacan",
+                    "desc": "Developed the Accounting Module for the delivery and logistics application by designing wireframes, implementing frontend features, and planning the database structure, streamlining financial tracking and improving operational efficiency for the logistics and accounting team. "
+                    
+                }
+            },
+            "Certificates": {
+                "one":{
+                    "title": "Claude Code in Action, Anthropic Education ",
+                    "date": "April 2026",
+                    "location":"",
+                    "place":"",
+                    "desc": "Participated in comprehensive training on using Claude Code for software development tasks, covering the architecture of AI coding assistants, practical implementation techniques, and advanced integration strategies.  "
+                    
+                }
+            }
+        }
+
+
+
+    },
+
+    "Projects":{
+        "one": {
+
+            "title": "Handigo",
+            "date": "2026",
+            "image_folder":"HANDIGO",
+            "github": true,
+            "github_link":"https://github.com/Handigo-io/Handigo",
+            "download": true,
+            "download_link": "https://handigo-io.github.io/",
+
+            "main_info": "HandiGo is a software-based gesture control platform that turns camera input into touchless commands",
+            "additional_info":"Built a real-time hand gesture recognition system for controlling system functions using computer vision (YOLOv11). Model is tuned to hyperparameters (epochs, learning rate, batch size, augmentation), achieving mAP@0.5: 0.995 and mAP@0.5:0.95: 0.935 ",
+            "contributions": [
+                                "Trained object detection model across 8 versions for improved accuracy and stability",
+                                "Implemented camera capture and WebSocket communication for real-time video and gesture events",
+                                "Developed gesture-to-command mapping for real-time system control",
+                                "Reduced inference CPU usage from ~90% to below 60%",
+                                "Tested model configurations, achieving mAP@0.5: 0.995 and mAP@0.5: 0.935"
+                            ],
+
+            "tech":["Python", "OpenCV", "Mediapipe", "YOLO", "Rust", "Tauri", "HTML", "CSS", "Javascript","Machine Learning", "Computer Vision", "Image Classification", "Assistive Technology"]
+
+        
+
+            
+        },
+        "two": {
+
+            "title": "The Unknown",
+            "date": "2025",
+            "image_folder":"the_unknown",
+            "github": true,
+            "github_link":"github.com/beatricecoleene/The-Unknown",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A search engine for unsolved  cases, missing person, conspiracy theories, and other mysteries. ",
+            "additional_info":"A web-based search engine for unsolved cases that utilizes TF-IDF for feature extraction, a Multinomial Naive Bayes classifier for prediction, MongoDB for data storage, n-gram modeling based on the Markov assumption, and Jaccard similarity and Levenshtein distance for query and suggestion matching, along with API integrations.",
+            "contributions": [
+                "Implemented Markov Assumption-based query prediction using n-gram models.",
+                "Developed probability modeling and token filtering for suggestion generation.",
+                "Implemented prefix matching for incomplete words and context matching for completed words.",
+                "Ranked suggestions using 5-gram to unigram probability scores.",
+                "Developed Top-K query suggestion retrieval.",
+                "Developed and integrated the Suggestion Engine API to connect the prediction system to the application."
+                
+            ],
+
+            "tech":["Python","N-gram","NLP","Search Engine","Suggestion Engine","Spell Checker","TD-IDF","Marcov Assumption","Naive Bayes","Jaccard Similarity","Levenshtein distance","Docker" ,"API", "MongoDB",  "HTML", "CSS", "Javascript"]
+
+
+
+            
+        },
+        "three": {
+
+            "title": "The Wall",
+            "date": "2024",
+            "image_folder":"THE_WALL",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/The-Wall-API",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A student-exclusive social media platform for CMI students where users can share posts, create and join groups, connect with peers, and stay updated on campus activities.",
+            "additional_info":"Supports user and admin accounts, user profiles, follow system, groups, news feeds, posts, comments, likes, secure authentication, role-based access control, and real-time social interactions.",
+            "contributions": [
+
+                                "Developed 45+ RESTful API endpoints using Node.js and Express",
+                                "Implemented JWT authentication, password encryption, and role-based authorization",
+                                "Built middleware for access control, group permissions, and API security",
+                                "Developed backend services for social interactions and content management",
+                                "Implemented image input and handling for posts and profiles",
+                                "Assisted with frontend debugging and issue resolution"
+
+                             ],
+
+            "tech":[ "HTML", "CSS", "Javascript", "npm", "Node.js", "MYSQL", "Express", "RESTAPI"]
+
+
+
+            
+        },
+        "four": {
+
+            "title": "Khloris",
+            "date": "2024",
+            "image_folder":"KHLORIS",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/khloris-ecommerce",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A flower shop web application featuring secure user authentication, bouquet customization, shopping cart, checkout, order tracking, and an admin management system.",
+            "additional_info": "Developed a full-stack flower shop e-commerce platform using PHP, MySQL, HTML, CSS, and JavaScript. Implemented user authentication, shopping cart, checkout, order tracking, admin management, and a bouquet customization system for personalized flower arrangements.",
+            "contributions": [
+                               
+                                "Built frontend and backend for product displays, customization of boquets, cart, and order management",
+                                "Implemented MySQL database integration for products, cart items, and orders"
+
+
+                            ],
+
+            "tech":[ "HTML", "CSS", "Javascript", "RESTAPI"]
+
+
+
+            
+        },
+        "five": {
+
+            "title": "The-Tector",
+            "date": "2026",
+            "image_folder":"thetector",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/The-Tector",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "Automated Moderation System text classification system that has spam, fake news, and hate speech detectors engineered to protect online communities from malicious content. ",
+            "additional_info":"Designed for real-time deployment across web platforms, Telegram, and Discord, the system utilizes specialized detection models to analyze incoming text and maintain digital safety.",
+            "contributions": [
+                            "Implemented Fake News detection model training and classification logic using Naive Bayes",
+                            "Developed token probability modeling and model serialization",
+                            "Implemented classification using trained token probabilities",
+                            "Developed API integration for the Fake News detection feature",
+                            "Integrated the Fake News detector with Discord and Telegram"
+
+            ],
+
+            "tech":[ "Python", "Flask", "NLP", "Discord", "Telegram", "HTML", "CSS", "Javascript"]
+
+
+
+            
+        },
+        "six": {
+
+            "title": "LottoMoto",
+            "date": "2025",
+            "image_folder":"LOTTOMOTO",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/LottoMoto",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A real-time lottery betting simulation application that allows users to place multiple bets, view a live countdown timer for each betting round, and track their betting history.",
+            "additional_info":"Built with React.js, Node.js, Express.js, Socket.io, and Tailwind CSS, the application leverages WebSockets to provide instant updates and synchronize game events across connected users, creating an interactive and responsive betting experience.",
+            "contributions": [  "Developed backend logic for the real-time lotto system",
+    "Implemented WebSocket integration for real-time updates",
+    "Implemented database integration for bets, transactions, and game history",
+    "Configured Docker containerization and load balancing",
+    "Implemented lotto game and betting logic"],
+
+            "tech":[ "HTML", "CSS", "Javascript"]
+
+
+
+            
+        },
+        "seven": {
+
+            "title": "The Last Party of Vicky",
+            "date": "2025",
+            "image_folder":"LPV",
+            "github": false,
+            "github_link":"",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A game where user play as a rookie detective called to investigate the sudden and suspicious death of socialite ,Vicky. ",
+            "additional_info":"During an exclusive high-society party. With the guests still in the mansion, tensions rising, and secrets unraveling, it’s up to you to explore the scene, interrogate suspects, find hidden clues, and piece together the truth.",
+            "contributions": [
+                                "Developed the game's storyline and dialogue",
+                                "Implemented game logic and interactive mechanics",
+                                "Created custom game sprites using VoxEdit"
+
+                            ],
+
+            "tech":[ "The Sandbox", "Voxedit"]
+
+
+
+            
+        },
+        "eight": {
+
+            "title": "Image Background Remover",
+            "date": "2024",
+            "image_folder":"BGR",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/background-image-remover-changer-and-pngconverter-withcam",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "A SoftBot that automatically removes image backgrounds, replaces them with green or white backgrounds, and converts images to PNG format.",
+            "additional_info":" ",
+            "contributions": [ 
+                            "Implemented the image background removal feature",
+                            "Organized project folders and assets for SoftBot"
+                        ],
+
+            "tech":[ "Python", "Tkinter","OpenCV", "Rembg"]
+
+
+
+            
+        },
+        "nine": {
+
+            "title": "Jejemon Translator",
+            "date": "2025",
+            "image_folder":"JEJEMON",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/Jejemon_Translator",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "An NLP-based translator that converts Jejemon text into standard text using Ngrams, pattern matching and Levenshtein distance.",
+            "additional_info":" ",
+            "contributions": [  
+                "Implemented NLP translation logic using regex pattern matching",
+                "Applied Levenshtein distance for text similarity and correction"],
+
+            "tech":[ "Python","NLP","Ngrams", "RegEx","CustomTkinter"]
+
+
+
+            
+        },
+        "ten": {
+
+            "title": "Academic ProofReader",
+            "date": "2025",
+            "image_folder":"PROOFREADER",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/Academic_ProofReader",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "An NLP-based academic writing assistant trained on research papers, publications, and other academic materials.",
+            "additional_info":"Using Naive Bayes with Laplace Smoothing, it analyzes text to detect and suggest corrections for spelling and grammatical errors, helping improve the clarity and quality of academic writing.",
+            "contributions": [
+                  "Collected and preprocessed academic datasets for the Grammar Correction feature",
+                    "Trained the Naive Bayes model with Laplace Smoothing for grammar correction",
+                    "Developed the grammar correction logic for academic text"
+            ],
+
+            "tech":[ "Python","NLP","Ngrams"," Naive Bayes","Laplace Smoothing","CustomTkinter"]
+
+
+
+            
+        },
+        "eleven": {
+
+            "title": "Digiral Karaoke Songbook",
+            "date": "2024",
+            "image_folder":"DKSB",
+            "github": true,
+            "github_link":"https://github.com/beatricecoleene/Digital_Karaoke_Songbook",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "Serve as a remove control for karaoke system, that allows users to explore, search, select, and play songs more easily and conveniently, saving you time instead of browsing through pages of the a traditional songbook. ",
+
+            "additional_info": "Uses Levenshtein distance for song searching and the Genius API for retrieving song lyrics.",
+            "contributions": [
+                    "Developed the song searching logic",
+                    "Compiled, scraped, and organized karaoke song data",
+                    "Designed the UI, background, and custom icons",
+                    "Implemented timer, total, and remote control functions",
+                    "Developed queue sorting logic for song management"
+            ],
+
+            "tech":[ "Python","Tkinter", "Levenshtein distance", "Sorting Algorithims"]
+
+
+
+            
+        },
+        "twelve": {
+
+            "title": "NYT",
+            "date": "2024",
+            "image_folder":"NYT",
+            "github": true,
+            "github_link":"https://beatricecoleene.github.io/nytimes/",
+            "download": false,
+            "download_link": "",
+
+            "main_info": "An NLP-based academic writing assistant trained on research papers, publications, and other academic materials.",
+            "additional_info":"Using Naive Bayes with Laplace Smoothing, it analyzes text to detect and suggest corrections for spelling and grammatical errors, helping improve the clarity and quality of academic writing.",
+            "contributions": [
+                  "Collected and preprocessed academic datasets for the Grammar Correction feature",
+                    "Trained the Naive Bayes model with Laplace Smoothing for grammar correction",
+                    "Developed the grammar correction logic for academic text"
+            ],
+
+            "tech":[ "Python","NLP","Ngrams"," Naive Bayes","Laplace Smoothing","CustomTkinter"]
+
+
+
+            
+        }
+
+
+    },
+
+    "Skills": {
+
+        "Programming Languages": {
+            "Python": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "JavaScript":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "PHP": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+            "C++":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+            "Rust":"/src/assets/rust.png",
+            "Java":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+
+        },
+        
+        "Web Technologies": {
+            "HTML": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "CSS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        },
+
+        "Frameworks & Libraries": {
+            "Node.js": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg",
+            "Express.js": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+            "React": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "Tailwind CSS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            "FlutterFlow": "src/assets/flutterflow.png",
+            "Tauri": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tauri/tauri-original.svg"
+        },
+
+        "Database Management":{
+            "MySQL":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+            "Supabase":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+            "MongoDB":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+
+        },
+
+        "AI/Machine Learning Tools":{
+            "Roboflow":"src/assets/rbf.png",
+            "Label.io":"src/assets/lbs.png",
+            "YOLO":"src/assets/yolo.png",
+            "Google Colab":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg",
+            "Claude":"src/assets/claude.png",
+            "Chatgpt":"src/assets/chatgpt.png"
+
+        },
+
+        "Developer Tools":{
+            "Docker":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+            "Post Man":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+            "Git":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+            "Github":"src/assets/github.png",
+            "VirtualMachine":"src/assets/vm.png"
+
+        },
+
+        "Design and Creative Tools":{
+
+            "Figma":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+            "Canva":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
+            "GIMP":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg",
+            "Balsamiq":"src/assets/balsamiq.png",
+            "VoxEdit":"src/assets/voxediy.png"
+        },
+        "Operating Sysstems":{
+
+            "Ubuntu":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg",
+            "Windows": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg"
+        },
+        "Platform & Technologies ":{
+            "The Sandbox":"src/assets/sanbox.png",
+            "Blippar":"src/assets/blippar.png"
+
+
+        }
+
+
+    },
+
+    "Contacts":{
+
+    }
+
+
+}

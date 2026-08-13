@@ -1,0 +1,8 @@
+xs 290
+sm 340
+sm2
+md
+md2
+lg
+lg2
+xl
