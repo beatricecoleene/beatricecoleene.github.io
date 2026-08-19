@@ -12,7 +12,7 @@ import portfolioInfo from "../data/portfolio_info.json";
 
 
 export default function MainPage() {
-  console.log(portfolioInfo)
+  // console.log(portfolioInfo)
   return (
     <DefaultLayout>
 

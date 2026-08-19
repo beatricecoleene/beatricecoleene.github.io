@@ -407,7 +407,7 @@
             "JavaScript":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
             "PHP": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
             "C++":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-            "Rust":"/src/assets/rust.png",
+            "Rust":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/rust_jc8yks.png",
             "Java":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
 
         },
@@ -422,7 +422,7 @@
             "Express.js": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
             "React": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
             "Tailwind CSS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-            "FlutterFlow": "src/assets/flutterflow.png",
+            "FlutterFlow": "https://res.cloudinary.com/dsfcl09md/image/upload/v1787144309/flutterflow_xs3rvc.png",
             "Tauri": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tauri/tauri-original.svg"
         },
 
@@ -434,12 +434,12 @@
         },
 
         "AI/Machine Learning Tools":{
-            "Roboflow":"src/assets/rbf.png",
-            "Label.io":"src/assets/lbs.png",
-            "YOLO":"src/assets/yolo.png",
+            "Roboflow":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/rbf_yvqws5.png",
+            "Label.io":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/lbs_vmgo4w.png",
+            "YOLO":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144311/yolo_gmg3tx.png",
             "Google Colab":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg",
-            "Claude":"src/assets/claude.png",
-            "Chatgpt":"src/assets/chatgpt.png"
+            "Claude":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/claude_pzxg6z.png",
+            "Chatgpt":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/chatgpt_kpgq2v.png"
 
         },
 
@@ -447,8 +447,8 @@
             "Docker":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
             "Post Man":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
             "Git":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-            "Github":"src/assets/github.png",
-            "VirtualMachine":"src/assets/vm.png"
+            "Github":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/github_lvqlaj.png",
+            "VirtualMachine":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144311/vm_s8biiy.png"
 
         },
 
@@ -457,8 +457,8 @@
             "Figma":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
             "Canva":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
             "GIMP":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg",
-            "Balsamiq":"src/assets/balsamiq.png",
-            "VoxEdit":"src/assets/voxediy.png"
+            "Balsamiq":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144310/balsamiq_xrpk1j.png",
+            "VoxEdit":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144311/voxediy_ag0qqg.png"
         },
         "Operating Sysstems":{
 
@@ -466,8 +466,8 @@
             "Windows": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg"
         },
         "Platform & Technologies ":{
-            "The Sandbox":"src/assets/sanbox.png",
-            "Blippar":"src/assets/blippar.png"
+            "The Sandbox":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144311/sanbox_xc81o3.png",
+            "Blippar":"https://res.cloudinary.com/dsfcl09md/image/upload/v1787144309/blippar_ja5mi3.png"
 
 
         }
